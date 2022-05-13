@@ -82,5 +82,8 @@
     <requires type="dynamic">
       <file>Labreport.bcf</file>
     </requires>
+    <requires type="editable">
+      <file>References.bib</file>
+    </requires>
   </external>
 </requests>

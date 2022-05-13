@@ -1,0 +1,40 @@
+In this chapter, we have provided our solutions to some theoretical questions that were needed to be solved before conducting the experiment. All the equations and standard values of parameters used to calculate the numerical results for these exercises are taken from \cite{UB}, unless mentioned otherwise.
+\section{Calculation of partial decay widths for $Z^{0}\rightarrow f\bar{f}$}
+In this exercise, we are required to calculate the partial decay widths of $Z^{0}\rightarrow f\bar{f}$; where $f\bar{f}$ represent the following fermion-antifermion pairs : (i) $e^{+}e^{-}$ (ii) $\mu^{+}\mu^{-}$ (iii) $\tau^{+}\tau^{-}$ (iv) $q\bar{q}$, where $q$ represents all the flavours of quarks (except for t quark, because it is too heavy ($M_{t}\approx 172.76$ GeV \cite{Zyla:2020zbs}) to be produced from $Z^{0}$ decays). The partial decay widths have been calculated with the following formula:
+\begin{equation}
+\Gamma_{f}=\dfrac{N_{c}^{f}\sqrt{2}}{12\pi}G_{F}M_{Z}^{3}\left(\left(g_{V}^{f}\right)^{2}+\left(g_{A}^{f}\right)^{2}\right)
+\end{equation}
+where:
+\begin{description}
+\item $N_{c}^{f}$: colour factor, (1 for leptons, 3 for quarks)
+\item $G_{F}=1.16637\times 10^{-5}\mathrm{GeV}^{-2}$, Fermi's constant 
+\item $M_{Z}=91.182$ GeV, mass of $Z^{0}$ boson
+\item $g_{V}^{f}=I_{3}^{f}-2Q_{f}\sin^{2}\theta_{W}$, vector coupling strength of $Z^{0}$ to fermions
+\item $g_{A}^{f}=I_{3}^{f}$, axial-vector coupling strength of $Z^{0}$ to fermions
+\item $Q_{f}$: electric charge of fermion $f$
+\item $I_{3}$: third component of weak isospin
+\item $\sin^{2}\theta_{W}=0.2312$, $\theta_{W}$ is the Weinberg (weak-mixing) angle
+\end{description}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Fermion} & $\mathbf{Q_{f}}$ & $\mathbf{I_{3}^{f}}$ & $\mathbf{g_{V}^{f}}$ & $\mathbf{g_{A}^{f}}$ & $\mathbf{N_{c}^{f}}$ & $\mathbf{\Gamma_{f}^{(calc)}}$ \textbf{(MeV)} & $\mathbf{\Gamma_{f}^{(ref)}}$ \textbf{(MeV)}\\
+\hline
+$e^{-}, \mu^{-}, \tau^{-}$ & -1 & -0.5 & -0.0376 & -0.5 & 1 & 83.89 & 83.8\\
+\hline
+$u,c$ & 2/3 & 0.5 & 0.1917 & 0.5 & 3 & 285.34 & 299\\
+\hline
+$d, b, s$ & -1/3 & -0.5 & -0.3459 & -0.5 & 3 & 367.84 & 378\\
+\hline
+$\nu_{e}, \nu_{\mu}, \nu_{\tau}$ & 0 & 0.5 & 0.5 & 0.5 & 1 & 165.85 & 167.6\\
+\hline
+\end{tabular}
+\caption{Parameters $Q_{f}, I_{3}^{f}, g_{V}^{f}, g_{A}^{f}, N_{c}^{f}$ for various fermion pairs and their partial decay widths}
+\label{partialdecays}
+\end{table}
+
+The calculated partial decay widths for the required fermion pairs have been listed under $\Gamma_{f}^{(calc)}$ in Table \ref{partialdecays}. Further, the reference \cite{UB} values of partial decay widths for the same fermion pairs are listed under $\Gamma_{f}^{(ref)}$ for comparison. 
+
+One finds that calculated values of partial decay width for the lepton pairs are in close agreement with the literature value, deviating by about 0.1\% to 1\%. The slight deviation could be caused because the $\gamma\rightarrow f\bar{f}$ term \cite{Ver} and interference terms have been neglected. In case of the quarks, the deviations from the reference values are higher ($\sim$ 2.7\% to 4.6\%). This may be due to the fact that additionally, the effect of strong interactions have not been accounted for in our calculations \cite{Anna}.

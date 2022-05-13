@@ -14,11 +14,8 @@
 \usepackage[labelfont=bf,font=small]{caption}
 \usepackage{subcaption}
 \usepackage[colorlinks=true,allcolors=blue]{hyperref}
-\usepackage[%
-style=phys,%
-articletitle=false,biblabel=brackets,%
-chaptertitle=false,pageranges=false%
-]{biblatex}
+\usepackage[style=phys,biblabel=brackets]{biblatex}
+\addbibresource{References.bib}
 \begin{document}
 \begin{onehalfspace}
 \pagenumbering{roman}
@@ -39,22 +36,16 @@ Universit\"{a}t	Bonn\\
 \today
 \end{flushright}
 \end{center}
-\newpage
-{
-  %\hypersetup{linkcolor=black}
-  \tableofcontents
-}
-
+\tableofcontents
 \chapter*{Abstract}
 \pagenumbering{arabic}
-Falling under the broad family of luminescence, thermoluminescence is the phenomenon exhibited by certain inorganic phosphors which on absorbing radiation and subsequent heating, emit light. Numerous studies in the last few decades have been conducted on this phenomenon which have led to its applications in diverse fields among which is the field of radiation dosimetry. It has been found that certain phosphors exhibit a linear relationship between the absorbed radiation dose and their thermoluminescence intensity and therefore can be used as dosimeters for measuring unknown doses accurately and reliably in environments that involve human exposure to radiation. 
-
-As an effort towards developing such a desirable material for radiation dosimetry, a novel phosphor, $\mathrm{Li_{3}PO_{4}}$ doped with a rare earth element, dysprosium is the focus of this study. In the present work, this phosphor has been synthesized using the co-precipitation method with 0.1 mol \% dopant concentration and its characterization has been done followed by the analysis of its TL properties when irradiated by gamma rays. Further, as an extension of this study, the same phosphor was also synthesized using a three step solid state diffusion method for various concentrations of the dopant (from 0.1 to 0.5 mol \%). The TL characteristics of this sample were then analysed by exposing it to both gamma and UV radiation.
+xyz
 \addcontentsline{toc}{chapter}{\textbf{Abstract}}
 \chapter*{Introduction}
 %\input{Introduction}
-%\chapter{Research Methodology}
-%\input{ResearchMethodology}
+\chapter*{Pre-Lab Exercises}
+\addcontentsline{toc}{chapter}{\textbf{Pre-Lab Exercises}}
+\input{PreLabsolns}
 %\chapter{TL Study of $\mathbf{Li_{3}PO_{4}:Dy}$ (Co-Precipitation Method)}
 %\input{LiPDycpp}
 %\chapter{TL Study of $\mathbf{Li_{3}PO_{4}:Dy}$ (Solid State Diffusion Method)}
@@ -63,6 +54,6 @@ As an effort towards developing such a desirable material for radiation dosimetr
 %\input{FutureProspects}
 
 \end{onehalfspace}
-%\printbibliography
+\printbibliography
 \end{document}
 

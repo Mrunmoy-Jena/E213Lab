@@ -1,0 +1,128 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{UB}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=06df9bddc9b0078ef7ec72ef1530928d}{%
+           family={{Universität Bonn}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{fullhash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{bibnamehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{authorbibnamehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{authornamehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{authorfullhash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Instructions for {E}213: Analysis of $Z^{0}$ decay}
+    \endentry
+    \entry{Zyla:2020zbs}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=d9d59fd9775540f36a672e46979af983}{%
+           family={Zyla},
+           familyi={Z\bibinitperiod},
+           given={P.A.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3252689ea2c95188fe632e638cbb4321}
+      \strng{fullhash}{3252689ea2c95188fe632e638cbb4321}
+      \strng{bibnamehash}{3252689ea2c95188fe632e638cbb4321}
+      \strng{authorbibnamehash}{3252689ea2c95188fe632e638cbb4321}
+      \strng{authornamehash}{3252689ea2c95188fe632e638cbb4321}
+      \strng{authorfullhash}{3252689ea2c95188fe632e638cbb4321}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{collaboration}{Particle Data Group}
+      \field{journaltitle}{PTEP}
+      \field{note}{and 2021 update}
+      \field{number}{8}
+      \field{title}{{Review of Particle Physics}}
+      \field{volume}{2020}
+      \field{year}{2020}
+      \field{pages}{083C01}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1093/ptep/ptaa104
+      \endverb
+    \endentry
+    \entry{Ver}{report}{}
+      \name{author}{2}{}{%
+        {{hash=2319359e162609dcef7fb4484c55a144}{%
+           family={Muckhoff},
+           familyi={M\bibinitperiod},
+           given={Verena},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7ec6c261926733a6863d70399cdf7462}{%
+           family={Kürten},
+           familyi={K\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f34497cba22bdcdfedcdc99ed29a30e4}
+      \strng{fullhash}{f34497cba22bdcdfedcdc99ed29a30e4}
+      \strng{bibnamehash}{f34497cba22bdcdfedcdc99ed29a30e4}
+      \strng{authorbibnamehash}{f34497cba22bdcdfedcdc99ed29a30e4}
+      \strng{authornamehash}{f34497cba22bdcdfedcdc99ed29a30e4}
+      \strng{authorfullhash}{f34497cba22bdcdfedcdc99ed29a30e4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Lab Report (Universität Bonn), {E}213: Analysis of $Z^{0}$ decays}}
+      \field{year}{2014}
+    \endentry
+    \entry{Anna}{report}{}
+      \name{author}{2}{}{%
+        {{hash=de36596c586543e7b24cb3735ff339ca}{%
+           family={Stockhausen},
+           familyi={S\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d15e1edc8e71bc0a2c9dfe223ae798e1}{%
+           family={Heinrichs},
+           familyi={H\bibinitperiod},
+           given={Jan-Eric},
+           giveni={J\bibinithyphendelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{4fead36372291c807da6284c0187d95b}
+      \strng{fullhash}{4fead36372291c807da6284c0187d95b}
+      \strng{bibnamehash}{4fead36372291c807da6284c0187d95b}
+      \strng{authorbibnamehash}{4fead36372291c807da6284c0187d95b}
+      \strng{authornamehash}{4fead36372291c807da6284c0187d95b}
+      \strng{authorfullhash}{4fead36372291c807da6284c0187d95b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Lab Report (Universität Bonn), {E}213: Analysis of $Z^{0}$ decays}}
+      \field{year}{2018}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
