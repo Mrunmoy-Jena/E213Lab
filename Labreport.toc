@@ -5,3 +5,11 @@
 \contentsline {chapter}{\textbf {Pre-Lab Exercises}}{3}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {0.1}Calculation of partial decay widths for $Z^{0}\rightarrow f\bar {f}$}{3}{section.0.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.2}Calculation of hadronic, leptonic and total decay widths and cross section}{4}{section.0.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.3}Effect of additional generation on width of $Z^{0}$ resonance curve}{5}{section.0.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.4}Angular distributions of differential cross sections}{5}{section.0.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.5}Calculation of forward-backward asymmetry}{6}{section.0.5}%
