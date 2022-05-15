@@ -129,3 +129,29 @@ deltasigma = np.sqrt(deltasigma)
 
 print("+-")
 print(deltasigma)
+#--------------------
+
+#forward backward asymmetry calculations
+#--------------------
+#DATA
+nminus = np.array([69, 156, 319, 4384, 380, 123, 150])
+nplus = np.array([51, 148, 272, 4297, 387, 173, 189])
+
+#afb and weinbergtheta
+afbcorrection = np.array([0.021512, 0.019262, 0.016713, 0.018293, 0.030286, 0.062196, 0.093850])
+
+afb = (nplus - nminus)/(nplus + nminus) + afbcorrection
+weinbergtheta = (1/4)*(1 - np.sqrt(afb[3]/3))
+
+#delta afb
+deltaafb = np.sqrt((nminus*np.square(2*nplus/np.square(nplus+nminus))) + \
+                   (nplus*np.square(2*nminus/np.square(nplus+nminus))))
+deltaweinbergtheta = (1/2)*(deltaafb[3]/afb[3])*weinbergtheta
+
+print("AFB values:")
+print(afb)
+print("+-")
+print(deltaafb)
+
+print("Weinberg theta: ", weinbergtheta, "+-", deltaweinbergtheta)
+#--------------------
