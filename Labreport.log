@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  14 MAY 2022 04:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  16 MAY 2022 15:45
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1122,7 +1122,13 @@ File: angulardist.pdf Graphic file (type pdf)
 <use angulardist.pdf>
 Package pdftex.def Info: angulardist.pdf  used on input line 87.
 (pdftex.def)             Requested size: 452.9679pt x 147.49838pt.
- [5 <./angulardist.pdf>]) [6] [7
+ [5 <./angulardist.pdf>]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 99.
+
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)) [6] [7
 
 ] (Labreport.aux)
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
@@ -1132,11 +1138,11 @@ Package logreq Info: Writing requests to 'Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24109 strings out of 478864
- 454081 string characters out of 2845307
+ 24126 strings out of 478864
+ 454413 string characters out of 2845307
  1187678 words of memory out of 3000000
- 41711 multiletter control sequences out of 15000+600000
- 415980 words of font info for 75 fonts, out of 8000000 for 9000
+ 41722 multiletter control sequences out of 15000+600000
+ 417160 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,17n,81p,1200b,1290s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
@@ -1165,10 +1171,11 @@ rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Mrunmoy Jena/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/M
 runmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.
 pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmti10.pfb>
-Output written on Labreport.pdf (9 pages, 310257 bytes).
+fonts/cm/cmti10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/euler/eufm10.pfb>
+Output written on Labreport.pdf (9 pages, 314441 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
+ 263 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
