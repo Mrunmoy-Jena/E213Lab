@@ -5,14 +5,17 @@
 """
 
 import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit
 
 #efficiency matrix calculations
 #--------------------
+#DATA
 #total ee, mm, tt, qq events
-tot = np.array([24990, 89887, 79214, 98563])
+tot = np.array([56720, 89887, 79214, 98563])
 
 #ee, mm, tt, qq cuts on monte carlo events
-ee = np.array([18835, 0, 26, 0]) #ee cut applied to ee, mm, tt, qq MC
+ee = np.array([18835*1.5829, 0, 26, 0]) #ee cut applied to ee, mm, tt, qq MC
 mm = np.array([0, 76209, 35, 0]) #mm cut applied to ee, mm, tt, qq MC
 tt = np.array([378, 4105, 71131, 173]) #tt cut applied to ee, mm, tt, qq MC
 qq = np.array([0, 0, 308, 92898]) #qq cut applied to ee, mm, tt, qq MC
@@ -80,7 +83,7 @@ deltaintlum = np.array([5.7, 6.6, 7.1, 54.3, 6.9, 5.5, 7.7])
 leptoncorrection = np.array([0.09, 0.20, 0.36, 0.52, 0.22, -0.01, -0.08])
 hadroncorrection = np.array([2.0, 4.3, 7.7, 10.8, 4.7, -0.2, -1.6])
 
-#data
+#DATA
 partcount[0] = [106, 120, 251, 3281]
 partcount[1] = [261, 304, 425, 7413]
 partcount[2] = [415, 591, 693,14709]
@@ -154,4 +157,7 @@ print("+-")
 print(deltaafb)
 
 print("Weinberg theta: ", weinbergtheta, "+-", deltaweinbergtheta)
+#--------------------
+
+#breit wigner curve fit
 #--------------------
