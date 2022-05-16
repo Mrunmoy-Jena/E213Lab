@@ -6,7 +6,7 @@
 
 #modules
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 from scipy.optimize import curve_fit
 
 #efficiency matrix calculations
@@ -191,14 +191,9 @@ def fitfunc(x, a, b, gammach):
         (a**2 * ((x - a**2)**2 + (x * b/a)**2))
     return sigmaofs
 
-#decay width values - taken from the manual
-gammalep = 83.8E-3
-gammaneu = 167.6E-3
-gammauc = 299E-3
-gammadsb = 378E-3
-
 #s values - taken from the manual (notice the square!)
-x_data = np.square(np.array([88.47, 89.46, 90.22, 91.22, 91.97, 92.96, 93.71]))
+sqrts = np.array([88.47, 89.46, 90.22, 91.22, 91.97, 92.96, 93.71])
+x_data = np.square(sqrts)
 
 #slice ee sigma values
 ee_data = sigma[:, 0]
@@ -227,47 +222,120 @@ popt_tt, pcov_tt = curve_fit(fitfunc, x_data, tt_data, p0 = [91, 2.5, 6.5])
 #fit guess taken as 91, 2.5 and 150 - Z mass and decay width and channel decay width
 popt_qq, pcov_qq = curve_fit(fitfunc, x_data, qq_data, p0 = [91, 2.5, 150])
 
-x_model = np.linspace(min(x_data), max(x_data), 100)
+#x axis values for plots
+sqrts_model = np.linspace(min(sqrts), max(sqrts), 100)
+x_model = np.square(sqrts_model)
 
 #ee fit
 ee_model = fitfunc(x_model, popt_ee[0], popt_ee[1], popt_ee[2])
-plt.scatter(x_data, ee_data)
-plt.errorbar(x_data, ee_data, yerr = ee_data_err, fmt="o")
-plt.plot(x_model, ee_model)
+plt.errorbar(sqrts, ee_data, yerr = ee_data_err, fmt = ".", label = 'data')
+plt.plot(sqrts_model, ee_model, label = 'fit')
+plt.xlabel('$\sqrt{s}$')
+plt.ylabel('$\sigma(s) [nb]$')
+plt.legend(loc = 'upper right')
+plt.grid()
 plt.show()
 
 #mm fit
 mm_model = fitfunc(x_model, popt_mm[0], popt_mm[1], popt_mm[2])
-plt.scatter(x_data, mm_data)
-plt.errorbar(x_data, mm_data, yerr = mm_data_err, fmt="o")
-plt.plot(x_model, mm_model)
+plt.errorbar(sqrts, mm_data, yerr = mm_data_err, fmt = ".", label = 'data')
+plt.plot(sqrts_model, mm_model, label = 'fit')
+plt.xlabel('$\sqrt{s}$')
+plt.ylabel('$\sigma(s) [nb]$')
+plt.legend(loc = 'upper right')
+plt.grid()
 plt.show()
 
 #tt fit
 tt_model = fitfunc(x_model, popt_tt[0], popt_tt[1], popt_tt[2])
-plt.scatter(x_data, tt_data)
-plt.errorbar(x_data, tt_data, yerr = tt_data_err, fmt="o")
-plt.plot(x_model, tt_model)
+plt.errorbar(sqrts, tt_data, yerr = tt_data_err, fmt = ".", label = 'data')
+plt.plot(sqrts_model, tt_model, label ='fit')
+plt.xlabel('$\sqrt{s}$')
+plt.ylabel('$\sigma(s) [nb]$')
+plt.legend(loc = 'upper right')
+plt.grid()
 plt.show()
 
 #qq fit
 qq_model = fitfunc(x_model, popt_qq[0], popt_qq[1], popt_qq[2])
-plt.scatter(x_data, qq_data)
-plt.errorbar(x_data, qq_data, yerr = qq_data_err, fmt="o")
-plt.plot(x_model, qq_model)
+plt.errorbar(sqrts, qq_data, yerr = qq_data_err, fmt = ".", label = 'data')
+plt.plot(sqrts_model, qq_model, label = 'fit')
+plt.xlabel('$\sqrt{s}$')
+plt.ylabel('$\sigma(s) [nb]$')
+plt.legend(loc = 'upper right')
+plt.grid()
 plt.show()
 
 #print a, b and gammach for all branches
-print("Fit parameters")
+print("Fit parameters:")
 print("ee: ", popt_ee)
 print("mm: ", popt_mm)
 print("tt: ", popt_tt)
 print("qq: ", popt_qq)
 print("*****")
 
-print("Goodness of fit parameters (lower the value, the better)")
-print("ee: ", np.sqrt(np.diag(pcov_ee)))
-print("mm: ", np.sqrt(np.diag(pcov_mm)))
-print("tt: ", np.sqrt(np.diag(pcov_tt)))
-print("qq: ", np.sqrt(np.diag(pcov_qq)))
+ee_err = np.sqrt(np.diag(pcov_ee))
+mm_err = np.sqrt(np.diag(pcov_mm))
+tt_err = np.sqrt(np.diag(pcov_tt))
+qq_err = np.sqrt(np.diag(pcov_qq))
+print("Standard deviation values:")
+print("ee: ", ee_err)
+print("mm: ", mm_err)
+print("tt: ", tt_err)
+print("qq: ", qq_err)
+print("*****")
+
+#reduced chi2 calculations
+def redchi2(f, x, y, y_err, *args):
+    sum = 0
+    for i in range(len(x)):
+        sum += np.square((f(x[i], *args) - y[i])/(y_err[i]))
+    dof = len(y) - len(args)
+    rc2 = np.sqrt(sum)/dof
+    return rc2
+
+print("Reduced chi squared values:")
+print("ee fit: ", redchi2(fitfunc, x_data, ee_data, ee_data_err, popt_ee[0], popt_ee[1], popt_ee[2]))
+print("mm fit: ", redchi2(fitfunc, x_data, mm_data, mm_data_err, popt_mm[0], popt_mm[1], popt_mm[2]))
+print("tt fit: ", redchi2(fitfunc, x_data, tt_data, tt_data_err, popt_tt[0], popt_tt[1], popt_tt[2]))
+print("qq fit: ", redchi2(fitfunc, x_data, qq_data, qq_data_err, popt_qq[0], popt_qq[1], popt_qq[2]))
+print("*****")
+#--------------------
+
+#other physical quantities
+#--------------------
+
+#mean values fit parameters - physical quantities
+mz = np.mean(np.array([popt_ee[0], popt_mm[0], popt_tt[0], popt_qq[0]]))
+gz = np.mean(np.array([popt_ee[1], popt_mm[1], popt_tt[1], popt_qq[1]]))
+deltamz = (1/4)*np.sqrt(ee_err[0]**2 + mm_err[0]**2 + tt_err[0]**2 + qq_err[0]**2)
+deltagz = (1/4)*np.sqrt(ee_err[1]**2 + mm_err[1]**2 + tt_err[1]**2 + qq_err[1]**2)
+
+print("Mass of Z: ", mz, "+-", deltamz, "GeV")
+print("Decay width of Z: ", gz, "+-", deltagz, "GeV")
+print("*****")
+
+#partial decay width - from third fit parameter
+gee = np.sqrt(popt_ee[2])
+gmm = popt_mm[2]/gee
+gtt = popt_tt[2]/gee
+gqq = popt_qq[2]/gee
+
+deltagee = gee*np.sqrt(1/2)*ee_err[2]/popt_ee[2]
+deltagmm = gmm*np.sqrt((mm_err[2]/popt_mm[2])**2 + (deltagee/gee)**2)
+deltagtt = gtt*np.sqrt((tt_err[2]/popt_tt[2])**2 + (deltagee/gee)**2)
+deltagqq = gqq*np.sqrt((qq_err[2]/popt_qq[2])**2 + (deltagee/gee)**2)
+
+print("ee decay width: ", gee*10**3, "+-", deltagee*10**3, "MeV")
+print("mm decay width: ", gmm*10**3, "+-", deltagmm*10**3, "MeV")
+print("tt decay width: ", gtt*10**3, "+-", deltagtt*10**3, "MeV")
+print("qq decay width: ", gqq*10**3, "+-", deltagqq*10**3, "MeV")
+print("*****")
+
+gammaneu = 0.1676
+neugen = (gz - gee - gmm - gtt - gqq)/gammaneu
+deltaneugen = neugen*np.sqrt((deltagz**2 + deltagee**2 + deltagmm**2 + deltagtt**2 + deltagqq**2)/ \
+                             (gz - gee - gmm - gtt - gqq)**2)
+
+print("Number of neutrinos: ", neugen, "+-", deltaneugen)
 print("*****")
