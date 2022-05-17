@@ -228,10 +228,10 @@ x_model = np.square(sqrts_model)
 
 #ee fit
 ee_model = fitfunc(x_model, popt_ee[0], popt_ee[1], popt_ee[2])
-plt.errorbar(sqrts, ee_data, yerr = ee_data_err, fmt = ".", label = 'data')
-plt.plot(sqrts_model, ee_model, label = 'fit')
-plt.xlabel('$\sqrt{s}$')
-plt.ylabel('$\sigma(s) [nb]$')
+plt.errorbar(sqrts, ee_data, yerr = ee_data_err, fmt = ".", label = 'data', capsize = 4)
+plt.plot(sqrts_model, ee_model, label = 'Breit-Wigner fit')
+plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
+plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
 #plt.savefig("e213-ee-fit.png", dpi = 1200) #to save the plot
@@ -239,10 +239,10 @@ plt.show()
 
 #mm fit
 mm_model = fitfunc(x_model, popt_mm[0], popt_mm[1], popt_mm[2])
-plt.errorbar(sqrts, mm_data, yerr = mm_data_err, fmt = ".", label = 'data')
-plt.plot(sqrts_model, mm_model, label = 'fit')
-plt.xlabel('$\sqrt{s}$')
-plt.ylabel('$\sigma(s) [nb]$')
+plt.errorbar(sqrts, mm_data, yerr = mm_data_err, fmt = ".", label = 'data', capsize = 4)
+plt.plot(sqrts_model, mm_model, label = 'Breit-Wigner fit')
+plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
+plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
 #plt.savefig("e213-mm-fit.png", dpi = 1200) #to save the plot
@@ -250,10 +250,10 @@ plt.show()
 
 #tt fit
 tt_model = fitfunc(x_model, popt_tt[0], popt_tt[1], popt_tt[2])
-plt.errorbar(sqrts, tt_data, yerr = tt_data_err, fmt = ".", label = 'data')
-plt.plot(sqrts_model, tt_model, label ='fit')
-plt.xlabel('$\sqrt{s}$')
-plt.ylabel('$\sigma(s) [nb]$')
+plt.errorbar(sqrts, tt_data, yerr = tt_data_err, fmt = ".", label = 'data', capsize = 4)
+plt.plot(sqrts_model, tt_model, label ='Breit-Wigner fit')
+plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
+plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
 #plt.savefig("e213-tt-fit.png", dpi = 1200) #to save the plot
@@ -261,10 +261,10 @@ plt.show()
 
 #qq fit
 qq_model = fitfunc(x_model, popt_qq[0], popt_qq[1], popt_qq[2])
-plt.errorbar(sqrts, qq_data, yerr = qq_data_err, fmt = ".", label = 'data')
-plt.plot(sqrts_model, qq_model, label = 'fit')
-plt.xlabel('$\sqrt{s}$')
-plt.ylabel('$\sigma(s) [nb]$')
+plt.errorbar(sqrts, qq_data, yerr = qq_data_err, fmt = ".", label = 'data', capsize = 4)
+plt.plot(sqrts_model, qq_model, label = 'Breit-Wigner fit')
+plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
+plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
 #plt.savefig("ee213-qq-fit.png", dpi = 1200) #to save the plot
