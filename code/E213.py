@@ -234,6 +234,7 @@ plt.xlabel('$\sqrt{s}$')
 plt.ylabel('$\sigma(s) [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
+#plt.savefig("e213-ee-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
 #mm fit
@@ -244,6 +245,7 @@ plt.xlabel('$\sqrt{s}$')
 plt.ylabel('$\sigma(s) [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
+#plt.savefig("e213-mm-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
 #tt fit
@@ -254,6 +256,7 @@ plt.xlabel('$\sqrt{s}$')
 plt.ylabel('$\sigma(s) [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
+#plt.savefig("e213-tt-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
 #qq fit
@@ -264,6 +267,7 @@ plt.xlabel('$\sqrt{s}$')
 plt.ylabel('$\sigma(s) [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
+#plt.savefig("ee213-qq-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
 #print a, b and gammach for all branches
