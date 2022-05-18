@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  18 MAY 2022 14:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  18 MAY 2022 23:42
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -887,30 +887,30 @@ x.cfg
 File: biblatex.cfg 
 ))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 23.
+h' as default language. on input line 25.
 \@quotelevel=\count482
 \@quotereset=\count483
  (Labreport.aux)
 \openout1 = `Labreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -982,16 +982,16 @@ f-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 
-Package layouts Warning: Layout scale set to 0.5 on input line 23.
+Package layouts Warning: Layout scale set to 0.5 on input line 25.
 
-LaTeX Info: Redefining \celsius on input line 23.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 23.
+LaTeX Info: Redefining \celsius on input line 25.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 25.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 23.
-Package gensymb Info: Using \Omega for \ohm on input line 23.
+LaTeX Info: Redefining \ohm on input line 25.
+Package gensymb Info: Using \Omega for \ohm on input line 25.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1002,7 +1002,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 23.
+or `english'. on input line 25.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1011,7 +1011,7 @@ Package caption Info: End \AtBeginDocument code.
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 25.
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref
 .sty
@@ -1027,9 +1027,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count490
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
  (Labreport.out) (Labreport.out)
 \@outlinefile=\write4
 \openout4 = `Labreport.out'.
@@ -1059,15 +1059,15 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Labreport.bbl' found.
  (Labreport.bbl)
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+Package biblatex Info: Reference section=0 on input line 25.
+Package biblatex Info: Reference segment=0 on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1083,9 +1083,42 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [1
 
-] (Theoretical Background.tex [2
+]
+Chapter 1.
+(Theoretical Background.tex [2
 
-]) [3] (PreLabsolns.tex
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 35.
+
+) [3]
+Chapter 2.
+(PreLabsolns.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 2.
@@ -1131,7 +1164,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 72.
 
 [5]
-<angulardist.pdf, id=129, 856.78217pt x 278.9829pt>
+<angulardist.pdf, id=161, 856.78217pt x 278.9829pt>
 File: angulardist.pdf Graphic file (type pdf)
 <use angulardist.pdf>
 Package pdftex.def Info: angulardist.pdf  used on input line 87.
@@ -1146,19 +1179,19 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 
 ] (Labreport.aux)
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: B30FC725CD39F949B09FEC697DE1A5FC;2898.
+(rerunfilecheck)             Checksum: 1C876318863E501CB71C6AAFB711CFBA;4289.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
 \openout1 = `Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24251 strings out of 478864
- 456703 string characters out of 2845307
- 1190272 words of memory out of 3000000
- 41832 multiletter control sequences out of 15000+600000
- 417328 words of font info for 81 fonts, out of 8000000 for 9000
+ 24273 strings out of 478864
+ 456961 string characters out of 2845307
+ 1191195 words of memory out of 3000000
+ 41845 multiletter control sequences out of 15000+600000
+ 418404 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,17n,81p,2099b,1324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,17n,81p,2099b,1350s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmbx10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs
@@ -1179,18 +1212,19 @@ l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Mrunmoy Je
 na/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Us
 ers/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mr7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Mrunmoy Jena/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/M
-runmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.
-pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmti10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
-Output written on Labreport.pdf (10 pages, 349562 bytes).
+/amsfonts/cm/cmr8.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mrunmoy Jena/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Mr
+unmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Mrunmoy Jena/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
+Output written on Labreport.pdf (10 pages, 355894 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

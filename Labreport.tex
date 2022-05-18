@@ -3,11 +3,13 @@
 \usepackage{graphicx}
 \usepackage{layouts}
 \usepackage{sectsty}
-\chaptertitlefont{\LARGE}
 \usepackage{setspace}
 \usepackage[parfill]{parskip}
 \usepackage{enumitem}
 \usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\LARGE\bfseries}{}{0pt}{\LARGE}
+\titlespacing*{\chapter}{0pt}{-0.5in}{15pt}
 \usepackage{gensymb}
 \usepackage{mathtools}
 \usepackage{url}
@@ -45,18 +47,12 @@ Universit\"{a}t	Bonn\\
 \pagenumbering{arabic}
 \addcontentsline{toc}{chapter}{\textbf{Introduction}}
 vcnfjdvfdnvk
-\chapter*{Theoretical Background}
-\addcontentsline{toc}{chapter}{\textbf{Theoretical Background}}
+\chapter{Theoretical Background}
+%\addcontentsline{toc}{chapter}{\textbf{Theoretical Background}}
 \input{Theoretical Background}
-\chapter*{Pre-Lab Exercises}
-\addcontentsline{toc}{chapter}{\textbf{Pre-Lab Exercises}}
+\chapter{Pre-Lab Exercises}
+%\addcontentsline{toc}{chapter}{\textbf{Pre-Lab Exercises}}
 \input{PreLabsolns}
-%\chapter{TL Study of $\mathbf{Li_{3}PO_{4}:Dy}$ (Co-Precipitation Method)}
-%\input{LiPDycpp}
-%\chapter{TL Study of $\mathbf{Li_{3}PO_{4}:Dy}$ (Solid State Diffusion Method)}
-%\input{LiPDyssd}
-%\chapter{Future Prospects}
-%\input{FutureProspects}
 
 \end{onehalfspace}
 \printbibliography

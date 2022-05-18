@@ -46,26 +46,42 @@
       \verb 10.1017/CBO9781139525367
       \endverb
     \endentry
-    \entry{enwiki:1085396801}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
-           family={{Wikipedia contributors}},
-           familyi={W\bibinitperiod}}}%
+    \entry{pdg-ew}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=7a8b71446873a9b49888d86190fda249}{%
+           family={Erler},
+           familyi={E\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c590c4cc815ff0dc41f6be37474af664}{%
+           family={Freitas},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{437fc65546b2b4d9196857326bbb6355}
+      \strng{fullhash}{437fc65546b2b4d9196857326bbb6355}
+      \strng{bibnamehash}{437fc65546b2b4d9196857326bbb6355}
+      \strng{authorbibnamehash}{437fc65546b2b4d9196857326bbb6355}
+      \strng{authornamehash}{437fc65546b2b4d9196857326bbb6355}
+      \strng{authorfullhash}{437fc65546b2b4d9196857326bbb6355}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=Electroweak_interaction&oldid=1085396801}}
-      \field{note}{[Online; accessed 18-May-2022]}
-      \field{title}{Electroweak interaction --- {Wikipedia}{,} The Free Encyclopedia}
-      \field{year}{2022}
+      \field{journaltitle}{Particle Data Group}
+      \field{month}{3}
+      \field{title}{Electroweak {Model} and {Constraints} on {New} {Physics}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://pdg.lbl.gov/2019/reviews/rpp2019-rev-standard-model.pdf
+      \endverb
+      \verb{url}
+      \verb https://pdg.lbl.gov/2019/reviews/rpp2019-rev-standard-model.pdf
+      \endverb
     \endentry
     \entry{Dooling:207610}{thesis}{}
       \name{author}{1}{}{%
