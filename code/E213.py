@@ -39,10 +39,10 @@ effinv = np.linalg.inv(eff)
 #error in efficiency matrix
 deltaeff = np.zeros([4,4])
 
-deltaeff[0] = np.sqrt(eff[0, :]*(1-eff[0, :])/tot[0])
-deltaeff[1] = np.sqrt(eff[1, :]*(1-eff[1, :])/tot[1])
-deltaeff[2] = np.sqrt(eff[2, :]*(1-eff[2, :])/tot[2])
-deltaeff[3] = np.sqrt(eff[3, :]*(1-eff[3, :])/tot[3])
+deltaeff[0] = np.sqrt(eff[0, :]*(1-eff[0, :])/tot)
+deltaeff[1] = np.sqrt(eff[1, :]*(1-eff[1, :])/tot)
+deltaeff[2] = np.sqrt(eff[2, :]*(1-eff[2, :])/tot)
+deltaeff[3] = np.sqrt(eff[3, :]*(1-eff[3, :])/tot)
 
 effinvsq = np.square(effinv)
 deltaeffsq = np.square(deltaeff)
@@ -53,11 +53,11 @@ deltaeffinv = np.sqrt(np.matmul(effinvsq, (np.matmul(deltaeffsq, effinvsq))))
 #efficiency matrix
 print("*****")
 print("Efficiency matrix:")
-print(np.round(eff, 2))
+print(np.round(eff, 3))
 
 #delta efficiency
 print("+-")
-print(np.round(deltaeff, 3))
+print(np.round(deltaeff, 4))
 print("*****")
 
 #inverse efficiency matrix
