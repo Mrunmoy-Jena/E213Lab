@@ -19,6 +19,132 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{thomson_2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=57f5b607cec3b22885f854f4c4baf257}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{fullhash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{bibnamehash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{authorbibnamehash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{authornamehash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{authorfullhash}{57f5b607cec3b22885f854f4c4baf257}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modern Particle Physics}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1017/CBO9781139525367
+      \endverb
+    \endentry
+    \entry{enwiki:1085396801}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=Electroweak_interaction&oldid=1085396801}}
+      \field{note}{[Online; accessed 18-May-2022]}
+      \field{title}{Electroweak interaction --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2022}
+    \endentry
+    \entry{Dooling:207610}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=589182e3a559a7db6eb2b9b321638e48}{%
+           family={Dooling},
+           familyi={D\bibinitperiod},
+           given={Samantha\bibnamedelima Katherine},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universität Hamburg}%
+      }
+      \list{publisher}{1}{%
+        {Verlag Deutsches Elektronen-Synchrotron}%
+      }
+      \strng{namehash}{589182e3a559a7db6eb2b9b321638e48}
+      \strng{fullhash}{589182e3a559a7db6eb2b9b321638e48}
+      \strng{bibnamehash}{589182e3a559a7db6eb2b9b321638e48}
+      \strng{authorbibnamehash}{589182e3a559a7db6eb2b9b321638e48}
+      \strng{authornamehash}{589182e3a559a7db6eb2b9b321638e48}
+      \strng{authorfullhash}{589182e3a559a7db6eb2b9b321638e48}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A measurement of the Drell-Yan differential cross section in proton-proton collisionsat a centre-of-mass energy of 7 TeV is presented. The results are obtained using Z$^0$/$\gamma$ $r\rightarrow$ $\mu^+$$\mu^-$ decays in a data sample collected with the CMS detector correspondingto an integrated luminosity of 4.9 fb$^{-1}$. The cross section of Drell-Yanproduction in association with one or two jets with pjetT > 30 GeV in the range ofjjetj < 4.5 is measured. The differential cross section is studied as a function ofthe dimuon transverse momentum pT and of the invariant mass, covering a rangeof 30 < m$^{\mu}$$^{\mu}$ < 1500 GeV. In addition, the Drell-Yan dimuon pair is selected inthe forward region with $\eta$ $^{\mu}$ $^{\mu}$> 2.5 and the differential cross section as well as theaverage jet multiplicity, as a function of the rapidity separation between the leadingjet and the Drell-Yan lepton pair, is presented. All measurements are compared topredictions of fixed-order perturbative QCD plus parton showers, provided by MonteCarlo simulation. An agreement of the distributions with predictions of resummedQCD combined with high fixed-order perturbative QCD is observed. Lowest-ordercalculations of the cross section are not able to describe the Drell-Yan + jets crosssection at low pT and large rapidity differences. The Drell-Yan plus jet topologiesare sensitive to hard-parton emissions calculated at fixed-order in perturbationtheory plus resummation of multi-gluon emissions.}
+      \field{issn}{1435-8085}
+      \field{note}{OA; Universität Hamburg, Diss., 2015}
+      \field{series}{DESY-THESIS}
+      \field{title}{{D}ifferential {C}ross {S}ection {M}easurement of {D}rell-{Y}an {P}roduction and associated {J}ets with the {CMS} {E}xperiment at the {LHC}}
+      \field{type}{Dr.}
+      \field{year}{2015}
+      \field{pages}{242}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3204/DESY-THESIS-2015-002
+      \endverb
+      \verb{urlraw}
+      \verb https://bib-pubdb1.desy.de/record/207610
+      \endverb
+      \verb{url}
+      \verb https://bib-pubdb1.desy.de/record/207610
+      \endverb
+      \keyw{Dissertation (GND)}
+    \endentry
+    \entry{Griffiths:111880}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a00328547222c4a2a201442ee59dccfd}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{fullhash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{bibnamehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{authorbibnamehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{authornamehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{authorfullhash}{a00328547222c4a2a201442ee59dccfd}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Physics textbook}
+      \field{title}{{Introduction to elementary particles; 2nd rev. version}}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/111880
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/111880
+      \endverb
+    \endentry
     \entry{UB}{misc}{}
       \name{author}{1}{}{%
         {{hash=06df9bddc9b0078ef7ec72ef1530928d}{%
@@ -31,8 +157,8 @@
       \strng{authorbibnamehash}{06df9bddc9b0078ef7ec72ef1530928d}
       \strng{authornamehash}{06df9bddc9b0078ef7ec72ef1530928d}
       \strng{authorfullhash}{06df9bddc9b0078ef7ec72ef1530928d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Instructions for {E}213: Analysis of $Z^{0}$ decay}
@@ -53,8 +179,8 @@
       \strng{authorbibnamehash}{3252689ea2c95188fe632e638cbb4321}
       \strng{authornamehash}{3252689ea2c95188fe632e638cbb4321}
       \strng{authorfullhash}{3252689ea2c95188fe632e638cbb4321}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{collaboration}{Particle Data Group}
@@ -69,58 +195,6 @@
       \verb{doi}
       \verb 10.1093/ptep/ptaa104
       \endverb
-    \endentry
-    \entry{Ver}{report}{}
-      \name{author}{2}{}{%
-        {{hash=2319359e162609dcef7fb4484c55a144}{%
-           family={Muckhoff},
-           familyi={M\bibinitperiod},
-           given={Verena},
-           giveni={V\bibinitperiod}}}%
-        {{hash=7ec6c261926733a6863d70399cdf7462}{%
-           family={Kürten},
-           familyi={K\bibinitperiod},
-           given={Stephan},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{f34497cba22bdcdfedcdc99ed29a30e4}
-      \strng{fullhash}{f34497cba22bdcdfedcdc99ed29a30e4}
-      \strng{bibnamehash}{f34497cba22bdcdfedcdc99ed29a30e4}
-      \strng{authorbibnamehash}{f34497cba22bdcdfedcdc99ed29a30e4}
-      \strng{authornamehash}{f34497cba22bdcdfedcdc99ed29a30e4}
-      \strng{authorfullhash}{f34497cba22bdcdfedcdc99ed29a30e4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Lab Report (Universität Bonn), {E}213: Analysis of $Z^{0}$ decays}}
-      \field{year}{2014}
-    \endentry
-    \entry{Anna}{report}{}
-      \name{author}{2}{}{%
-        {{hash=de36596c586543e7b24cb3735ff339ca}{%
-           family={Stockhausen},
-           familyi={S\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod}}}%
-        {{hash=d15e1edc8e71bc0a2c9dfe223ae798e1}{%
-           family={Heinrichs},
-           familyi={H\bibinitperiod},
-           given={Jan-Eric},
-           giveni={J\bibinithyphendelim E\bibinitperiod}}}%
-      }
-      \strng{namehash}{4fead36372291c807da6284c0187d95b}
-      \strng{fullhash}{4fead36372291c807da6284c0187d95b}
-      \strng{bibnamehash}{4fead36372291c807da6284c0187d95b}
-      \strng{authorbibnamehash}{4fead36372291c807da6284c0187d95b}
-      \strng{authornamehash}{4fead36372291c807da6284c0187d95b}
-      \strng{authorfullhash}{4fead36372291c807da6284c0187d95b}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Lab Report (Universität Bonn), {E}213: Analysis of $Z^{0}$ decays}}
-      \field{year}{2018}
     \endentry
   \enddatalist
 \endrefsection

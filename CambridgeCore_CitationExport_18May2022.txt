@@ -1,0 +1,1 @@
+@book{thomson_2013, place={Cambridge}, title={Modern Particle Physics}, DOI={10.1017/CBO9781139525367}, publisher={Cambridge University Press}, author={Thomson, Mark}, year={2013}}

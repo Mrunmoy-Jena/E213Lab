@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  16 MAY 2022 16:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  18 MAY 2022 14:23
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1083,9 +1083,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [1
 
-] [2
+] (Theoretical Background.tex [2
 
-] (PreLabsolns.tex
+]) [3] (PreLabsolns.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 2.
@@ -1115,7 +1115,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 2.
 
-[3
+[4
 
 ]
 
@@ -1130,35 +1130,35 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 72.
 
-[4]
-<angulardist.pdf, id=102, 856.78217pt x 278.9829pt>
+[5]
+<angulardist.pdf, id=129, 856.78217pt x 278.9829pt>
 File: angulardist.pdf Graphic file (type pdf)
 <use angulardist.pdf>
 Package pdftex.def Info: angulardist.pdf  used on input line 87.
 (pdftex.def)             Requested size: 452.9679pt x 147.49838pt.
- [5 <./angulardist.pdf>]
+ [6 <./angulardist.pdf>]
 LaTeX Font Info:    Trying to load font information for U+euf on input line 99.
 
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) [6] [7
+)) [7] [8
 
 ] (Labreport.aux)
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: F1F9175BF40AA963CD1372A7C3759E18;2119.
+(rerunfilecheck)             Checksum: B30FC725CD39F949B09FEC697DE1A5FC;2898.
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
 \openout1 = `Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24223 strings out of 478864
- 455956 string characters out of 2845307
- 1190103 words of memory out of 3000000
- 41815 multiletter control sequences out of 15000+600000
- 417160 words of font info for 80 fonts, out of 8000000 for 9000
+ 24251 strings out of 478864
+ 456703 string characters out of 2845307
+ 1190272 words of memory out of 3000000
+ 41832 multiletter control sequences out of 15000+600000
+ 417328 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,17n,81p,1200b,1290s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,17n,81p,2099b,1324s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmbx10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs
@@ -1186,10 +1186,11 @@ Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/M
 runmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.
 pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmti10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/euler/eufm10.pfb>
-Output written on Labreport.pdf (9 pages, 314659 bytes).
+type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
+Output written on Labreport.pdf (10 pages, 349506 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 299 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

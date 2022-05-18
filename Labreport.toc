@@ -2,14 +2,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\textbf {Introduction}}{1}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\textbf {Pre-Lab Exercises}}{3}{chapter*.4}%
+\contentsline {chapter}{\textbf {Theoretical Background}}{2}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.1}Calculation of partial decay widths for $Z^{0}\rightarrow f\bar {f}$}{3}{section.0.1}%
+\contentsline {section}{\numberline {0.1}The Standard Model- A Brief Overview}{2}{section.0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.2}Calculation of hadronic, leptonic and total decay widths and cross section}{4}{section.0.2}%
+\contentsline {section}{\numberline {0.2}The Unified Theory of Electromagnetic and Weak Interactions}{2}{section.0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.3}Effect of additional generation on width of $Z^{0}$ resonance curve}{5}{section.0.3}%
+\contentsline {chapter}{\textbf {Pre-Lab Exercises}}{4}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.4}Angular distributions of differential cross sections}{5}{section.0.4}%
+\contentsline {section}{\numberline {0.3}Calculation of partial decay widths for $Z^{0}\rightarrow f\bar {f}$}{4}{section.0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.5}Calculation of forward-backward asymmetry}{6}{section.0.5}%
+\contentsline {section}{\numberline {0.4}Calculation of hadronic, leptonic and total decay widths and cross section}{5}{section.0.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.5}Effect of additional generation on width of $Z^{0}$ resonance curve}{6}{section.0.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.6}Angular distributions of differential cross sections}{6}{section.0.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.7}Calculation of forward-backward asymmetry}{7}{section.0.7}%
