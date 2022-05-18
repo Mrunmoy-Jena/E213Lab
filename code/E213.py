@@ -267,7 +267,7 @@ plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
 plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
-#plt.savefig("ee213-qq-fit.png", dpi = 1200) #to save the plot
+#plt.savefig("e213-qq-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
 #print a, b and gammach for all branches
