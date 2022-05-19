@@ -1,8 +1,6 @@
-\section{Analysis}
+\section{Analysis of Event Displays}
 
-\subsection{Analysis of Event Displays}
-
-\subsection{Part II: Statistical Analysis of $Z^0$ Decays}
+\section{Part II: Statistical Analysis of $Z^0$ Decays}
 In the previous subsection, we carried out an analysis based on event displays. This was possible because we did not have a lot of events to work with. Obviously, such an analysis would prove to be futile if we try to carry it out on a large set of data. Analysis of large sets of data would be the primary discussion of this subsection. We use the software, $ROOT$ to analyse the data on a statistical basis. \textit{ROOT} works with \textit{.root} files, which contain all the information in a tree-like structure, called \textit{ntuple}. The contents of the \textit{ntuple} are,
 \begin{itemize}
     \item RUN: Run number
@@ -22,7 +20,7 @@ We also have two categories of data, each containing a lot of \textit{ntuples},
 \end{itemize}
 \textit{ROOT} can be used to set cuts on the above variables in a data and get histograms of different variables. This allows for a statistical analysis of the data. All the above information can be found in \cite{UB}.
 
-\subsubsection{Refining the cuts}
+\subsection{Refining the cuts}
 As mentioned previously, we have two categories of data. There are four Monte Carlo (MC) data, one for each of the decay channels. There are six real world data and we will be using \textit{data6.root} for our analysis in the following parts. Analysis of event displays already gave us an idea of what cuts to use, to extract the different channels. Our first step here will be to test our cuts on the MC data and check how they fare. And the second step will be to refine the cuts a little so that we are better able to extract different channels.\\
 When it comes to $e^-e^+$ final state decay channel, we would like to exclude t-channel events. This is because t-channel is possible only in the mode and for the sake of consistency, we would like to limit ourselves to only s-channel. From theory\cite{UB}, we know that the t-channel dominates at large $cos\theta$. By introducing a new cut to exclude events with large $cos\theta$, we eliminate a most of the t-channel events. But this also means that we are eliminating some of the s-channel events. To account for this, we multiply the observed events after applying the modified cuts with correction factor. This correction factor is given by,
 \begin{equation}
@@ -32,7 +30,7 @@ This factor is arrived at from theory, which gives the behaviour of s-channel as
 When it comes to $\mu^-\mu^+$ final state decay channel, we observed a lot of events with \textit{PCHARGED} equal to exactly $0$. These events are not physical. Hence we apply a cut to eliminate such events. In the cases of $e^-e^+$ and $\mu^-\mu^+$, we also exclude $cos\theta$ values very close to $1$ and $-1$, as the detector resolution is far from perfect close to the beam axis. To summarise, we have the following additions - $cos\theta \in [-0.9, 0.5]$, to remove t-channel events in the case of $e^-e^+$, $PCHARGED > 0$, to exclude unphysical events in the case of $e^-e^+$ and $cos\theta \in [-0.9, 0.9]$, to eliminate low resolution events in the cases of $e^-e^+$ and $\mu^-\mu^+$. Interestingly, the channels $\tau^-\tau^+$ and $q\bar{q}$ did not require any additional global cuts. But, we did add the cut $cos\theta \in [-1, 1]$ to remove any unphysical events.\\
 After testing our cuts, we arrive at the conclusion that we don't need any further refinements other than the additions mentioned above. With these additions, we go about analysing \textit{data6.root}. The raw data of observed events using our cuts is given in the table \ref{table:eventsdata6} below. Note that the correction factor has not been applied to the $e^-e^+$ event numbers but it is used in our latter calculations. The event numbers are exactly what we get after applying all the cuts appropriately.
 
-\begin{table}[!h]
+\begin{table}[h!]
 \centering
 \resizebox{\columnwidth}{!}{
 \begin{tabular}{cccccc}
@@ -49,7 +47,7 @@ After testing our cuts, we arrive at the conclusion that we don't need any furth
 \label{table:eventsdata6}
 \end{table}
 
-\subsubsection{Efficiency Matrix}
+\subsection{Efficiency Matrix}
 The efficiency matrix is a measure of how efficient the cuts are at extracting the different decay channels. If we consider the actual event numbers of the different channels as a $4 \times 1$ matrix, the efficiency matrix will be a $4 \times 4$ matrix and ideally, it should be a unit matrix. In this case, the event numbers observed matches the actual event numbers. But this is not the case usually. We should aim to achieve an efficiency matrix with diagonal elements as close to $1$ as possible and the off-diagonal elements as close to $0$ as possible. The efficiency matrix elements are given by\cite{UB},
 \begin{equation}
     \epsilon_{ij} = \frac{N^{i, cut}_j}{N^{j, all}_j}.
@@ -106,7 +104,7 @@ With this we get the following inverse efficiency matrix and the error in the in
 \end{split}
 \end{equation}
 
-\subsubsection{Cross Sections}
+\subsection{Cross Sections}
 With the above inverse efficiency matrix, we can now calculate the actual event numbers and hence, the cross sections corresponding to different modes. The actual event numbers, $N_{actual}$, will simply be $\epsilon^{-1} N_{obs}$, as explained earlier. The error in actual event numbers is then,
 \begin{equation}
     \Delta N_{obs, i} = \sqrt{\sum_{j=1}^4 N_{obs, j}^2 (\Delta \epsilon_{ij}^{-1})^2 + 
@@ -122,7 +120,7 @@ with the errors,
     \frac{N_{actual}^2 (\Delta \int \mathcal{L} dt)^2}{(\int \mathcal{L} dt)^4}}.
 \end{equation}
 where $\int \mathcal{L} dt$ is the integrated luminosity and $\text{cf(radiation}$ is the radiative correction factors. We use the integrated luminosity values and the radiative correction factors from from \cite{UB}. The actual event numbers, integrated luminosity values and the radiative correction factor can be found in the tables \ref{table:actualnumbers}, \ref{table:intlum} in the appendix and the calculated cross sections for different $\sqrt{s}$ values can be found in the table \ref{Table:cross-section}.
-\begin{table}[!h]
+\begin{table}[h!]
 \centering
 \resizebox{\columnwidth}{!}{%
 \begin{tabular}{ccccc}

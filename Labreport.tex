@@ -22,6 +22,7 @@
 \usepackage[]{hyperref}
 \usepackage[style=phys,biblabel=brackets]{biblatex}
 \usepackage[toc, page]{appendix}
+\usepackage{float}
 \addbibresource{References.bib}
 
 \begin{document}
@@ -63,10 +64,8 @@ Universit\"{a}t	Bonn\\
 \end{onehalfspace}
 \printbibliography
 
-\begin{appendices}
-\addtocontents{toc}{\protect\setcounter{tocdepth}{5}}
-  \input{appendix-data}
-\end{appendices}
+\appendix
+\chapter{Data}
+\input{appendix-data}
 
 \end{document}
-
