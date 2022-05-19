@@ -338,8 +338,7 @@ print("*****")
 
 gammaneu = 0.1676
 neugen = (gz - gee - gmm - gtt - gqq)/gammaneu
-deltaneugen = neugen*np.sqrt((deltagz**2 + deltagee**2 + deltagmm**2 + deltagtt**2 + deltagqq**2)/ \
-                             (gz - gee - gmm - gtt - gqq)**2)
+deltaneugen = neugen*np.sqrt((deltagz**2 + deltagee**2 + deltagmm**2 + deltagtt**2 + deltagqq**2))
 
 print("Number of neutrinos: ", neugen, "+-", deltaneugen)
 print("*****")
