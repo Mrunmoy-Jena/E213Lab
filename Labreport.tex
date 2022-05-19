@@ -21,7 +21,9 @@
 \usepackage{subcaption}
 \usepackage[]{hyperref}
 \usepackage[style=phys,biblabel=brackets]{biblatex}
+\usepackage[toc, page]{appendix}
 \addbibresource{References.bib}
+
 \begin{document}
 \begin{onehalfspace}
 \pagenumbering{roman}
@@ -46,10 +48,11 @@ Universit\"{a}t	Bonn\\
 \chapter*{Introduction}
 \pagenumbering{arabic}
 \addcontentsline{toc}{chapter}{\textbf{Introduction}}
-vcnfjdvfdnvk
+
 \chapter{Theoretical Background}
 %\addcontentsline{toc}{chapter}{\textbf{Theoretical Background}}
 \input{Theoretical Background}
+
 \chapter{Pre-Lab Exercises}
 %\addcontentsline{toc}{chapter}{\textbf{Pre-Lab Exercises}}
 \input{PreLabsolns}
@@ -59,5 +62,11 @@ vcnfjdvfdnvk
 
 \end{onehalfspace}
 \printbibliography
+
+\begin{appendices}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{5}}
+  \input{appendix-data}
+\end{appendices}
+
 \end{document}
 
