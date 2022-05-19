@@ -30,7 +30,7 @@ This factor is arrived at from theory, which gives the behaviour of s-channel as
 When it comes to $\mu^-\mu^+$ final state decay channel, we observed a lot of events with \textit{PCHARGED} equal to exactly $0$. These events are not physical. Hence we apply a cut to eliminate such events. In the cases of $e^-e^+$ and $\mu^-\mu^+$, we also exclude $cos\theta$ values very close to $1$ and $-1$, as the detector resolution is far from perfect close to the beam axis. To summarise, we have the following additions - $cos\theta \in [-0.9, 0.5]$, to remove t-channel events in the case of $e^-e^+$, $PCHARGED > 0$, to exclude unphysical events in the case of $e^-e^+$ and $cos\theta \in [-0.9, 0.9]$, to eliminate low resolution events in the cases of $e^-e^+$ and $\mu^-\mu^+$. Interestingly, the channels $\tau^-\tau^+$ and $q\bar{q}$ did not require any additional global cuts. But, we did add the cut $cos\theta \in [-1, 1]$ to remove any unphysical events.\\
 After testing our cuts, we arrive at the conclusion that we don't need any further refinements other than the additions mentioned above. With these additions, we go about analysing \textit{data6.root}. The raw data of observed events using our cuts is given in the table \ref{table:eventsdata6} below. Note that the correction factor has not been applied to the $e^-e^+$ event numbers but it is used in our latter calculations. The event numbers are exactly what we get after applying all the cuts appropriately.
 
-\begin{table}[h!]
+\begin{table}[!h]
 \centering
 \resizebox{\columnwidth}{!}{
 \begin{tabular}{cccccc}
@@ -43,7 +43,7 @@ After testing our cuts, we arrive at the conclusion that we don't need any furth
 \multicolumn{1}{|c|}{$q\bar{q}$}    & \multicolumn{1}{c|}{0}            & \multicolumn{1}{c|}{0}                & \multicolumn{1}{c|}{173}                  & \multicolumn{1}{c|}{92164}            & \multicolumn{1}{c|}{98563}                                                                                             \\ \hline
 \end{tabular}
 }
-\caption{Number of events with different cuts applied to each of the MC data}
+\caption{Number of events with different cuts applied to each of the MC data.}
 \label{table:eventsdata6}
 \end{table}
 
@@ -119,11 +119,10 @@ with the errors,
     \Delta \sigma = \sqrt{\frac{(\Delta N_{actual})^2}{(\int \mathcal{L} dt)^2} + 
     \frac{N_{actual}^2 (\Delta \int \mathcal{L} dt)^2}{(\int \mathcal{L} dt)^4}}.
 \end{equation}
-where $\int \mathcal{L} dt$ is the integrated luminosity and $\text{cf(radiation}$ is the radiative correction factors. We use the integrated luminosity values and the radiative correction factors from from \cite{UB}. The actual event numbers, integrated luminosity values and the radiative correction factor can be found in the tables \ref{table:actualnumbers}, \ref{table:intlum} in the appendix and the calculated cross sections for different $\sqrt{s}$ values can be found in the table \ref{Table:cross-section}.
-\begin{table}[h!]
+where $\int \mathcal{L} dt$ is the integrated luminosity and $\text{cf(radiation}$ is the radiative correction factors. We use the integrated luminosity values and the radiative correction factors from from \cite{UB}. The actual event numbers, integrated luminosity values and the radiative correction factor can be found in the tables \ref{table:actualnumbers}, \ref{table:intlum} in the appendix and the calculated cross sections for different $\sqrt{s}$ values can be found in the table \ref{table:cross-section}.
+\begin{table}[!h]
 \centering
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{ccccc}
+\begin{tabular}{c|cccc}
 \hline
 $\sqrt{s}$ {[}GeV{]} & $\sigma_{ee}$ {[}nb{]} & $\sigma_{mm}$ {[}nb{]} & $\sigma_{tt}$ {[}nb{]} & $\sigma_{qq}$ {[}nb{]} \\
 \hline
@@ -136,7 +135,130 @@ $\sqrt{s}$ {[}GeV{]} & $\sigma_{ee}$ {[}nb{]} & $\sigma_{mm}$ {[}nb{]} & $\sigma
 93.71                & 0.28 $\pm$ 0.03        & 0.34 $\pm$ 0.02        & 0.40 $\pm$ 0.03        & 8.20 $\pm$ 0.13       \\
 \hline
 \end{tabular}
-}
-\caption{Calculated cross section values for different $\sqrt{s}$ values}
-\label{Table:cross-section}
+\caption{Calculated cross section values for different $\sqrt{s}$ values.}
+\label{table:cross-section}
 \end{table}
+
+\subsection{Forward Backward Asymmetry and Weak mixing angle}
+The $Z^0$ boson couples differently to left- and right-handed fermions. This leads to an asymmetry in the angular distribution of final state particles. This asymmetry depends, not very surprisingly, on the weak mixing (or Weinberg) angle\cite{thomson_2013}. Therefore, by calculating this asymmetry between the forward and backward scattering particle, we can measure the weak mixing angle. We consider the $\mu^-\mu^+$ decay channel as we don't have the problem of t-channel like in the $e^-e^+$ decay mode. We also get two clear tracks in the case of $\mu^-\mu^+$ decay mode. We can calculate the asymmetry by measure the event numbers for $cos\theta > 0$ and $cos\theta < 0$. The forward backward asymmetry then is,
+\begin{equation}
+    A_{fb} = \frac{N_+ - N_-}{N_+ + N_-} + \text{cf($A_{fb}$)},
+\end{equation}
+where $N_+$ is the event numbers with $cos\theta > 0$ and $N_-$ is the event numbers with $cos\theta < 0$, cf($A_{fb}$) is the $A_{fb}$ correction factor, which can be found in the table \ref{table:intlum}. The error in $A_{fb}$ is given by,
+\begin{equation}
+    \Delta A_{fb} = \sqrt{N_-\left(\frac{2N_+}{(N_+ + N_-)^2}\right)^2 + 
+    N_+\left(\frac{2N_-}{(N_+ + N_-)^2}\right)^2}.
+\end{equation}
+The calculated $A_{fb}$ can be found in table \ref{table:afb}.
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|ccc}
+\hline
+$\sqrt{s}$ {[}GeV{]} & $N_+$ & $N_-$ & $A_{fb}$           \\ \hline
+                    & \multicolumn{3}{c}{$\mu^-\mu^+$ data}  \\ \hline
+88.47                & 51    & 69    & -0.128 $\pm$ 0.090 \\
+89.46                & 148   & 156   & -0.007 $\pm$ 0.057 \\
+90.22                & 272   & 319   & -0.063 $\pm$ 0.041 \\
+91.22                & 4297  & 4384  & 0.008 $\pm$ 0.011  \\
+91.97                & 387   & 380   & 0.039 $\pm$ 0.036  \\
+92.96                & 173   & 123   & 0.231 $\pm$ 0.057  \\
+93.71                & 189   & 150   & 0.209 $\pm$ 0.054  \\ \hline
+                     & \multicolumn{3}{c}{$\mu^-\mu^+$ MC}  \\ \hline
+91.22                & 37807 & 38402 & 0.010 $\pm$ 0.014    \\ \hline
+\end{tabular}
+\caption{Forward and Backward event numbers for $\mu^-\mu^+$ mode data and MC events with the calculated $A_{fb}$ values.}
+\label{table:afb}
+\end{table}
+With this, we can calculate the weak mixing angle. For the data events, we consider the $A_{fb}$ value at $Z^0$ resonance energy and calculate the weak mixing angle as,
+\begin{equation}
+    sin^2\theta_W = 0.2369 \pm 0.1537,
+\end{equation}
+and for the MC event, we calculate the weak mixing angle as,
+\begin{equation}
+    sin^2\theta_W = 0.2352 \pm 0.1560.
+\end{equation}
+
+\subsection{Lepton Universality}
+Lepton universality states that, since the masses of leptons are much smaller compared to that of the $Z^0$ boson, the cross section of all the three leptonic decay modes must be the same, at $Z^0$ resonance. From the table \ref{Table:cross-section}, we can see that at $Z^0$ resonance ($=91.22 GeV$),
+\begin{equation}
+\begin{split}
+    \sigma_e = 1.69 \pm 0.02 \text{nb} \\
+    \sigma_{\mu} = 1.82 \pm 0.02 \text{nb} \\
+    \sigma_{\tau} = 1.75 \pm 0.02 \text{nb}
+\end{split}
+\end{equation}
+We see that even though the values are almost equal, they are not exactly equal. And in fact, they are a little far from the theoretical value as well, which is discussed later. We postulate that this is due to the fact that the efficiency matrix is not ``ideal'' in our case. That is, we are undercounting the event numbers to some extent, which results in the lower cross section values. And since the factor by which we undercount differs between different modes, we get cross sections that slightly differ from each other. We calculate the ratios of the hadronic to the leptonic modes as follow,
+\begin{equation}
+\begin{split}
+    \frac{\sigma_{had}}{\sigma_e} = 24.18 \pm 0.30 \\
+    \frac{\sigma_{had}}{\sigma_{\mu}} = 22.43 \pm 0.24 \\
+    \frac{\sigma_{had}}{\sigma_{\tau}} = 23.28 \pm 0.26
+\end{split}
+\end{equation}
+The ratios above directly reflect the deviations we had in the cross section values and a little greater than the theoretical value. But, both the cross section values and the ratios are of the same order of magnitude and in fact comparable to the theoretical values. This means that the problem in our data is not fundamental and could be overcome by improving our efficiency.
+
+\subsection{Breit-Wigner Fit of Cross Section}
+Now we extract the all important quantities from our data. To do this, we fit our cross section values against a Breit-Wigner curve of the form,
+\begin{equation}
+    \sigma_f (s) = \frac{12\pi}{M_Z^2} \frac{s \Gamma_e \Gamma_f}{(s-M_Z^2)^2 + \left(\frac{s\Gamma_Z}{M_Z}\right)^2} (\hbar^2 c^2),
+\end{equation}
+which has three parameters, $M_Z$, $\Gamma_Z$ and $\Gamma_e\Gamma_f$. The factor $\hbar^2 c^2 = 3.893793719 \times 10^5 \text{nb GeV$^2$}$ is used to convert the cross section values to SI units from natural units. We used \textit{scipy.optimize} module for \textit{Python} to fit the function against our data. The plots are given in \ref{fig:bwfit}. The fit parameters obtained along with the reduced $\chi^2$ values for the fit can be found in the table \ref{table:bwfit}.
+\begin{figure}[h!]
+\begin{center}
+    \includegraphics[width = 6 cm]{e213-ee-fit.png}
+    \includegraphics[width = 6 cm]{e213-mm-fit.png}
+    \includegraphics[width = 6 cm]{e213-tt-fit.png}
+    \includegraphics[width = 6 cm]{e213-qq-fit.png}
+\end{center}
+\caption{Breit-Wigner fit for the four different decay channels}
+\label{fig:bwfit}
+\end{figure}
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|cccc}
+\hline
+Channel        & $M_Z$ {[}GeV{]}    & $\Gamma_Z$ {[}GeV{]} & $\Gamma_e\Gamma_f$ {[}GeV$^2${]}                   & $\chi_{red}^2$ \\ \hline
+$e^-e^+$       & 90.973 $\pm$ 0.047 & 2.591 $\pm$ 0.158    & 6.615$\times$10$^{-3}$ $\pm$ 6.29$\times$10$^{-4}$ & 0.93           \\
+$\mu^-\mu^+$   & 91.117 $\pm$ 0.021 & 2.462 $\pm$ 0.060    & 6.306$\times$10$^{-3}$ $\pm$ 2.46$\times$10$^{-4}$ & 0.52           \\
+$\tau^-\tau^+$ & 91.159 $\pm$ 0.058 & 2.825 $\pm$ 0.179    & 7.690$\times$10$^{-3}$ $\pm$ 7.85$\times$10$^{-4}$ & 1.44           \\
+$q\bar{q}$     & 91.187 $\pm$ 0.004 & 2.515 $\pm$ 0.010    & 0.1460 $\pm$ 0.0009                                & 0.38          \\ \hline
+\end{tabular}
+\caption{Fit parameters and reduced $\chi^2$ values for the data}
+\label{table:bwfit}
+\end{table}
+We have three parameters and seven data points. This gives us $4$ degrees of freedom for our fit. The $e^-e^+$ fit gives the best reduced $\chi^2$ value. The reduced $\chi^2$ values for $\mu^-\mu^+$ and $\tau^-\tau^+$ are less than 1, which implies that we are over-fitting the data or the error variances are overestimated. The reduced $\chi^2$ value for $\tau^-\tau^+$ is greater than 1, which implies that we are under-fitting the data or the error variances are underestimated. But still, the reduced $\chi^2$ values are not much larger than $1$, which means they're a good fit\cite{bevington}.\\
+The fit parameters directly give us the values of mass of the $Z^0$ boson, $M_Z$ and the decay width of the $Z^0$ boson, $\Gamma_Z$. The mean value of the quantities are,
+\begin{equation}
+\begin{split}
+    M_Z = 91.123 \pm 0.020 \\
+    \Gamma_Z = 2.598 \pm 0.062.
+\end{split}
+\end{equation}
+
+\subsection{Partial Width of Different Channels and Number of Light Neutrino Generations}
+The third fit parameter doesn't directly give us the partial decay width of different channels. It gives the product of the partial decay width of $e^-$ mode and the partial decay width of $f$ mode, the final state fermion in consideration. In the case of $e^-e^+$ channel, this reduces to $\Gamma_e^2$, which lets us calculate the partial decay width of the $e^-$ mode. This can then been used to calculate the partial width of other channels. This is given in the table \ref{table:decaywidth}.
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|cc}
+\hline
+Channel        & $\Gamma_f$ {[}MeV{]} & $\Gamma_f$ (lit.) {[}MeV{]} \\ \hline
+$e^-e^+$       & 81.33 $\pm$ 5.47     & 83.91 $\pm$ 0.12              \\
+$\mu^-\mu^+$   & 77.53 $\pm$ 6.03     & 83.99 $\pm$ 0.18              \\
+$\tau^-\tau^+$ & 94.56 $\pm$ 11.55    & 84.08 $\pm$ 0.22              \\
+$q\bar{q}$     & 1795.52 $\pm$ 121.31 & 1744.4 $\pm$ 2.0              \\ \hline
+\end{tabular}
+\caption{Partial decay width of different channels and literature values}
+\label{table:decaywidth}
+\end{table}
+The literature values for $\Gamma_f$ are taken from \cite{pdg2}. The literature values lie within one standard deviation of the calculated partial width, which is impressive.\\
+With all the decay widths in hand, we can now determine the number of generations of light neutrinos. We use the value for $\Gamma_{\nu}$ from \cite{UB}, which is $\Gamma_{\nu} = 167.6 MeV$. With this, we can calculate the number of neutrino generations using,
+\begin{equation}
+    n_{\nu} = \frac{\Gamma_Z - \Gamma_e - \Gamma_{\mu} - \Gamma_{\tau} - \Gamma_q}{\Gamma_{\nu}}.
+\end{equation}
+This gives the number of neutrino generations as,
+\begin{equation}
+    n_{\nu} = 3.28 \pm 0.45.
+\end{equation}
+This tells us that number of neutrino generations are $3$. And within one standard deviation, our result absolutely excludes the possibility of fourth neutrino generation.
+
+\subsection{Discussion}
