@@ -257,6 +257,7 @@ plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
 plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
+plt.title('Breit-Wigner Curve Fit for $e^-e^+$ channel')
 #plt.savefig("e213-ee-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
@@ -268,6 +269,7 @@ plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
 plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
+plt.title('Breit-Wigner Curve Fit for $\mu^-\mu^+$ channel')
 #plt.savefig("e213-mm-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
@@ -279,6 +281,7 @@ plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
 plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
+plt.title('Breit-Wigner Curve Fit for $\tau^-\tau^+$ channel')
 #plt.savefig("e213-tt-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
@@ -290,6 +293,7 @@ plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
 plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
+plt.title('Breit-Wigner Curve Fit for $q\bar{q}$ channel')
 #plt.savefig("e213-qq-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
