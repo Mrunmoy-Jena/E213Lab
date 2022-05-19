@@ -1,0 +1,144 @@
+\section{Analysis}
+
+\subsection{Analysis of Event Displays}
+
+\subsection{Part II: Statistical Analysis of $Z^0$ Decays}
+In the previous subsection, we carried out an analysis based on event displays. This was possible because we did not have a lot of events to work with. Obviously, such an analysis would prove to be futile if we try to carry it out on a large set of data. Analysis of large sets of data would be the primary discussion of this subsection. We use the software, $ROOT$ to analyse the data on a statistical basis. \textit{ROOT} works with \textit{.root} files, which contain all the information in a tree-like structure, called \textit{ntuple}. The contents of the \textit{ntuple} are,
+\begin{itemize}
+    \item RUN: Run number
+    \item EVENT: Event number
+    \item NCHARGED: Number of charged tracks
+    \item PCHARGED: Total scalar sum of track momenta
+    \item E\_ECAL: Total energy in electromagnetic calorimeter
+    \item E\_HCAL: Total energy in hadronic calorimeter
+    \item E\_LEP: LEP beam energy ($=\sqrt{s}/2$)
+    \item COS\_THRU: cos(polar angle) between beam axis and thrust axis
+    \item COS\_THET: cos(polar angle) between incoming positron and outgoing positive particle
+\end{itemize}
+We also have two categories of data, each containing a lot of \textit{ntuples},
+\begin{itemize}
+    \item Monte Carlo (MC): These correspond to the ``\textit{pure}'' events from the previous subsection. These are simulated - detector response to a calculated outgoing momentum four-vector for a specific process.
+    \item Data: These correspond to the ``\textit{mixed}'' events from the previous subsection. These are real life data recorded with the OPAL detector at specific energies around the $Z^0$ resonance maximum.
+\end{itemize}
+\textit{ROOT} can be used to set cuts on the above variables in a data and get histograms of different variables. This allows for a statistical analysis of the data. All the above information can be found in \cite{UB}.
+
+\subsubsection{Refining the cuts}
+As mentioned previously, we have two categories of data. There are four Monte Carlo (MC) data, one for each of the decay channels. There are six real world data and we will be using \textit{data6.root} for our analysis in the following parts. Analysis of event displays already gave us an idea of what cuts to use, to extract the different channels. Our first step here will be to test our cuts on the MC data and check how they fare. And the second step will be to refine the cuts a little so that we are better able to extract different channels.\\
+When it comes to $e^-e^+$ final state decay channel, we would like to exclude t-channel events. This is because t-channel is possible only in the mode and for the sake of consistency, we would like to limit ourselves to only s-channel. From theory\cite{UB}, we know that the t-channel dominates at large $cos\theta$. By introducing a new cut to exclude events with large $cos\theta$, we eliminate a most of the t-channel events. But this also means that we are eliminating some of the s-channel events. To account for this, we multiply the observed events after applying the modified cuts with correction factor. This correction factor is given by,
+\begin{equation}
+    \delta = \frac{\int_{-1}^1 (1 + x^2) dx}{\int_{-0.9}^{0.5} (1 + x^2) dx} \approx 1.5829.
+\end{equation}
+This factor is arrived at from theory, which gives the behaviour of s-channel as proportional to $(1 + cos^2\theta)$ and the integral limits are correspond to the $cos\theta$ values which we exclude.\\
+When it comes to $\mu^-\mu^+$ final state decay channel, we observed a lot of events with \textit{PCHARGED} equal to exactly $0$. These events are not physical. Hence we apply a cut to eliminate such events. In the cases of $e^-e^+$ and $\mu^-\mu^+$, we also exclude $cos\theta$ values very close to $1$ and $-1$, as the detector resolution is far from perfect close to the beam axis. To summarise, we have the following additions - $cos\theta \in [-0.9, 0.5]$, to remove t-channel events in the case of $e^-e^+$, $PCHARGED > 0$, to exclude unphysical events in the case of $e^-e^+$ and $cos\theta \in [-0.9, 0.9]$, to eliminate low resolution events in the cases of $e^-e^+$ and $\mu^-\mu^+$. Interestingly, the channels $\tau^-\tau^+$ and $q\bar{q}$ did not require any additional global cuts. But, we did add the cut $cos\theta \in [-1, 1]$ to remove any unphysical events.\\
+After testing our cuts, we arrive at the conclusion that we don't need any further refinements other than the additions mentioned above. With these additions, we go about analysing \textit{data6.root}. The raw data of observed events using our cuts is given in the table \ref{table:eventsdata6} below. Note that the correction factor has not been applied to the $e^-e^+$ event numbers but it is used in our latter calculations. The event numbers are exactly what we get after applying all the cuts appropriately.
+
+\begin{table}[!h]
+\centering
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{cccccc}
+\hline
+\multicolumn{1}{|c|}{}               & \multicolumn{5}{c|}{Number of observed events}                                                                                                                                                                                                                    \\ \hline
+\multicolumn{1}{|c|}{MC Sample}      & \multicolumn{1}{c|}{$e^-e^+$ cuts} & \multicolumn{1}{c|}{$\mu^-\mu^+$ cuts} & \multicolumn{1}{c|}{$\tau^-\tau^+$ cuts} & \multicolumn{1}{c|}{$q\bar{q}$ cuts} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Total \\ (incl. global cuts, if any)\end{tabular}} \\ \hline
+\multicolumn{1}{|c|}{$e^-e^+$}       & \multicolumn{1}{c|}{18835}         & \multicolumn{1}{c|}{0}                 & \multicolumn{1}{c|}{378}                 & \multicolumn{1}{c|}{0}               & \multicolumn{1}{c|}{56720}                                                                        \\
+\multicolumn{1}{|c|}{$\mu^-\mu^+$}   & \multicolumn{1}{c|}{0}             & \multicolumn{1}{c|}{76209}             & \multicolumn{1}{c|}{8599}                & \multicolumn{1}{c|}{0}               & \multicolumn{1}{c|}{89887}                                                                        \\
+\multicolumn{1}{|c|}{$\tau^-\tau^+$} & \multicolumn{1}{c|}{26}            & \multicolumn{1}{c|}{35}                & \multicolumn{1}{c|}{71131}               & \multicolumn{1}{c|}{135}             & \multicolumn{1}{c|}{79214}                                                                        \\
+\multicolumn{1}{|c|}{$q\bar{q}$}    & \multicolumn{1}{c|}{0}            & \multicolumn{1}{c|}{0}                & \multicolumn{1}{c|}{173}                  & \multicolumn{1}{c|}{92164}            & \multicolumn{1}{c|}{98563}                                                                                             \\ \hline
+\end{tabular}
+}
+\caption{Number of events with different cuts applied to each of the MC data}
+\label{table:eventsdata6}
+\end{table}
+
+\subsubsection{Efficiency Matrix}
+The efficiency matrix is a measure of how efficient the cuts are at extracting the different decay channels. If we consider the actual event numbers of the different channels as a $4 \times 1$ matrix, the efficiency matrix will be a $4 \times 4$ matrix and ideally, it should be a unit matrix. In this case, the event numbers observed matches the actual event numbers. But this is not the case usually. We should aim to achieve an efficiency matrix with diagonal elements as close to $1$ as possible and the off-diagonal elements as close to $0$ as possible. The efficiency matrix elements are given by\cite{UB},
+\begin{equation}
+    \epsilon_{ij} = \frac{N^{i, cut}_j}{N^{j, all}_j}.
+\end{equation}
+For example, $\epsilon_{12}$ corresponds to $e^-e^+$ cuts applied to $\mu^-\mu^+$ events divided by the total observed $\mu^-\mu^+$ events. Note that we construct the $4 \times 1$ matrix in the following order - $e^-e^+$ events, $\mu^-\mu^+$ events, $\tau^-\tau+$ events and $q\bar{q}$ events. With this efficiency matrix, one could extract the actual event numbers as follows,
+\begin{equation}
+    N_{obs} = \epsilon N_{actual} \implies N_{actual} = \epsilon^{-1} N_{obs}.
+\end{equation}
+This gives us an efficiency matrix,
+\begin{equation}
+    \epsilon = 
+    \begin{pmatrix}
+        5.26 \times 10^{-1} & 0 & 3.28 \times 10^{-4} & 0 \\
+        0 & 8.48 \times 10^{-1} & 4.42 \times 10^{-4} & 0 \\
+        6.66 \times 10^{-3} & 9.57 \times 10^{-2} & 8.98 \times 10^{-1} & 1.76 \times 10^{-3} \\
+        0 & 0 & 1.70 \times 10^{-3} & 9.35 \times 10^{-1}
+    \end{pmatrix}.
+\end{equation}
+Given a cut, whether or not a particular event passes it can be modelled with a binomial distribution, just like modelling a coin toss. In the limit when such an ``experiment'' is conducted on large sample size, the probability mass function of the binomial distribution can be approximated by a normal distribution. In which case, the standard deviation is given by,
+\begin{equation}
+    \Delta \epsilon_{ij} = \sqrt{\frac{\epsilon_{ij}(1-\epsilon_{ij})}{N}},
+\end{equation}
+where $\epsilon_{ij}$ is a particular element of the efficiency matrix and $N$ is the total events corresponding to that matrix element. The above treatment can be found in any introductory book on probability theory, for example Feller\cite{feller}. This gives us the standard deviation in the efficiency matrix elements,
+\begin{equation}
+    \Delta \epsilon = 
+    \begin{pmatrix}
+        2.10 \times 10^{-3} & 0 & 6.44 \times 10^{-5} & 0 \\
+        0 & 1.12 \times 10^{-3} & 7.47 \times 10^{-5} & 0 \\
+        3.41 \times 10^{-4} & 9.81 \times 10^{-4} & 1.08 \times 10^{-3} & 1.33 \times 10^{-4} \\
+        0 & 0 & 1.46 \times 10^{-4} & 7.85 \times 10^{-5}
+    \end{pmatrix}.
+\end{equation}
+For our calculations in the following sections, we require $N_{actual}$. Therefore, we invert the matrix. The calculations for error in the inverse matrix elements is not straightforward. We refer to \cite{lefebvre}, which gives the error in the inverse matrix element to be,
+\begin{equation}
+    (\Delta \epsilon^{-1})^2_{ij} = \sum_{\alpha = 1}^4 \sum_{\beta = 1}^4 (\epsilon^{-1})^2_{i\alpha}(\Delta \epsilon)^2_{\alpha\beta} (\epsilon^{-1})^2_{\beta j}.
+\end{equation}
+With this we get the following inverse efficiency matrix and the error in the inverse efficiency matrix elements,
+\begin{equation}
+\begin{split}
+    \epsilon^{-1} = 
+    \begin{pmatrix}
+        1.90 & 7.85 \times 10^{-5} & -6.95 \times 10^{-4} & 1.30 \times 10^{-6} \\
+        7.36 \times 10^{-6} & 1.18 & -5.80 \times 10^{-4} & 1.09 \times 10^{-6} \\
+        -1.41 \times 10^{-2} & -1.26 \times 10^{-1} & 1.11 & -2.09 \times 10^{-3} \\
+        2.57 \times 10^{-5} & 2.29 \times 10^{-4} & -2.03 \times 10^{-3} & 1.07
+    \end{pmatrix}
+    \pm \\
+    \begin{pmatrix}
+        7.59 \times 10^{-3} & 1.54 \times 10^{-5} & 1.36 \times 10^{-4} & 2.75 \times 10^{-7} \\
+        1.30 \times 10^{-6} & 1.67 \times 10^{-3} & 9.81 \times 10^{-5} & 2.02 \times 10^{-7} \\
+        7.26 \times 10^{-4} & 1.31 \times 10^{-3} & 1.33 \times 10^{-3} & 1.59 \times 10^{-4} \\
+        2.58 \times 10^{-6} & 1.98 \times 10^{-5} & 1.75 \times 10^{-4} & 8.98 \times 10^{-4}
+    \end{pmatrix}
+\end{split}
+\end{equation}
+
+\subsubsection{Cross Sections}
+With the above inverse efficiency matrix, we can now calculate the actual event numbers and hence, the cross sections corresponding to different modes. The actual event numbers, $N_{actual}$, will simply be $\epsilon^{-1} N_{obs}$, as explained earlier. The error in actual event numbers is then,
+\begin{equation}
+    \Delta N_{obs, i} = \sqrt{\sum_{j=1}^4 N_{obs, j}^2 (\Delta \epsilon_{ij}^{-1})^2 + 
+    \sum_{j=1}^4 (\epsilon_{ij}^{-1})^{2} N_{obs, j}}.
+\end{equation}
+The events are assumed to obey Poisson statistics and hence, $\Delta N_{obs}$ is taken as $\sqrt{N_obs}$. With the actual event numbers, we can calculate the cross section as,
+\begin{equation}
+    \sigma = \frac{N_{actual}}{\int \mathcal{L} dt} + \text{cf(radiation)},
+\end{equation}
+with the errors,
+\begin{equation}
+    \Delta \sigma = \sqrt{\frac{(\Delta N_{actual})^2}{(\int \mathcal{L} dt)^2} + 
+    \frac{N_{actual}^2 (\Delta \int \mathcal{L} dt)^2}{(\int \mathcal{L} dt)^4}}.
+\end{equation}
+where $\int \mathcal{L} dt$ is the integrated luminosity and $\text{cf(radiation}$ is the radiative correction factors. We use the integrated luminosity values and the radiative correction factors from from \cite{UB}. The actual event numbers, integrated luminosity values and the radiative correction factor can be found in the tables \ref{table:actualnumbers}, \ref{table:intlum} in the appendix and the calculated cross sections for different $\sqrt{s}$ values can be found in the table \ref{Table:cross-section}.
+\begin{table}[!h]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{ccccc}
+\hline
+$\sqrt{s}$ {[}GeV{]} & $\sigma_{ee}$ {[}nb{]} & $\sigma_{mm}$ {[}nb{]} & $\sigma_{tt}$ {[}nb{]} & $\sigma_{qq}$ {[}nb{]} \\
+\hline
+88.47                & 0.39 $\pm$ 0.03        & 0.30 $\pm$ 0.02        & 0.47 $\pm$ 0.03        & 7.19 $\pm$ 0.10        \\
+89.46                & 0.82 $\pm$ 0.04        & 0.65 $\pm$ 0.03        & 0.72 $\pm$ 0.03        & 14.20 $\pm$ 0.14       \\
+90.22                & 1.26 $\pm$ 0.04        & 1.16 $\pm$ 0.03        & 1.12 $\pm$ 0.03        & 25.70 $\pm$ 0.21       \\
+91.22                & 1.69 $\pm$ 0.02        & 1.82 $\pm$ 0.02        & 1.75 $\pm$ 0.02        & 40.75 $\pm$ 0.22       \\
+91.97                & 1.12 $\pm$ 0.05        & 1.32 $\pm$ 0.04        & 1.21 $\pm$ 0.04        & 28.96 $\pm$ 0.27       \\
+92.96                & 0.45 $\pm$ 0.04        & 0.55 $\pm$ 0.03        & 0.66 $\pm$ 0.04        & 13.67 $\pm$ 0.20       \\
+93.71                & 0.28 $\pm$ 0.03        & 0.34 $\pm$ 0.02        & 0.40 $\pm$ 0.03        & 8.20 $\pm$ 0.13       \\
+\hline
+\end{tabular}
+}
+\caption{Calculated cross section values for different $\sqrt{s}$ values}
+\label{Table:cross-section}
+\end{table}
