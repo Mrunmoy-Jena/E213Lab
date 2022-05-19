@@ -147,6 +147,19 @@ deltasigma = np.sqrt(deltasigma)
 print("+-")
 print(deltasigma)
 print("*****")
+
+#lepton universality
+ratio_ehad = sigma[3,3]/sigma[3, 0]
+ratio_mhad = sigma[3,3]/sigma[3, 1]
+ratio_thad = sigma[3,3]/sigma[3, 2]
+deltaratio_ehad = ratio_ehad * np.sqrt((deltasigma[3,3]/sigma[3,3])**2 + (deltasigma[3,0]/sigma[3,0])**2)
+deltaratio_mhad = ratio_mhad * np.sqrt((deltasigma[3,3]/sigma[3,3])**2 + (deltasigma[3,1]/sigma[3,1])**2)
+deltaratio_thad = ratio_thad * np.sqrt((deltasigma[3,3]/sigma[3,3])**2 + (deltasigma[3,2]/sigma[3,2])**2)
+
+print("Ratio qq-ee: ", ratio_ehad, "+-", deltaratio_ehad)
+print("Ratio qq-mm: ", ratio_mhad, "+-", deltaratio_mhad)
+print("Ratio qq-tt: ", ratio_thad, "+-", deltaratio_thad)
+print("*****")
 #--------------------
 
 #forward backward asymmetry calculations
@@ -157,6 +170,8 @@ print("*****")
 #*****
 nminus = np.array([69, 156, 319, 4384, 380, 123, 150]) #backward counts for mm
 nplus = np.array([51, 148, 272, 4297, 387, 173, 189]) #forward counts for mm
+nminus_mc = np.array([38402])
+nplus_mc = np.array([37807])
 #*****
 
 #afb correction values - taken from the manual
@@ -165,19 +180,27 @@ afbcorrection = np.array([0.021512, 0.019262, 0.016713, 0.018293, 0.030286, 0.06
 #afb and weinbergtheta
 afb = (nplus - nminus)/(nplus + nminus) + afbcorrection
 weinbergtheta = (1/4)*(1 - np.sqrt(afb[3]/3))
+afb_mc = (nplus_mc - nminus_mc)/(nplus_mc + nminus_mc) + afbcorrection[3]
+weinbergtheta_mc = (1/4)*(1 - np.sqrt(afb_mc[0]/3))
 
 #delta afb
 deltaafb = np.sqrt((nminus*np.square(2*nplus/np.square(nplus+nminus))) + \
                    (nplus*np.square(2*nminus/np.square(nplus+nminus))))
+deltaafb_mc = np.sqrt((nminus_mc*np.square(2*nplus_mc/np.square(nplus_mc+nminus_mc))) + \
+                   (nplus_mc*np.square(2*nminus_mc/np.square(nplus_mc+nminus_mc))))
 deltaweinbergtheta = (1/2)*(deltaafb[3]/afb[3])*weinbergtheta
+deltaweinbergtheta_mc = (1/2)*(deltaafb_mc[0]/afb_mc[0])*weinbergtheta_mc
 
 print("AFB values:")
 print(afb)
 print("+-")
 print(deltaafb)
+print("AFB value (MC): ")
+print(afb_mc, "+-", deltaafb_mc)
 print("*****")
 
 print("Weinberg theta: ", weinbergtheta, "+-", deltaweinbergtheta)
+print("Weinberg theta (MC): ", weinbergtheta_mc, "+-", deltaweinbergtheta_mc)
 print("*****")
 #--------------------
 
