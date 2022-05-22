@@ -188,8 +188,8 @@ deltaafb = np.sqrt((nminus*np.square(2*nplus/np.square(nplus+nminus))) + \
                    (nplus*np.square(2*nminus/np.square(nplus+nminus))))
 deltaafb_mc = np.sqrt((nminus_mc*np.square(2*nplus_mc/np.square(nplus_mc+nminus_mc))) + \
                    (nplus_mc*np.square(2*nminus_mc/np.square(nplus_mc+nminus_mc))))
-deltaweinbergtheta = (1/2)*(deltaafb[3]/afb[3])*weinbergtheta
-deltaweinbergtheta_mc = (1/2)*(deltaafb_mc[0]/afb_mc[0])*weinbergtheta_mc
+deltaweinbergtheta = (1/(8*np.sqrt(3)))*(deltaafb[3]/np.sqrt(afb[3]))
+deltaweinbergtheta_mc = (1/(8*np.sqrt(3)))*(deltaafb_mc[0]/np.sqrt(afb_mc[0]))
 
 print("AFB values:")
 print(afb)
@@ -368,4 +368,4 @@ neugen = (gz - gee - gmm - gtt - gqq)/gammaneu
 deltaneugen = neugen*np.sqrt((deltagz**2 + deltagee**2 + deltagmm**2 + deltagtt**2 + deltagqq**2))
 
 print("Number of neutrinos: ", neugen, "+-", deltaneugen)
-print("*****")
+print("*****")  
