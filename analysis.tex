@@ -198,7 +198,7 @@ We see that even though the values are almost equal, they are not exactly equal.
 \end{equation}
 The ratios above directly reflect the deviations we had in the cross section values and a little greater than the theoretical value. The literature values are given by $\frac{\sigma_{had}}{\sigma_e} = 20.804 \pm 0.050$, $\frac{\sigma_{had}}{\sigma_{\mu}} = 20.785 \pm 0.033$ and $\frac{\sigma_{had}}{\sigma_{\tau}} = 20.764 \pm 0.045$ respectively \cite{pdg2}. Again, we are several orders of standard deviation away. But, both they are of the same order of magnitude and comparable. This means that the problem in our data is not fundamental and could be overcome by improving our counts.
 
-\subsubsection{Breit-Wigner Fit of Cross Section}
+\subsection{Breit-Wigner Fit of Cross Section}
 Now we extract the all important quantities from our data. To do this, we fit our cross section values against a Breit-Wigner curve of the form,
 \begin{equation}
     \sigma_f (s) = \frac{12\pi}{M_Z^2} \frac{s \Gamma_e \Gamma_f}{(s-M_Z^2)^2 + \left(\frac{s\Gamma_Z}{M_Z}\right)^2} (\hbar^2 c^2),
@@ -219,15 +219,15 @@ which has three parameters, $M_Z$, $\Gamma_Z$ and $\Gamma_e\Gamma_f$. The factor
 \begin{tabular}{c|cccc}
 \hline
 Channel        & $M_Z$ {[}GeV{]}    & $\Gamma_Z$ {[}GeV{]} & $\Gamma_e\Gamma_f$ {[}GeV$^2${]}                   & $\chi_{red}^2$ \\ \hline
-$e^-e^+$       & 90.973 $\pm$ 0.047 & 2.591 $\pm$ 0.158    & 6.615$\times$10$^{-3}$ $\pm$ 6.29$\times$10$^{-4}$ & 0.93           \\
-$\mu^-\mu^+$   & 91.117 $\pm$ 0.021 & 2.462 $\pm$ 0.060    & 6.306$\times$10$^{-3}$ $\pm$ 2.46$\times$10$^{-4}$ & 0.52           \\
-$\tau^-\tau^+$ & 91.159 $\pm$ 0.058 & 2.825 $\pm$ 0.179    & 7.690$\times$10$^{-3}$ $\pm$ 7.85$\times$10$^{-4}$ & 1.44           \\
-$q\bar{q}$     & 91.187 $\pm$ 0.004 & 2.515 $\pm$ 0.010    & 0.1460 $\pm$ 0.0009                                & 0.38          \\ \hline
+$e^-e^+$       & 90.973 $\pm$ 0.047 & 2.591 $\pm$ 0.158    & 6.615$\times$10$^{-3}$ $\pm$ 6.29$\times$10$^{-4}$ & 3.47           \\
+$\mu^-\mu^+$   & 91.117 $\pm$ 0.021 & 2.462 $\pm$ 0.060    & 6.306$\times$10$^{-3}$ $\pm$ 2.46$\times$10$^{-4}$ & 1.10           \\
+$\tau^-\tau^+$ & 91.159 $\pm$ 0.058 & 2.825 $\pm$ 0.179    & 7.690$\times$10$^{-3}$ $\pm$ 7.85$\times$10$^{-4}$ & 8.34           \\
+$q\bar{q}$     & 91.187 $\pm$ 0.004 & 2.515 $\pm$ 0.010    & 0.1460 $\pm$ 0.0009                                & 0.58          \\ \hline
 \end{tabular}
 \caption{Fit parameters and reduced $\chi^2$ values for the data}
 \label{table:bwfit}
 \end{table}
-We have three parameters and seven data points. This gives us $4$ degrees of freedom for our fit. The $e^-e^+$ fit gives the best reduced $\chi^2$ value. The reduced $\chi^2$ values for $\mu^-\mu^+$ and $\tau^-\tau^+$ are less than 1, which implies that we are over-fitting the data or the error variances are overestimated. The reduced $\chi^2$ value for $\tau^-\tau^+$ is greater than 1, which implies that we are under-fitting the data or the error variances are underestimated. But still, the reduced $\chi^2$ values are not much larger than $1$, which means they're a good fit\cite{bevington}.\\
+We have three parameters and seven data points. This gives us $4$ degrees of freedom for our fit. The $\mu^-\mu^+$ fit gives the best reduced $\chi^2$ value. The reduced $\chi^2$ value for $q\bar{q}$ is less than 1, which implies that we are over-fitting the data or the error variances are overestimated. The reduced $\chi^2$ value for $e^-e^+$ is greater than 1, which implies that we are under-fitting the data or the error variances are underestimated. Whereas, the reduced $\chi^2$ value for $\tau^-\tau^+$ is much greater than 1, which implies that we don't have a good fit\cite{bevington}. But, none of the fits have a corresponding $p-valule$ less than $0.05$, which means they're not significant enough to be considered seriously different from previous literature results\cite{pvalue}. One major issue with using reduced $\chi^2$ statistic test here is that we have only a limited number of points. Therefore, we don't have a lot of freedom to fit the data with. This ultimately results in a bad value, even though the fit is seemingly nice giving decent values for the parameters. If we had such a good data with more data points, we should obtain a better reduced $\chi^2$ value. Our opinion is that the residuals give a better picture on whether we have a good fit, in our case. And all the residuals here are very small compared to the absolute values that we fit, which means that we have a decent fit for our data. For a better quantitative analysis of goodness of fit, we suggest methods like \textit{bootstrapping}. Reduced $\chi^2$ statistic test is not considered meaningful for limited number of points by some sources\cite{andrae}.\\
 The fit parameters directly give us the values of mass of the $Z^0$ boson, $M_Z$ and the decay width of the $Z^0$ boson, $\Gamma_Z$. The mean value of the quantities are,
 \begin{equation}
 \begin{split}
@@ -238,7 +238,7 @@ The fit parameters directly give us the values of mass of the $Z^0$ boson, $M_Z$
 The literature values are $M_Z = 91.1876 \pm 0.0021$ and $\Gamma_Z = 2.4952 \pm 0.0023$ \cite{pdg2}. The literature value for $M_Z$ lies within $4\sigma$ of our calculated value, whereas the literature value for $\Gamma_Z$ lies within $2\sigma$ of our calculated value. We also note that the literature value for $M_Z$ lies within one standard deviation of the value obtained from the $q\bar{q}$ fit, which had the most counts. This hints us that we could improve our accuracy of the results by significantly increasing the number of events analysed.
 
 \subsection{Partial Width of Different Channels and Number of Light Neutrino Generations}
-The third fit parameter doesn't directly give us the partial decay width of different channels. It gives the product of the partial decay width of $e^-$ mode and the partial decay width of $f$ mode, the final state fermion in consideration. In the case of $e^-e^+$ channel, this reduces to $\Gamma_e^2$, which lets us calculate the partial decay width of the $e^-$ mode. This can then been used to calculate the partial width of other channels. This is given in the table \ref{table:decaywidth}.\\
+The third fit parameter doesn't directly give us the partial decay width of different channels. It gives the product of the partial decay width of $e^-$ mode and the partial decay width of $f$ mode, the final state fermion in consideration. In the case of $e^-e^+$ channel, this reduces to $\Gamma_e^2$, which lets us calculate the partial decay width of the $e^-$ mode. This can then be used to calculate the partial width of other channels. This is given in the table \ref{table:decaywidth}.\\
 \begin{table}[h!]
 \centering
 \begin{tabular}{c|cc}
