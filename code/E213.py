@@ -281,7 +281,7 @@ plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
 plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
-plt.title('Breit-Wigner Curve Fit for $\tau^-\tau^+$ channel')
+plt.title('Breit-Wigner Curve Fit for $\\tau^-\\tau^+$ channel')
 #plt.savefig("e213-tt-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
@@ -322,7 +322,7 @@ def redchi2(f, x, y, y_err, *args):
     for i in range(len(x)):
         sum += np.square((f(x[i], *args) - y[i])/(y_err[i]))
     dof = len(y) - len(args)
-    rc2 = np.sqrt(sum)/dof
+    rc2 = sum/dof
     return rc2
 
 print("Reduced chi squared values:")
@@ -368,4 +368,4 @@ neugen = (gz - gee - gmm - gtt - gqq)/gammaneu
 deltaneugen = neugen*np.sqrt((deltagz**2 + deltagee**2 + deltagmm**2 + deltagtt**2 + deltagqq**2))
 
 print("Number of neutrinos: ", neugen, "+-", deltaneugen)
-print("*****")  
+print("*****")
