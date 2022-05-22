@@ -1,4 +1,4 @@
-\section{Analysis of Event Displays}
+\section{Part I: Analysis of Event Displays}
 
 \section{Part II: Statistical Analysis of $Z^0$ Decays}
 In the previous subsection, we carried out an analysis based on event displays. This was possible because we did not have a lot of events to work with. Obviously, such an analysis would prove to be futile if we try to carry it out on a large set of data. Analysis of large sets of data would be the primary discussion of this subsection. We use the software, $ROOT$ to analyse the data on a statistical basis. \textit{ROOT} works with \textit{.root} files, which contain all the information in a tree-like structure, called \textit{ntuple}. The contents of the \textit{ntuple} are,
@@ -149,7 +149,7 @@ where $N_+$ is the event numbers with $cos\theta > 0$ and $N_-$ is the event num
     \Delta A_{fb} = \sqrt{N_-\left(\frac{2N_+}{(N_+ + N_-)^2}\right)^2 + 
     N_+\left(\frac{2N_-}{(N_+ + N_-)^2}\right)^2}.
 \end{equation}
-The calculated $A_{fb}$ can be found in table \ref{table:afb}.
+The calculated $A_{fb}$ can be found in table \ref{table:afb}.\\
 \begin{table}[h!]
 \centering
 \begin{tabular}{c|ccc}
@@ -171,12 +171,13 @@ $\sqrt{s}$ {[}GeV{]} & $N_+$ & $N_-$ & $A_{fb}$           \\ \hline
 \end{table}
 With this, we can calculate the weak mixing angle. For the data events, we consider the $A_{fb}$ value at $Z^0$ resonance energy and calculate the weak mixing angle as,
 \begin{equation}
-    sin^2\theta_W = 0.2369 \pm 0.1537,
+    sin^2\theta_W = 0.2369 \pm 0.0085,
 \end{equation}
 and for the MC event, we calculate the weak mixing angle as,
 \begin{equation}
-    sin^2\theta_W = 0.2352 \pm 0.1560.
+    sin^2\theta_W = 0.2352 \pm 0.0098.
 \end{equation}
+The literature value for weak-mixing angle is $sin^2\theta_W = 0.23122 \pm 0.00003$ \cite{pdg-ew}. This value is within one standard deviation of both the results calculated with the $\mu^-\mu^+$ MC and the data file.
 
 \subsection{Lepton Universality}
 Lepton universality states that, since the masses of leptons are much smaller compared to that of the $Z^0$ boson, the cross section of all the three leptonic decay modes must be the same, at $Z^0$ resonance. From the table \ref{Table:cross-section}, we can see that at $Z^0$ resonance ($=91.22 GeV$),
@@ -187,7 +188,7 @@ Lepton universality states that, since the masses of leptons are much smaller co
     \sigma_{\tau} = 1.75 \pm 0.02 \text{nb}
 \end{split}
 \end{equation}
-We see that even though the values are almost equal, they are not exactly equal. And in fact, they are a little far from the theoretical value as well, which is discussed later. We postulate that this is due to the fact that the efficiency matrix is not ``ideal'' in our case. That is, we are undercounting the event numbers to some extent, which results in the lower cross section values. And since the factor by which we undercount differs between different modes, we get cross sections that slightly differ from each other. We calculate the ratios of the hadronic to the leptonic modes as follow,
+We see that even though the values are almost equal, they are not exactly equal. The theoretical value calculated with values from \cite{UB} gives $\sigma_f = 1.99 nb$. We see that the values calculated from the data are several standard deviations away from the theoretical value, even though they match up to the order and in fact, quite close. We postulate that this is due to the fact that we don't have the best possible cut criteria. That is, we are undercounting the event numbers to some extent, which results in the lower cross section values. And since the factor by which we undercount differs between different modes, we get cross sections that slightly differ from each other. This problem could be overcome by substantially increasing the number of events. We calculate the ratios of the hadronic to the leptonic modes as follow,
 \begin{equation}
 \begin{split}
     \frac{\sigma_{had}}{\sigma_e} = 24.18 \pm 0.30 \\
@@ -195,14 +196,14 @@ We see that even though the values are almost equal, they are not exactly equal.
     \frac{\sigma_{had}}{\sigma_{\tau}} = 23.28 \pm 0.26
 \end{split}
 \end{equation}
-The ratios above directly reflect the deviations we had in the cross section values and a little greater than the theoretical value. But, both the cross section values and the ratios are of the same order of magnitude and in fact comparable to the theoretical values. This means that the problem in our data is not fundamental and could be overcome by improving our efficiency.
+The ratios above directly reflect the deviations we had in the cross section values and a little greater than the theoretical value. The literature values are given by $\frac{\sigma_{had}}{\sigma_e} = 20.804 \pm 0.050$, $\frac{\sigma_{had}}{\sigma_{\mu}} = 20.785 \pm 0.033$ and $\frac{\sigma_{had}}{\sigma_{\tau}} = 20.764 \pm 0.045$ respectively \cite{pdg2}. Again, we are several orders of standard deviation away. But, both they are of the same order of magnitude and comparable. This means that the problem in our data is not fundamental and could be overcome by improving our counts.
 
-\subsection{Breit-Wigner Fit of Cross Section}
+\subsubsection{Breit-Wigner Fit of Cross Section}
 Now we extract the all important quantities from our data. To do this, we fit our cross section values against a Breit-Wigner curve of the form,
 \begin{equation}
     \sigma_f (s) = \frac{12\pi}{M_Z^2} \frac{s \Gamma_e \Gamma_f}{(s-M_Z^2)^2 + \left(\frac{s\Gamma_Z}{M_Z}\right)^2} (\hbar^2 c^2),
 \end{equation}
-which has three parameters, $M_Z$, $\Gamma_Z$ and $\Gamma_e\Gamma_f$. The factor $\hbar^2 c^2 = 3.893793719 \times 10^5 \text{nb GeV$^2$}$ is used to convert the cross section values to SI units from natural units. We used \textit{scipy.optimize} module for \textit{Python} to fit the function against our data. The plots are given in \ref{fig:bwfit}. The fit parameters obtained along with the reduced $\chi^2$ values for the fit can be found in the table \ref{table:bwfit}.
+which has three parameters, $M_Z$, $\Gamma_Z$ and $\Gamma_e\Gamma_f$. The factor $\hbar^2 c^2 = 3.893793719 \times 10^5 \text{nb GeV$^2$}$ is used to convert the cross section values to SI units from natural units. We used \textit{scipy.optimize} module for \textit{Python} to fit the function against our data. The plots are given in \ref{fig:bwfit}. The fit parameters obtained along with the reduced $\chi^2$ values for the fit can be found in the table \ref{table:bwfit}.\\
 \begin{figure}[h!]
 \begin{center}
     \includegraphics[width = 6 cm]{e213-ee-fit.png}
@@ -234,9 +235,10 @@ The fit parameters directly give us the values of mass of the $Z^0$ boson, $M_Z$
     \Gamma_Z = 2.598 \pm 0.062.
 \end{split}
 \end{equation}
+The literature values are $M_Z = 91.1876 \pm 0.0021$ and $\Gamma_Z = 2.4952 \pm 0.0023$ \cite{pdg2}. The literature value for $M_Z$ lies within $4\sigma$ of our calculated value, whereas the literature value for $\Gamma_Z$ lies within $2\sigma$ of our calculated value. We also note that the literature value for $M_Z$ lies within one standard deviation of the value obtained from the $q\bar{q}$ fit, which had the most counts. This hints us that we could improve our accuracy of the results by significantly increasing the number of events analysed.
 
 \subsection{Partial Width of Different Channels and Number of Light Neutrino Generations}
-The third fit parameter doesn't directly give us the partial decay width of different channels. It gives the product of the partial decay width of $e^-$ mode and the partial decay width of $f$ mode, the final state fermion in consideration. In the case of $e^-e^+$ channel, this reduces to $\Gamma_e^2$, which lets us calculate the partial decay width of the $e^-$ mode. This can then been used to calculate the partial width of other channels. This is given in the table \ref{table:decaywidth}.
+The third fit parameter doesn't directly give us the partial decay width of different channels. It gives the product of the partial decay width of $e^-$ mode and the partial decay width of $f$ mode, the final state fermion in consideration. In the case of $e^-e^+$ channel, this reduces to $\Gamma_e^2$, which lets us calculate the partial decay width of the $e^-$ mode. This can then been used to calculate the partial width of other channels. This is given in the table \ref{table:decaywidth}.\\
 \begin{table}[h!]
 \centering
 \begin{tabular}{c|cc}
@@ -250,7 +252,7 @@ $q\bar{q}$     & 1795.52 $\pm$ 121.31 & 1744.4 $\pm$ 2.0              \\ \hline
 \caption{Partial decay width of different channels and literature values}
 \label{table:decaywidth}
 \end{table}
-The literature values for $\Gamma_f$ are taken from \cite{pdg2}. The literature values lie within one standard deviation of the calculated partial width, which is impressive.\\
+The literature values for $\Gamma_f$ are taken from \cite{pdg2}. The literature values lie within one standard deviation of the calculated partial width, which is impressive. But we also note that the precision of our results is not as good as the literature value precision. How precise the value of $\Gamma_f$ is, ultimately depends on the precision of the cross section values, which can be improved only by observing more events.\\
 With all the decay widths in hand, we can now determine the number of generations of light neutrinos. We use the value for $\Gamma_{\nu}$ from \cite{UB}, which is $\Gamma_{\nu} = 167.6 MeV$. With this, we can calculate the number of neutrino generations using,
 \begin{equation}
     n_{\nu} = \frac{\Gamma_Z - \Gamma_e - \Gamma_{\mu} - \Gamma_{\tau} - \Gamma_q}{\Gamma_{\nu}}.
