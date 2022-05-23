@@ -293,7 +293,7 @@ plt.xlabel('$\sqrt{s},\ \mathrm{centre \ of \ mass\ energy\ } [GeV]$')
 plt.ylabel('$\sigma(s),\ \mathrm{cross\ section\ } [nb]$')
 plt.legend(loc = 'upper right')
 plt.grid()
-plt.title('Breit-Wigner Curve Fit for $q\bar{q}$ channel')
+plt.title('Breit-Wigner Curve Fit for $q\\bar{q}$ channel')
 #plt.savefig("e213-qq-fit.png", dpi = 1200) #to save the plot
 plt.show()
 
