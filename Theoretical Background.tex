@@ -1,5 +1,14 @@
 \section{The Standard Model- A Brief Overview}
-The Standard Model of particle physics which has been one of the most successful and well-tested theories so far, provides the most fundamental description of nature by incorporating the elementary particles and their interactions. These elementary particles are categorized into two families: fermions (having half integer spins) which form matter as we know it, and bosons (with integer spins) serving as mediators of the three fundamental forces. While electromagnetic interactions are mediated by the photon ($\gamma$); strong and weak interactions are mediated by gluons (g) and by $W^{\pm}, Z^{0}$ bosons respectively. A fundamental particle that mediates gravitation has been only postulated theoretically, and is left out of the Standard Model, since the effects of gravity are too weak to play any important role in the realm of particle physics. The fermions consists of three generations of quarks and leptons. The quarks have six flavours: up (u), down (d), charm (c), strange (s), top (t) and bottom (b). Similarly, the leptons consist of the electron ($e$), muon ($\mu$) and tau ($\tau$), each having its own associated charge-less and almost massless neutrino ($\nu_{e}$, $\nu_{\mu}$ and $\nu_{\tau}$). Furthermore, each particle in the standard model has its own antiparticle. The quarks are able to form composite particles in either three quark combinations, called baryons ($qqq$/$\bar{q}\bar{q}\bar{q}$) or a quark-antiquark pair, called a meson ($q\bar{q}$). Mathematically, the elementary particles are described as elements of representations of certain symmetry groups. The gauge fields that couple to these particles (i.e. mediate the interactions) arise naturally as a consequence of invariance of their corresponding Lagrangian under local group transformations \cite{thomson_2013}. As such, the gauge symmetry that governs the Standard Model is given by: $$SU(3)_{\mathrm{Colour}}\times SU(2)_{\mathrm{Left\ chiral}}\times U(1)_{\mathrm{Y}(\mathrm{Weak \ hypercharge})}$$
+The Standard Model of particle physics which has been one of the most successful and well-tested theories so far, provides the most fundamental description of nature by incorporating the elementary particles and their interactions. These elementary particles are categorized into two families: fermions (having half integer spins) which form matter as we know it, and bosons (with integer spins) serving as mediators of the three fundamental forces. While electromagnetic interactions are mediated by the photon ($\gamma$); strong and weak interactions are mediated by gluons (g) and by $W^{\pm}, Z^{0}$ bosons respectively. A fundamental particle that mediates gravitation has been only postulated theoretically, and is left out of the Standard Model, since the effects of gravity are too weak to play any important role in the realm of particle physics. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{./images/Standard_Model_of_Elementary_Particles.png}
+\caption{A chart showing the families of elementary particles in the Standard Model}
+\label{fig:StdModel}
+\end{figure}
+
+The fermions consists of three generations of quarks and leptons. The quarks have six flavours: up (u), down (d), charm (c), strange (s), top (t) and bottom (b). Similarly, the leptons consist of the electron ($e$), muon ($\mu$) and tau ($\tau$), each having its own associated charge-less and almost massless neutrino ($\nu_{e}$, $\nu_{\mu}$ and $\nu_{\tau}$). Furthermore, each particle in the standard model has its own antiparticle. The quarks are able to form composite particles in either three quark combinations, called baryons ($qqq$/$\bar{q}\bar{q}\bar{q}$) or a quark-antiquark pair, called a meson ($q\bar{q}$). Mathematically, the elementary particles are described as elements of representations of certain symmetry groups. The gauge fields that couple to these particles (i.e. mediate the interactions) arise naturally as a consequence of invariance of their corresponding Lagrangian under local group transformations \cite{thomson_2013}. As such, the gauge symmetry that governs the Standard Model is given by: $$SU(3)_{\mathrm{Colour}}\times SU(2)_{\mathrm{Left\ chiral}}\times U(1)_{\mathrm{Y}(\mathrm{Weak \ hypercharge})}$$
 
 \section{The Unified Theory of Electromagnetic and Weak Interactions}
 Since the experiment deals with verifying some of the properties of the $Z^{0}$ bosons, it is of interest to touch upon the theory of electroweak unification.
@@ -43,9 +52,79 @@ Before discussing the processes of interest involving $Z^{0}$ production, we fir
 
 In case of the lowest order $e^{+}e^{-}\rightarrow f \bar{f}$ process, there are contributions to cross section from pure $Z^{0}$, pure $\gamma$ as well as from $\gamma - Z^{0}$ interference terms. However, near center of mass energies close to the $Z^{0}$ resonance, the major contribution to the total cross section is from the pure $Z^{0}$ term.
 
-Additionally, it is easy to see that for the particular case of $e^{+}e^{-}\rightarrow e^{+}e^{-}$ scattering (Bhaba scattering), there is a t-channel contribution in addition to the s-channel component.
+Additionally, it is easy to see that for the particular case of $e^{+}e^{-}\rightarrow e^{+}e^{-}$ scattering (Bhaba scattering), there is a t-channel contribution in addition to the s-channel component. The cross sections of both these processes have have different angular dependencies \cite{UB}
+\begin{align}
+\left(\dfrac{d\sigma}{d\Omega}\right)_{s}&\propto (1+\cos^{2}\theta)\\
+\left(\dfrac{d\sigma}{d\Omega}\right)_{t}&\propto (1-\cos\theta)^{-2}
+\end{align}
+This means that while the $s$ channel cross section has a major contribution at large angles (or small values of $\cos\theta$), the $t$-channel contribution increases asymptotically at small angles (or large values of $\cos\theta$). As shall be seen later on, removing the t-channel contribution is an essential step, since we are only concerned with finding the inherent forward-backward asymmetry associated with the $s$-channel processes.
+
 \subsection{Forward-Backward Asymmetry}
+When we consider the $s$-channel processes $e^{+}e^{-}\rightarrow f\bar{f}$, as discussed before, if the process is mediated purely by photons ($\gamma$) then the differential cross section follows the $(1+\cos^{2}\theta)$ dependence and it shows a symmetric dependence on the scattering angle $\theta$. However, for the same process mediated by $Z^{0}$ bosons we find that there is an additional term contributing to the asymmetry:
+\begin{equation}
+\left(\dfrac{d\sigma}{d\Omega}\right)_{s\ (Z^{0})}\propto a(1+\cos^{2}\theta) + 2b\cos\theta
+\end{equation}
+
+From theory of electroweak interactions, this asymmetry (between the number of fermions produced in the forward direction, $\theta>\pi /2$ and the backward direction, $\theta<\pi /2$) can be understood to be arising from the fact that the $Z^{0}$ does not couple equally to right handed and left handed fermions. This becomes more clear by looking at the form of the asymmetry term:
+\begin{equation}
+b=\left[\left(g_{L}^{e}\right)^{2}-\left(g_{R}^{e}\right)^{2}\right]\left[\left(g_{L}^{f}\right)^{2}-\left(g_{R}^{f}\right)^{2}\right]
+\end{equation}
+where $g_{L}^{f}$ and $g_{R}^{f}$ signify the coupling of $Z^{0}$ to left handed and right handed fermions respectively. It can be clearly seen that in case the these two couplings had been equal, the asymmetry term would have gone to zero \cite{thomson_2013}.
+
+The forward backward asymmetry factor is given as the ratio:
+\begin{equation}
+\mathcal{A}_{fb}=\dfrac{\sigma_{F}-\sigma_{B}}{\sigma_{F}-\sigma_{B}}=\dfrac{3b}{4a}
+\end{equation}
+where $\sigma_{F}$ and $\sigma_{B}$ are the cross sections in forward and backward directions respectively.
+
+It is found that at the resonance of $Z^{0}$ boson, $\mathcal{A}_{fb}$ simplifies to \cite{UB}:
+\begin{equation}
+\mathcal{A}_{fb}^{f}\approx 3\left(\dfrac{g_{V}^{f}}{g_{A}^{f}}\right)=1-4\sin^{2}\theta_{W} 
+\end{equation}
+Thus from the calculation of the forward-backward asymmetry, the ratio of $g_{V}^{f}$ (vector coupling strength between $Z^{0}$ and fermions) to $g_{A}^{f}$ (axial vector coupling strength between $Z^{0}$ and fermions) can be found, which in turn gives us the Weinberg (weak mixing) angle $\theta_{W}$.
 \subsection{Background Processes: Radiative Corrections}
+In order to test out the predictions of the Standard Model at a very high level of precision, higher order background processes need to be accounted for and as such the corrections made due to these processes are called 'radiative corrections'. The following are some of these processes that need to be accounted for \cite{Zedometry}:
+\begin{itemize}
+\item \textbf{Initial state radiation (ISR):} The radiation of photons in the initial state lead to decrease in the centre of mass energy and thus affect the $Z^{0}$ resonance peak parameters. This leads to a peak height reduction by upto 25 \%, shift of peak to higher energy and increase in full width at half maximum (FWHM). 
+\item \textbf{Final state radiation (FSR):} When photons or gluons are radiated in the final state, it is found that partial widths increase by the corresponding factors:
+\begin{equation}
+\Delta_{QED}=1+\dfrac{3}{4}\dfrac{Q_{f}^{2}\alpha(m_{Z}^{2})}{\pi}\ ;\ \Delta_{QCD}\approx 1+\dfrac{\alpha_{s}(m_{Z}^{2})}{\pi}
+\end{equation}
+\item \textbf{QED vacuum polarization:} The production of $e^{+}e^{-}$ pairs from vacuum makes the QED coupling constant scale dependent: 
+\begin{equation}
+\alpha(s)=\dfrac{\alpha_{0}}{1-\Delta \alpha(s)}
+\end{equation}
+It has been shown that the imaginary part of $\Delta \alpha(s)$ has an influence on the $\gamma / Z^{0}$ interference term.
+\item \textbf{Electroweak corrections:} Further contributions also arise from virtual processes such as higher order loops in $Z^{0}$ propagator and vertex corrections.
+
+Some instances of these radiative corrections are shown in Figure \ref{fig:backfig}
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\textwidth]{background1}
+    \caption{Initial state radiation (ISR)}
+\end{subfigure}
+%\hfill
+\begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\textwidth]{background2}
+    \caption{Final state radiation (FSR)}
+\end{subfigure}
+%\hfill
+\begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\textwidth]{background3}
+    \caption{$Z^{0}$ propagator correction}
+\end{subfigure}
+%\hfill
+\begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\textwidth]{background4}
+    \caption{$Z^{0}$ vertex correction}
+\end{subfigure}       
+\caption{Some examples of radiative corrections}
+\label{fig:backfig}
+\end{figure}
+
 \subsection{Important Parameters of a Resonance Particle}
 
 \section{Physics of High Energy Colliders}
