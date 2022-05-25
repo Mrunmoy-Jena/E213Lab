@@ -20,6 +20,34 @@ The decay of $Z^0$ boson into an tau-antitau pair is another channel of this pro
 \subsection{Analysis of $q\bar{q}$-channel Samples}
 The decay of $Z^0$ boson into an quark-antiquark pair is another channel of this process. Since quarks cannot exist as free particles, they produce hadrons, which then decay into further particles that can be then detected at various components. This results in the so-called \textit{jets}, which are much bigger clusters of charged tracks. Depending on the final products, we expect to notice signals in all of the components of the detectors. But one distinct property of this channel is the large number of charged tracks produced. The event display of a typical event can be found in \ref{fig:part1qq}, which clearly shows the jets. Again, we expect the \textit{SumP} value to be lesser than center of mass energy, since depending on the decay products, various neutrinos are produced to conserve lepton number, which carry away some of the energy.
 
+\subsection{Developing the cuts}
+With this, we now first extract the information of how different quantities behave for the different \textit{pure} samples. The raw data can be found in the appendix \ref{table:ed-ee}, \ref{table:ed-mm}, \ref{table:ed-tt} and \ref{table:ed-qq}. We plot histograms of all these quantities for different channels and identify \textit{cuts} on the quantities to separate out the channels. The histograms are given in the fig \ref{fig:hist}. The bin sizes are chosen so that we are able to see the best possible separation of the different channels.\\
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.45\textwidth]{CtrkN-pure.png}
+    \includegraphics[width = 0.45\textwidth]{CtrkP-pure.png}
+    \includegraphics[width = 0.45\textwidth]{Ecal-pure.png}
+    \includegraphics[width = 0.45\textwidth]{Hcal-pure.png}
+    \caption{Histograms of \textit{Ctrk(N)}, \textit{Ctrk(Sump)}, \textit{Ecal(SumE)} and \textit{Hcal(SumE)} for the four channels, generated from \textit{pure} samples.}
+    \label{fig:hist}
+\end{figure}
+We see that \textit{Ctrk(N)} clearly lets us distinguish $q\bar{q}$ channel events from the other channels. Therefore, we require the value of \textit{Ctrk(N)} to be greater than or equal to $8$ to seperate the hadronic channel and we require the value of \textit{Ctrk(N)} to be lesser than $6$ to separate all the leptonic channels. Note that this cut alone completely separates the hadronic channel events from the leptonic channel events. We see from the histogram for \textit{Ctrk(Sump)} that we can separate muon channel and tau channel from each other by requiring \textit{Ctrk(Sump)} greater than or equal to $75$ for muon channel and lesser than or equal to $75$ for tau channel. We do not impose cuts on any other channel for this quantity. Note that this separates only the muon and tau channel from each other, but these two events may still contain electron and hadronic channel events. This cut, when used with all the other cuts, ensures that we completely separate the channels from one another. We see from the histogram for \textit{Ecal(SumE)} that it is possible to completely distinguish electron and muon events. This was expected from what we discussed previously. We require the value of \textit{Ecal(SumE)} greater than or equal to $80$ for electron channel and lesser than or equal to 10 for muon channel. We also impose a minor cut for tau channel - \textit{Ecal(SumE)} less than or equal to 60 and for hadronic channel - \textit{Ecal(SumE)} lies between $36$ and $79$. We see from the histogram for \textit{Hcal(SumE)} that it is possible to completely separate electron channel from the other channel by requiring \textit{Hcal(SumE)} to be less than $1$. This quantity does not give us any other cut to separate out other channels. The final cuts are given in the table \ref{table:cuts}.\\
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|cccc}
+\hline
+Channel        & Ctrk(N)          & Ctrk(Sump)        & Ecal(SumE)        & Hcal(SumE)   \\
+\hline
+$e^-e^+$       & (0,6)            &                   & \textgreater{}=80 & \textless{}1 \\
+$\mu^-\mu^+$   & \textless{}6     & \textgreater{}=75 & \textless{}=10    &              \\
+$\tau^-\tau^+$ & \textless{}6     & \textless{}=75    & \textless{}=60    &              \\
+$q\bar{q}$     & \textgreater{}=8 &                   & {[}36,79{]}       &             \\ \hline
+\end{tabular}
+\caption{Cuts determined from event display analysis}
+\label{table:cuts}
+\end{table}
+We now test the determined cuts on \textit{mixed} samples. The raw data and the channel determined using the cuts can be found in \ref{table:ed-mixed}. The event display was then checked visually if it matched the channel as determined by the cuts. We found that the all the events were determined accurately with our cuts. But we are not sure how perfect our cuts will be, when tested against real world data. For this purpose, we would like to refine our cuts before we carry out a statistical analysis. This is done in the first part of the next section.
+
 \section{Part II: Statistical Analysis of $Z^0$ Decays}
 In the previous subsection, we carried out an analysis based on event displays. This was possible because we did not have a lot of events to work with. Obviously, such an analysis would prove to be futile if we try to carry it out on a large set of data. Analysis of large sets of data would be the primary discussion of this subsection. We use the software, $ROOT$ to analyse the data on a statistical basis. \textit{ROOT} works with \textit{.root} files, which contain all the information in a tree-like structure, called \textit{ntuple}. The contents of the \textit{ntuple} are,
 \begin{itemize}
