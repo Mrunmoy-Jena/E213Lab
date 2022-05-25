@@ -45,7 +45,7 @@ In addition to this, it is to be noted that the gauge fields $W^{(1),(2),(3)}$ a
 Before discussing the processes of interest involving $Z^{0}$ production, we first list out the important ways in which $e^{+}e^{-}$ pairs can interact \cite{UB}:
 \begin{itemize}
 \item $\bm{e^{+}e^{-}\rightarrow e^{+}e^{-}}$: Bhaba scattering (elastic scattering) of $e^{+}e^{-}$ pairs 
-\item $\bm{e^{+}e^{-}\rightarrow e^{+}e^{-}\gamma \gamma}$: two photon process; $e^{+}e^{-}$ can scatter off of virtual photons, arising out of the incoming $e^{-}$ and $e^{+}$ themselves and these photons can then produce hadrons
+\item $\bm{e^{+}e^{-}\rightarrow e^{+}e^{-}f \bar{f}}$: two photon process; $e^{+}e^{-}$ can scatter off of virtual photons, arising out of the incoming $e^{-}$ and $e^{+}$ themselves and these photons can then produce hadrons
 \item $\bm{e^{+}e^{-}\rightarrow f \bar{f}}$: Electron-positron pairs annihilate to produce a gauge boson ($\gamma$ or $Z^{0}$), which would in turn produce a fermion-antifermion ($f\bar{f}$) pair. Here $f\bar{f}$ are fermions other than $e^{+}e^{-}$ since that process is already included under Bhaba scattering.
 \item $\bm{e^{+}e^{-}\rightarrow \gamma \gamma / \gamma \gamma \gamma}$: An electron-positron pair could also produce two or three photons 
 
@@ -123,9 +123,9 @@ It is found that at the resonance of $Z^{0}$ boson, $\mathcal{A}_{fb}$ simplifie
 \end{equation}
 Thus from the calculation of the forward-backward asymmetry, the ratio of $g_{V}^{f}$ (vector coupling strength between $Z^{0}$ and fermions) to $g_{A}^{f}$ (axial vector coupling strength between $Z^{0}$ and fermions) can be found, which in turn gives us the Weinberg (weak mixing) angle $\theta_{W}$.
 \subsection{Background Processes: Radiative Corrections}
-In order to test out the predictions of the Standard Model at a very high level of precision, higher order background processes need to be accounted for and as such the corrections made due to these processes are called 'radiative corrections'. The following are some of these processes that need to be accounted for \cite{Zedometry}:
+In order to test out the predictions of the Standard Model at a very high level of precision, higher order background processes need to be accounted for and as such the corrections made due to these processes are called `radiative corrections'. The following are some of these processes that need to be accounted for \cite{Zedometry}:
 \begin{itemize}
-\item \textbf{Initial state radiation (ISR):} The radiation of photons in the initial state lead to decrease in the centre of mass energy and thus affect the $Z^{0}$ resonance peak parameters. This leads to a peak height reduction by upto 25 \%, shift of peak to higher energy and increase in full width at half maximum (FWHM). 
+\item \textbf{Initial state radiation (ISR):} The radiation of photons in the initial state lead to decrease in the centre of mass energy and thus affects the $Z^{0}$ resonance peak parameters. This leads to a peak height reduction by upto 25 \%, shift of peak to higher energy and increase in full width at half maximum (FWHM). 
 \item \textbf{Final state radiation (FSR):} When photons or gluons are radiated in the final state, it is found that partial widths increase by the corresponding factors:
 \begin{equation}
 \Delta_{QED}=1+\dfrac{3}{4}\dfrac{Q_{f}^{2}\alpha(m_{Z}^{2})}{\pi}\ ;\ \Delta_{QCD}\approx 1+\dfrac{\alpha_{s}(m_{Z}^{2})}{\pi}
@@ -166,14 +166,14 @@ Some instances of these radiative corrections are shown in Figure \ref{fig:backf
 \label{fig:backfig}
 \end{figure}
 
-\subsection{Mass and Width of the $Z^{0}$ Boson}
+\subsection{Mass and Width of the $Z^{0}$ Boson - The Breit Wigner Distribution}
 From the theory of electroweak interactions, it is known that the contribution the $Z^{0}$ boson exchange propagator to the matrix element (in s-channel processes) can be given by:
 \begin{equation}
 \mathcal{M}_{Z^{0}}\propto \dfrac{g_{Z^{0}}^{2}}{q^{2}-m_{Z^{0}}^{2}}=\dfrac{g_{Z^{0}}^{2}}{s-m_{Z^{0}}^{2}}
 \end{equation}
-While one can see from this dependence that at low energies ($\sqrt \ll m_{Z^{0}}$), QED processes dominate and at high energies ($\sqrt{s}\gg m_{Z^{0}}$), the $Z^{0}$ exchange also becomes important; we see that around the $Z^{0}$ resonance ($\sqrt{s}\sim  m_{Z^{0}}$), the propagator diverges. In order to correct for this, it is necessary to introduce a modification in the propagator for a decaying state. When an unstable particle has a decay rate $\Gamma$, its wavefunction gets modified to:
+We one can see from this dependence that around the $Z^{0}$ resonance ($\sqrt{s}\sim  m_{Z^{0}}$), the propagator diverges \cite{thomson_2013}. In order to correct for this, it is necessary to introduce a modification in the propagator for a decaying state. When an unstable particle has a decay rate $\Gamma$, its wavefunction gets modified to:
 \begin{equation}
-\psi\propto e^{-imt}\rightarrow e^{-imt}
+\psi\propto e^{-imt}\rightarrow e^{-imt}e^{-\Gamma t/2}
 \end{equation} 
 which is equivalent to introducing an additional imaginary term in the mass:
 \begin{equation}
@@ -181,13 +181,13 @@ m\rightarrow m-i\dfrac{\Gamma}{2}
 \end{equation}
 Accordingly, the $Z^{0}$ propagator then changes to:
 \begin{equation}
-\dfrac{1}{s-m_{Z^{0}}^{2}}\rightarrow \dfrac{1}{s-m_{Z^{0}}^{2}} 
+\dfrac{1}{s-m_{Z^{0}}^{2}}\rightarrow \dfrac{1}{s-{\left(m_{Z^{0}}-i\Gamma_{Z^{0}}/2\right)}^{2}} 
 \end{equation}
 On simplifying this result, taking the spin averaged matrix element and inserting the appropriate pre-factors, the complete form of the cross section in the process $e^{+}e^{-}\rightarrow Z^{0}\rightarrow f\bar{f}$ is given by:
 \begin{equation}
     \sigma_f (s) = \frac{12\pi}{M_Z^2} \frac{s \Gamma_e \Gamma_f}{(s-M_Z^2)^2 + \left(\frac{s\Gamma_Z}{M_Z}\right)^2} (\hbar^2 c^2),
 \end{equation} 
-The probability distribution that characterizes the dependence of this cross section of the centre of mass energy is called the Breit-Wigner distribution. This distribution is shown in Figure \ref{fig:BWdist}.
+The probability distribution that characterizes the dependence of this cross section on the centre of mass energy is called the Breit-Wigner distribution. This distribution is shown in Figure \ref{fig:BWdist}.
 
 \begin{figure}[H]
 \centering
@@ -202,7 +202,7 @@ The Large Electron Positron Collider (LEP) was built at CERN, with one of its ma
 
 The components of the OPAL detector shall be described in further detail in this Section, since this experiment focuses on analysis of data collected by the OPAL.
 
-\subsection{The OPAL Detector}
+\subsection{The OPAL Detector and its Components}
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.69\textwidth]{OPAL1}
@@ -217,7 +217,7 @@ Starting from the origin, as the $e^{+}e^{-}$ collision products fly outwards, v
 \item \textbf{Vertex detector:} This is a type of drift detector that surrounds the central beam pipe and plays a key role in locating vertices of short-lived decay products and also helps in improving the momentum resolution. It has dimensions of 1 m in length and measures 470 mm across (diameter), layered with 36 axial cells that measure positions in the $r-\phi$ plane.  
 \item \textbf{Jet chamber:} This is again a cylindrical drift chamber with a good spatial and track resolution, designed in a manner so as to efficiently record events associated with jets. Inside this chamber, there are 24 sectors, each of which contains 159 sensing wires, arranged parallel to the beam axis. Beside the anode wires, there are alternating cathode wires positioned in between the potential and anode wires. The coordinates of the decay particles are obtained from parameters such as the positions of the wires and the drift time. Moreover, the signals from these wires determine the energy loss $dE/dx$ of charged particles in this region.
 \item \textbf{$\mathbf{z}$ chambers:} As the name suggests, the $z$ chambers serve the purpose of locating the $z$ coordinates of decay particles when they leave the jet chamber. As such they are helpful in improving the resolutions of the polar angle and invariant mass distributions of charged particles. Consisting of 24 drift chambers, subdivided into 8 cells each, a high $z$ resolution of 100-200 $\mu$m is achieved by these chambers.
-\item \textbf{Solenoid:} The solenoid surrounds the detectors discussed so far (categorized under central detector) and generates a uniform magnetic field of 0.435 T along the beam direction. The magnetic field makes the charged particles follow a helical path in the central detectors and therefore is essential to measure their momenta. 
+\item \textbf{Solenoid:} The solenoid surrounds the detectors discussed so far (collectively called the central detector) and generates a uniform magnetic field of 0.435 T along the beam direction. The magnetic field makes the charged particles follow a helical path in the central detectors and therefore is essential to measure their momenta. 
 \item \textbf{Time of flight (TOF) system:} The role of the TOF system is to generate signals (light from a total of 160 scintillation chambers) that trigger the detector and to identify charged particles in the range of 0.6 to 2.5 GeV. Further it is useful in rejecting cosmic rays.
 \item \textbf{Electromagnetic calorimeter (ECAL):} This detector is made up of 9440 blocks of lead glass. The geometry of this detector is in the form of a barrel around the jet chamber with two endcaps, covering a total of 98 \% of the solid angle. Particles such as photons, electrons and positrons deposit all of their energy in the ECAL either through Bremsstrahlung ($e^{+}$ or $e^{-}$ emitting a photon) or by pair production (a photon giving rise to an $e^{+}e^{-}$ pair). Hadrons on the other hand, do deposit some of their energy here (in the form of electromagnetic showers), but mostly don't come to a stop in the ECAL. The reason for choosing lead glass for the ECAL is that the material provides an excellent resolution of:
 \begin{equation}

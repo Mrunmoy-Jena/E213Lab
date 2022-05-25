@@ -41,14 +41,14 @@ One finds that calculated values of partial decay width for the lepton pairs are
 
 \section{Calculation of hadronic, leptonic and total decay widths and cross section}
 \textbf{Hadronic decay width:} The decay widths for the hadronic mode is given by the sum of the partial decay widths of the u,d,c,s and b quarks: $$\Gamma_{had}=\Gamma_{u}+\Gamma_{c}+\Gamma_{d}+\Gamma_{s}+\Gamma_{b}=2\cdot\Gamma_{u,c}+3\cdot\Gamma_{d,s,b}=1674.20\ \rm{MeV}$$
-\textbf{`Charged' decay width:} The charged leptons, e, $\mu$, $\tau$ will contribute to this decay width: $$\Gamma_{charged \ leptonic}=\Gamma_{e}+\Gamma_{\mu}+\Gamma_{\tau}=3\cdot \Gamma_{e,\mu,\tau}=250.17\ \rm{MeV}$$
-\textbf{`Neutral' (invisible) decay width:} The uncharged leptons ($\nu_{e}, \ \nu_{\mu}, \ \nu_{\tau}$) will contribute to this: $$\Gamma_{neutral \ leptonic}=\Gamma_{\nu_e}+\Gamma_{\nu_\mu}+\Gamma_{\nu_\tau}=3\cdot\Gamma_{\nu_e}=497.55 \ \rm{MeV}$$
+\textbf{Charged decay width:} The charged leptons, e, $\mu$, $\tau$ will contribute to this decay width: $$\Gamma_{charged \ leptonic}=\Gamma_{e}+\Gamma_{\mu}+\Gamma_{\tau}=3\cdot \Gamma_{e,\mu,\tau}=250.17\ \rm{MeV}$$
+\textbf{Neutral (invisible) decay width:} The uncharged leptons ($\nu_{e}, \ \nu_{\mu}, \ \nu_{\tau}$) will contribute to this: $$\Gamma_{neutral \ leptonic}=\Gamma_{\nu_e}+\Gamma_{\nu_\mu}+\Gamma_{\nu_\tau}=3\cdot\Gamma_{\nu_e}=497.55 \ \rm{MeV}$$
 \textbf{Total $Z^{0}$ decay width:} The total decay width for $Z^{0}$ will just be the sum of the hadronic, charged leptonic and neutral leptonic decay widths: $$\Gamma_{total}=\Gamma_{hadronic}+\Gamma_{charged \ leptonic}+\Gamma_{neutral \ leptonic}=2421.92 \ \mathrm{MeV}$$
 \textbf{Partial cross sections at maximum of resonance:} At resonance, the formula for calculating partial cross section for $Z^{0}\rightarrow f\bar{f}$ becomes:
 \begin{equation}
 \sigma_{f}^{peak}=\dfrac{12\pi \Gamma_{e}\Gamma_{f}}{M_{Z}^{2}\Gamma_{Z}^{2}}
 \end{equation}
-The calculated partial cross sections for the different decay channels along with the respective decay widths are tabulated in Table \ref{totdecay}.
+The calculated partial cross sections for the different decay channels along with the respective decay widths are tabulated in Table \ref{totdecay} ($Z^{0}$ mass has been taken as  91.182 GeV).
 
 \begin{table}[h!]
 \centering
@@ -85,7 +85,7 @@ For the case of a t-channel process, it is found that the differential cross sec
 While the process $e^{+}e^{-}\rightarrow \mu^{-}\mu^{+}$ can only take place through the s-channel; the $e^{+}e^{-}\rightarrow e^{+}e^{-}$ process can occur through both s and t channels. The angular distributions of these two processes are shown in Figure \ref{angdist}. For the $e^{+}e^{-}\rightarrow e^{+}e^{-}$ process, the contributions from the s and t channels are shown separately as well as their combined contribution to the differential cross section.
 \begin{figure}[h]
 \includegraphics[width=\textwidth]{angulardist.pdf}
-\caption[Angular distributions of $e^{+}e^{-}\rightarrow \mu^{+}\mu^{-}$ and $e^{+}e^{-}\rightarrow \mu^{+}\mu^{-}$]{Angular distributions of $e^{+}e^{-}\rightarrow \mu^{+}\mu^{-}$ (left) and $e^{+}e^{-}\rightarrow \mu^{+}\mu^{-}$ (right)}
+\caption[Angular distributions of $e^{+}e^{-}\rightarrow \mu^{+}\mu^{-}$ and $e^{+}e^{-}\rightarrow e^{+}e^{-}$]{Angular distributions of $e^{+}e^{-}\rightarrow \mu^{+}\mu^{-}$ (left) and $e^{+}e^{-}\rightarrow e^{+}e^{-}$ (right)}
 \label{angdist}
 \end{figure}
 
@@ -97,9 +97,9 @@ A_{FB}=\dfrac{3F_{2}}{4F_{1}}
 where the parameters are given by:
 \begin{description}
 \item $F_{1}(s)=Q_{f}^{2}-2v_{e}v_{f}Q_{f}\mathfrak{Re}(\chi)+(v_{e}^{2}+a_{e}^{2})(v_{f}^{2}+a_{f}^{2})|\chi|^{2}$
-\item $F_{1}(s)=-2a_{e}a_{f}Q_{f}\mathfrak{Re}(\chi)+4v_{e} a_{e} v_{f} a_{f} |\chi|^{2}$
-\item $v_{f}=\dfrac{g_{V}^{f}}{2\sin\theta_{W}\cos\theta_{W}}$
-\item $a_{f}=\dfrac{g_{A}^{f}}{2\sin\theta_{W}\cos\theta_{W}}$
+\item $F_{2}(s)=-2a_{e}a_{f}Q_{f}\mathfrak{Re}(\chi)+4v_{e} a_{e} v_{f} a_{f} |\chi|^{2}$
+\item $v_{f}=\dfrac{g_{V}^{f}}{2\sin\theta_{W}\cos\theta_{W}}=\dfrac{I_{3}^{f}-2Q_{f}\sin^{2}\theta_{W}}{2\sin\theta_{W}\cos\theta_{W}}$
+\item $a_{f}=\dfrac{g_{A}^{f}}{2\sin\theta_{W}\cos\theta_{W}}=\dfrac{I_{3}^{f}}{2\sin\theta_{W}\cos\theta_{W}}$
 \item $\chi(s)=\dfrac{s}{\left(\left(s-M_{Z}^{2}\right)+is\dfrac{\Gamma_{Z}}{M_{Z}}\right)}$, Propagator
 \item $s$: Square of centre-of-mass energy
 \end{description}
