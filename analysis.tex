@@ -188,7 +188,7 @@ $\sqrt{s}$ {[}GeV{]} & $\sigma_{ee}$ {[}nb{]} & $\sigma_{mm}$ {[}nb{]} & $\sigma
 \end{table}
 
 \subsection{Forward Backward Asymmetry and Weak mixing angle}
-The $Z^0$ boson couples differently to left- and right-handed fermions. This leads to an asymmetry in the angular distribution of final state particles. This asymmetry depends, not very surprisingly, on the weak mixing (or Weinberg) angle\cite{thomson_2013}. Therefore, by calculating this asymmetry between the forward and backward scattering particle, we can measure the weak mixing angle. We consider the $\mu^-\mu^+$ decay channel as we don't have the problem of t-channel like in the $e^-e^+$ decay mode. We also get two clear tracks in the case of $\mu^-\mu^+$ decay mode. We can calculate the asymmetry by measure the event numbers for $cos\theta > 0$ and $cos\theta < 0$. The forward backward asymmetry then is,
+As discussed earlier in Section \ref{FBasymm}, the forward-backward asymmetry arises as a result of the different couplings of the $Z^{0}$ to left handed and right handed fermions, and the weak mixing (Weinberg) angle can be extracted from this factor. We consider the $\mu^-\mu^+$ decay channel as we don't have the problem of t-channel like in the $e^-e^+$ decay mode. We also get two clear tracks in the case of $\mu^-\mu^+$ decay mode. We can calculate the asymmetry by measure the event numbers for $cos\theta > 0$ and $cos\theta < 0$. The forward backward asymmetry then is,
 \begin{equation}
     A_{fb} = \frac{N_+ - N_-}{N_+ + N_-} + \text{cf($A_{fb}$)},
 \end{equation}
@@ -217,7 +217,7 @@ $\sqrt{s}$ {[}GeV{]} & $N_+$ & $N_-$ & $A_{fb}$           \\ \hline
 \caption{Forward and Backward event numbers for $\mu^-\mu^+$ mode data and MC events with the calculated $A_{fb}$ values.}
 \label{table:afb}
 \end{table}
-With this, we can calculate the weak mixing angle. For the data events, we consider the $A_{fb}$ value at $Z^0$ resonance energy and calculate the weak mixing angle as,
+With this, we can calculate the weak mixing angle. For the data events, we consider the $A_{fb}$ value at $Z^0$ resonance energy and calculate the weak mixing angle (using Eq. \ref{eqn:Weinbergangle}) as,
 \begin{equation}
     sin^2\theta_W = 0.2369 \pm 0.0085,
 \end{equation}
@@ -259,7 +259,7 @@ which has three parameters, $M_Z$, $\Gamma_Z$ and $\Gamma_e\Gamma_f$. The factor
     \includegraphics[width = 0.45\textwidth]{e213-tt-fit.pdf}
     \includegraphics[width = 0.45\textwidth]{e213-qq-fit.pdf}
 \end{center}
-\caption{Breit-Wigner fit for the four different decay channels}
+\caption{Breit-Wigner fits for the four different decay channels}
 \label{fig:bwfit}
 \end{figure}
 \begin{table}[h!]
@@ -272,7 +272,7 @@ $\mu^-\mu^+$   & 91.117 $\pm$ 0.021 & 2.462 $\pm$ 0.060    & 6.306$\times$10$^{-
 $\tau^-\tau^+$ & 91.159 $\pm$ 0.058 & 2.825 $\pm$ 0.179    & 7.690$\times$10$^{-3}$ $\pm$ 7.85$\times$10$^{-4}$ & 8.34           \\
 $q\bar{q}$     & 91.187 $\pm$ 0.004 & 2.515 $\pm$ 0.010    & 0.1460 $\pm$ 0.0009                                & 0.58          \\ \hline
 \end{tabular}
-\caption{Fit parameters and reduced $\chi^2$ values for the data}
+\caption[Breit-Wigner fit parameters and reduced $\chi^2$ values for the data]{Fit parameters and reduced $\chi^2$ values for the data}
 \label{table:bwfit}
 \end{table}
 We have three parameters and seven data points. This gives us $4$ degrees of freedom for our fit. The $\mu^-\mu^+$ fit gives the best reduced $\chi^2$ value. The reduced $\chi^2$ value for $q\bar{q}$ is less than 1, which implies that we are over-fitting the data or the error variances are overestimated. The reduced $\chi^2$ value for $e^-e^+$ is greater than 1, which implies that we are under-fitting the data or the error variances are underestimated. Whereas, the reduced $\chi^2$ value for $\tau^-\tau^+$ is much greater than 1, which implies that we don't have a good fit\cite{bevington}. But, none of the fits have a corresponding $p-valule$ less than $0.05$, which means they're not significant enough to be considered seriously different from previous literature results\cite{pvalue}. One major issue with using reduced $\chi^2$ statistic test here is that we have only a limited number of points. Therefore, we don't have a lot of freedom to fit the data with. This ultimately results in a bad value, even though the fit is seemingly nice giving decent values for the parameters. If we had such a good data with more data points, we should obtain a better reduced $\chi^2$ value. Our opinion is that the residuals give a better picture on whether we have a good fit, in our case. And all the residuals here are very small compared to the absolute values that we fit, which means that we have a decent fit for our data. For a better quantitative analysis of goodness of fit, we suggest methods like \textit{bootstrapping}. Reduced $\chi^2$ statistic test is not considered meaningful for limited number of points by some sources\cite{andrae}.\\
@@ -297,7 +297,7 @@ $\mu^-\mu^+$   & 77.53 $\pm$ 6.03     & 83.99 $\pm$ 0.18              \\
 $\tau^-\tau^+$ & 94.56 $\pm$ 11.55    & 84.08 $\pm$ 0.22              \\
 $q\bar{q}$     & 1795.52 $\pm$ 121.31 & 1744.4 $\pm$ 2.0              \\ \hline
 \end{tabular}
-\caption{Partial decay width of different channels and literature values}
+\caption{Partial decay widths of different channels and corresponding literature values}
 \label{table:decaywidth}
 \end{table}
 The literature values for $\Gamma_f$ are taken from \cite{pdg2}. The literature values lie within one standard deviation of the calculated partial width, which is impressive. But we also note that the precision of our results is not as good as the literature value precision. How precise the value of $\Gamma_f$ is, ultimately depends on the precision of the cross section values, which can be improved only by observing more events.\\
