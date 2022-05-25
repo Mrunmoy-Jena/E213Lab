@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  25 MAY 2022 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  25 MAY 2022 23:01
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1611,7 +1611,7 @@ Package logreq Info: Writing requests to 'Labreport.run.xml'.
 Here is how much of TeX's memory you used:
  25063 strings out of 478864
  472289 string characters out of 2845307
- 1232655 words of memory out of 3000000
+ 1234655 words of memory out of 3000000
  42436 multiletter control sequences out of 15000+600000
  425779 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1660,7 +1660,7 @@ ams/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/Mrunmoy Jena/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C
 :/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/
 sfrm1000.pfb>
-Output written on Labreport.pdf (41 pages, 1537408 bytes).
+Output written on Labreport.pdf (41 pages, 1539240 bytes).
 PDF statistics:
  1374 PDF objects out of 1440 (max. 8388607)
  177 named destinations out of 1000 (max. 500000)
