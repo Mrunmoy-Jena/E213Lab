@@ -253,18 +253,18 @@
            familyi={A\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
-        {{hash=6ccd4ea72fe6a08db7fbac92bc40e44e}{%
+        {{hash=8867f7986983e898058573f20e19d697}{%
            family={Collaboration},
            familyi={C\bibinitperiod},
-           given={{{The OPAL}}},
-           giveni={T\bibinitperiod}}}%
+           given={"{The\bibnamedelimb OPAL}"},
+           giveni={"\bibinitperiod}}}%
       }
-      \strng{namehash}{c0067541a505e83427b8fa0bf8e655ce}
-      \strng{fullhash}{c0067541a505e83427b8fa0bf8e655ce}
-      \strng{bibnamehash}{c0067541a505e83427b8fa0bf8e655ce}
-      \strng{authorbibnamehash}{c0067541a505e83427b8fa0bf8e655ce}
-      \strng{authornamehash}{c0067541a505e83427b8fa0bf8e655ce}
-      \strng{authorfullhash}{c0067541a505e83427b8fa0bf8e655ce}
+      \strng{namehash}{2924048be7f7f03ddd398a74d9cad213}
+      \strng{fullhash}{2924048be7f7f03ddd398a74d9cad213}
+      \strng{bibnamehash}{2924048be7f7f03ddd398a74d9cad213}
+      \strng{authorbibnamehash}{2924048be7f7f03ddd398a74d9cad213}
+      \strng{authornamehash}{2924048be7f7f03ddd398a74d9cad213}
+      \strng{authorfullhash}{2924048be7f7f03ddd398a74d9cad213}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -293,7 +293,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www-static.etp.physik.uni-muenchen.de/fp-versuch/node7.html}}
-      \field{title}{{Das} {OPAL}{Experiment}}
+      \field{title}{{Das} {OPAL} {Experiment}}
       \field{urlday}{25}
       \field{urlmonth}{5}
       \field{urlyear}{2022}

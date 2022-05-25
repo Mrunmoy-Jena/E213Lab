@@ -1,73 +1,73 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\textbf {Introduction}}{1}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Prerequisite Knowledge}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Prerequisite Knowledge}{2}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}The Standard Model- A Brief Overview}{2}{section.1.1}%
+\contentsline {section}{\numberline {2.1}The Standard Model- A Brief Overview}{2}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}The Unified Theory of Electromagnetic and Weak Interactions}{3}{section.1.2}%
+\contentsline {section}{\numberline {2.2}The Unified Theory of Electromagnetic and Weak Interactions}{3}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Physics Related to the $Z^{0}$ Resonance}{3}{section.1.3}%
+\contentsline {section}{\numberline {2.3}Physics Related to the $Z^{0}$ Resonance}{3}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}$e^{+}e^{-}$ Interactions}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}$e^{+}e^{-}$ Interactions}{3}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Forward-Backward Asymmetry}{5}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Forward-Backward Asymmetry}{5}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Background Processes: Radiative Corrections}{6}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Background Processes: Radiative Corrections}{6}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Mass and Width of the $Z^{0}$ Boson}{7}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {2.3.4}Mass and Width of the $Z^{0}$ Boson}{7}{subsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}LEP Experiment and the OPAL Detector}{8}{section.1.4}%
+\contentsline {section}{\numberline {2.4}LEP Experiment and the OPAL Detector}{8}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}The OPAL Detector}{9}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}The OPAL Detector}{9}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Pre-Lab Exercises}{12}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Pre-Lab Exercises}{11}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Calculation of partial decay widths for $Z^{0}\rightarrow f\bar {f}$}{12}{section.2.1}%
+\contentsline {section}{\numberline {3.1}Calculation of partial decay widths for $Z^{0}\rightarrow f\bar {f}$}{11}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Calculation of hadronic, leptonic and total decay widths and cross section}{13}{section.2.2}%
+\contentsline {section}{\numberline {3.2}Calculation of hadronic, leptonic and total decay widths and cross section}{12}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Effect of additional generation on width of $Z^{0}$ resonance curve}{14}{section.2.3}%
+\contentsline {section}{\numberline {3.3}Effect of additional generation on width of $Z^{0}$ resonance curve}{13}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Angular distributions of differential cross sections}{14}{section.2.4}%
+\contentsline {section}{\numberline {3.4}Angular distributions of differential cross sections}{13}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Calculation of forward-backward asymmetry}{15}{section.2.5}%
+\contentsline {section}{\numberline {3.5}Calculation of forward-backward asymmetry}{14}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Analysis}{16}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Analysis}{15}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Part I: Analysis of Event Displays}{16}{section.3.1}%
+\contentsline {section}{\numberline {4.1}Part I: Analysis of Event Displays}{15}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Analysis of $e^-e^+$-channel Samples}{16}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Analysis of $e^-e^+$-channel Samples}{15}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Analysis of $\mu ^-\mu ^+$-channel Samples}{16}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Analysis of $\mu ^-\mu ^+$-channel Samples}{15}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Analysis of $\tau ^-\tau ^+$-channel Samples}{17}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {4.1.3}Analysis of $\tau ^-\tau ^+$-channel Samples}{16}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}Analysis of $q\bar {q}$-channel Samples}{17}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {4.1.4}Analysis of $q\bar {q}$-channel Samples}{16}{subsection.4.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.5}Developing the cuts}{17}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {4.1.5}Developing the cuts}{16}{subsection.4.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Part II: Statistical Analysis of $Z^0$ Decays}{18}{section.3.2}%
+\contentsline {section}{\numberline {4.2}Part II: Statistical Analysis of $Z^0$ Decays}{17}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Refining the cuts}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Refining the cuts}{18}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Efficiency Matrix}{20}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Efficiency Matrix}{19}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Cross Sections}{21}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Cross Sections}{20}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Forward Backward Asymmetry and Weak mixing angle}{22}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {4.2.4}Forward Backward Asymmetry and Weak mixing angle}{21}{subsection.4.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Lepton Universality}{23}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {4.2.5}Lepton Universality}{22}{subsection.4.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.6}Breit-Wigner Fit of Cross Section}{24}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {4.2.6}Breit-Wigner Fit of Cross Section}{23}{subsection.4.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.7}Partial Width of Different Channels and Number of Light Neutrino Generations}{25}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {4.2.7}Partial Width of Different Channels and Number of Light Neutrino Generations}{24}{subsection.4.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.8}Discussion}{26}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {4.2.8}Discussion}{25}{subsection.4.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusion}{27}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{26}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Data}{29}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Data}{28}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Plots}{32}{appendix.B}%
+\contentsline {chapter}{\numberline {B}Plots}{31}{appendix.B}%

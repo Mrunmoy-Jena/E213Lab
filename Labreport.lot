@@ -4,42 +4,44 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Parameters $Q_{f}, I_{3}^{f}, g_{V}^{f}, g_{A}^{f}, N_{c}^{f}$ for various fermion pairs and their partial decay widths\relax }}{12}{table.caption.8}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces Calculated decay widths and partial cross sections for different $Z^{0}$ decay channels\relax }}{13}{table.caption.9}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Parameters $Q_{f}, I_{3}^{f}, g_{V}^{f}, g_{A}^{f}, N_{c}^{f}$ for various fermion pairs and their partial decay widths\relax }}{11}{table.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.3}{\ignorespaces Forward backward asymmetry factors for different Weinberg angles ($\theta _{W}$) and centre of mass energies ($\sqrt {s}$)\relax }}{15}{table.caption.11}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Calculated decay widths and partial cross sections for different $Z^{0}$ decay channels\relax }}{12}{table.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Forward backward asymmetry factors for different Weinberg angles ($\theta _{W}$) and centre of mass energies ($\sqrt {s}$)\relax }}{14}{table.caption.10}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Cuts determined from event display analysis\relax }}{18}{table.caption.13}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Cuts determined from event display analysis\relax }}{17}{table.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Number of events with different cuts applied to each of the MC data.\relax }}{20}{table.caption.14}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Number of events with different cuts applied to each of the MC data.\relax }}{19}{table.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Calculated cross section values for different $\sqrt {s}$ values.\relax }}{22}{table.caption.15}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Calculated cross section values for different $\sqrt {s}$ values.\relax }}{21}{table.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Forward and Backward event numbers for $\mu ^-\mu ^+$ mode data and MC events with the calculated $A_{fb}$ values.\relax }}{23}{table.caption.16}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Forward and Backward event numbers for $\mu ^-\mu ^+$ mode data and MC events with the calculated $A_{fb}$ values.\relax }}{22}{table.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.5}{\ignorespaces Breit-Wigner fit parameters and reduced $\chi ^2$ values for the data}}{24}{table.caption.18}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Breit-Wigner fit parameters and reduced $\chi ^2$ values for the data}}{23}{table.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.6}{\ignorespaces Partial decay widths of different channels and corresponding literature values\relax }}{26}{table.caption.19}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.6}{\ignorespaces Partial decay widths of different channels and corresponding literature values\relax }}{25}{table.caption.18}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces Event display analysis data for $e^-e^+$ channel (pure data).\relax }}{29}{table.caption.21}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.2}{\ignorespaces Event display analysis data for $\mu ^-\mu ^+$ channel (pure data).\relax }}{29}{table.caption.22}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Event display analysis data for $e^-e^+$ channel (pure data).\relax }}{28}{table.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.3}{\ignorespaces Event display analysis data for $\tau ^-\tau ^+$ channel (pure data).\relax }}{30}{table.caption.23}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Event display analysis data for $\mu ^-\mu ^+$ channel (pure data).\relax }}{28}{table.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.4}{\ignorespaces Event display analysis data for $q\bar {q}$ channel(pure data).\relax }}{30}{table.caption.24}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Event display analysis data for $\tau ^-\tau ^+$ channel (pure data).\relax }}{29}{table.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.5}{\ignorespaces Event display analysis for mixed data\relax }}{31}{table.caption.25}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces Event display analysis data for $q\bar {q}$ channel(pure data).\relax }}{29}{table.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.6}{\ignorespaces Observed event numbers and actual events numbers for different $\sqrt {s}$ values.\relax }}{31}{table.caption.26}%
+\contentsline {table}{\numberline {A.5}{\ignorespaces Event display analysis for mixed data\relax }}{30}{table.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.7}{\ignorespaces Integrated luminosity values for \textit {data6.root} and radiative and $\text {A}_{\text {FB}}$ corrections for different $\sqrt {s}$ values}}{31}{table.caption.27}%
+\contentsline {table}{\numberline {A.6}{\ignorespaces Observed event numbers and actual events numbers for different $\sqrt {s}$ values.\relax }}{30}{table.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.7}{\ignorespaces Integrated luminosity values for \textit {data6.root} and radiative and $\text {A}_{\text {FB}}$ corrections for different $\sqrt {s}$ values}}{30}{table.caption.26}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

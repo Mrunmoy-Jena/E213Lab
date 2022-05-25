@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  25 MAY 2022 21:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  25 MAY 2022 22:07
 entering extended mode
 **./Labreport.tex
 (Labreport.tex
@@ -1098,10 +1098,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [2
 
-] (introduction.tex) [1
-
 ]
 Chapter 1.
+(introduction.tex) [1
+
+]
+Chapter 2.
 (Theoretical Background.tex
 <./images/Standard_Model_of_Elementary_Particles.png, id=212, 770.88pt x 678.28
 406pt>
@@ -1216,8 +1218,8 @@ File: ./images//OPAL1.png Graphic file (type png)
 <use ./images//OPAL1.png>
 Package pdftex.def Info: ./images//OPAL1.png  used on input line 208.
 (pdftex.def)             Requested size: 312.54895pt x 289.48671pt.
- [9 <./images//OPAL1.png>] [10]) [11]
-Chapter 2.
+ [9 <./images//OPAL1.png>]) [10]
+Chapter 3.
 (PreLabsolns.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1248,7 +1250,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 2.
 
-[12
+[11
 
 ]
 
@@ -1263,20 +1265,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 72.
 
-[13]
-<./images//angulardist.pdf, id=373, 856.78217pt x 278.9829pt>
+[12]
+<./images//angulardist.pdf, id=369, 856.78217pt x 278.9829pt>
 File: ./images//angulardist.pdf Graphic file (type pdf)
 <use ./images//angulardist.pdf>
 Package pdftex.def Info: ./images//angulardist.pdf  used on input line 87.
 (pdftex.def)             Requested size: 452.9679pt x 147.49838pt.
- [14 <./images//angulardist.pdf>]
+ [13 <./images//angulardist.pdf>]
 LaTeX Font Info:    Trying to load font information for U+euf on input line 99.
 
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) [15]
-Chapter 3.
+)) [14]
+Chapter 4.
 (analysis.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1342,7 +1344,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 17.
 
-[16
+[15
 
 ]
 
@@ -1366,22 +1368,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 20.
 
-<./images//CtrkN-pure.png, id=437, 602.25pt x 372.39125pt>
+<./images//CtrkN-pure.png, id=433, 602.25pt x 372.39125pt>
 File: ./images//CtrkN-pure.png Graphic file (type png)
 <use ./images//CtrkN-pure.png>
 Package pdftex.def Info: ./images//CtrkN-pure.png  used on input line 27.
 (pdftex.def)             Requested size: 203.83417pt x 126.03745pt.
-<./images//CtrkP-pure.png, id=438, 756.8275pt x 467.7475pt>
+<./images//CtrkP-pure.png, id=434, 756.8275pt x 467.7475pt>
 File: ./images//CtrkP-pure.png Graphic file (type png)
 <use ./images//CtrkP-pure.png>
 Package pdftex.def Info: ./images//CtrkP-pure.png  used on input line 28.
 (pdftex.def)             Requested size: 203.83417pt x 125.97232pt.
-<./images//Ecal-pure.png, id=439, 762.85pt x 471.7625pt>
+<./images//Ecal-pure.png, id=435, 762.85pt x 471.7625pt>
 File: ./images//Ecal-pure.png Graphic file (type png)
 <use ./images//Ecal-pure.png>
 Package pdftex.def Info: ./images//Ecal-pure.png  used on input line 29.
 (pdftex.def)             Requested size: 203.83417pt x 126.05304pt.
-<./images//Hcal-pure.png, id=440, 602.25pt x 372.39125pt>
+<./images//Hcal-pure.png, id=436, 602.25pt x 372.39125pt>
 File: ./images//Hcal-pure.png Graphic file (type png)
 <use ./images//Hcal-pure.png>
 Package pdftex.def Info: ./images//Hcal-pure.png  used on input line 30.
@@ -1397,7 +1399,7 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17]
+[16]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 51.
@@ -1410,24 +1412,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 51.
 
-[18 <./images//CtrkN-pure.png> <./images//CtrkP-pure.png> <./images//Ecal-pure.
-png> <./images//Hcal-pure.png>] [19] [20] [21] [22] [23]
-<./images//e213-ee-fit.pdf, id=540, 433.62pt x 289.08pt>
+[17 <./images//CtrkN-pure.png> <./images//CtrkP-pure.png> <./images//Ecal-pure.
+png> <./images//Hcal-pure.png>] [18] [19] [20] [21] [22]
+<./images//e213-ee-fit.pdf, id=535, 433.62pt x 289.08pt>
 File: ./images//e213-ee-fit.pdf Graphic file (type pdf)
 <use ./images//e213-ee-fit.pdf>
 Package pdftex.def Info: ./images//e213-ee-fit.pdf  used on input line 257.
 (pdftex.def)             Requested size: 203.83417pt x 135.88966pt.
-<./images//e213-mm-fit.pdf, id=541, 433.62pt x 289.08pt>
+<./images//e213-mm-fit.pdf, id=536, 433.62pt x 289.08pt>
 File: ./images//e213-mm-fit.pdf Graphic file (type pdf)
 <use ./images//e213-mm-fit.pdf>
 Package pdftex.def Info: ./images//e213-mm-fit.pdf  used on input line 258.
 (pdftex.def)             Requested size: 203.83417pt x 135.88966pt.
-<./images//e213-tt-fit.pdf, id=542, 433.62pt x 289.08pt>
+<./images//e213-tt-fit.pdf, id=537, 433.62pt x 289.08pt>
 File: ./images//e213-tt-fit.pdf Graphic file (type pdf)
 <use ./images//e213-tt-fit.pdf>
 Package pdftex.def Info: ./images//e213-tt-fit.pdf  used on input line 259.
 (pdftex.def)             Requested size: 203.83417pt x 135.88966pt.
-<./images//e213-qq-fit.pdf, id=543, 433.62pt x 289.08pt>
+<./images//e213-qq-fit.pdf, id=538, 433.62pt x 289.08pt>
 File: ./images//e213-qq-fit.pdf Graphic file (type pdf)
 <use ./images//e213-qq-fit.pdf>
 Package pdftex.def Info: ./images//e213-qq-fit.pdf  used on input line 260.
@@ -1436,11 +1438,11 @@ Package pdftex.def Info: ./images//e213-qq-fit.pdf  used on input line 260.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24]
+[23]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25 <./images//e213-ee-fit.pdf> <./images//e213-mm-fit.pdf
+[24 <./images//e213-ee-fit.pdf> <./images//e213-mm-fit.pdf
 
 pdfTeX warning: pdflatex (file ./images//e213-mm-fit.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
@@ -1452,11 +1454,11 @@ ple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./images//e213-qq-fit.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
->]) [26]
-Chapter 4.
-(conclusion.tex) [27
+>]) [25]
+Chapter 5.
+(conclusion.tex) [26
 
-] [28
+] [27
 
 ]
 Appendix A.
@@ -1476,22 +1478,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [29
+) [28
 
-] [30] [31]
+] [29] [30]
 Appendix B.
 (appendix-plots.tex
-<./images//part1ee.pdf, id=862, 551.05875pt x 548.0475pt>
+<./images//part1ee.pdf, id=858, 551.05875pt x 548.0475pt>
 File: ./images//part1ee.pdf Graphic file (type pdf)
 <use ./images//part1ee.pdf>
 Package pdftex.def Info: ./images//part1ee.pdf  used on input line 3.
 (pdftex.def)             Requested size: 227.62204pt x 226.38179pt.
-<./images//part1mm.pdf, id=863, 551.05875pt x 548.0475pt>
+<./images//part1mm.pdf, id=859, 551.05875pt x 548.0475pt>
 File: ./images//part1mm.pdf Graphic file (type pdf)
 <use ./images//part1mm.pdf>
 Package pdftex.def Info: ./images//part1mm.pdf  used on input line 10.
 (pdftex.def)             Requested size: 227.62204pt x 226.38179pt.
-<./images//part1tt.pdf, id=864, 551.05875pt x 548.0475pt>
+<./images//part1tt.pdf, id=860, 551.05875pt x 548.0475pt>
 File: ./images//part1tt.pdf Graphic file (type pdf)
 <use ./images//part1tt.pdf>
 Package pdftex.def Info: ./images//part1tt.pdf  used on input line 17.
@@ -1500,7 +1502,7 @@ Package pdftex.def Info: ./images//part1tt.pdf  used on input line 17.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./images//part1qq.pdf, id=865, 551.05875pt x 548.0475pt>
+<./images//part1qq.pdf, id=861, 551.05875pt x 548.0475pt>
 File: ./images//part1qq.pdf Graphic file (type pdf)
 <use ./images//part1qq.pdf>
 Package pdftex.def Info: ./images//part1qq.pdf  used on input line 24.
@@ -1508,7 +1510,7 @@ Package pdftex.def Info: ./images//part1qq.pdf  used on input line 24.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./images//globalcut_ee.pdf, id=866, 569.12625pt x 694.595pt>
+<./images//globalcut_ee.pdf, id=862, 569.12625pt x 694.595pt>
 File: ./images//globalcut_ee.pdf Graphic file (type pdf)
 <use ./images//globalcut_ee.pdf>
 Package pdftex.def Info: ./images//globalcut_ee.pdf  used on input line 30.
@@ -1521,7 +1523,7 @@ Overfull \hbox (2.33372pt too wide) in paragraph at lines 30--31
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./images//ee_cut_on_ee.pdf, id=867, 569.12625pt x 694.595pt>
+<./images//ee_cut_on_ee.pdf, id=863, 569.12625pt x 694.595pt>
 File: ./images//ee_cut_on_ee.pdf Graphic file (type pdf)
 <use ./images//ee_cut_on_ee.pdf>
 Package pdftex.def Info: ./images//ee_cut_on_ee.pdf  used on input line 36.
@@ -1534,7 +1536,7 @@ Overfull \hbox (2.33372pt too wide) in paragraph at lines 36--37
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./images//mm_cut_on_ee.pdf, id=868, 569.12625pt x 694.595pt>
+<./images//mm_cut_on_ee.pdf, id=864, 569.12625pt x 694.595pt>
 File: ./images//mm_cut_on_ee.pdf Graphic file (type pdf)
 <use ./images//mm_cut_on_ee.pdf>
 Package pdftex.def Info: ./images//mm_cut_on_ee.pdf  used on input line 42.
@@ -1547,7 +1549,7 @@ Overfull \hbox (2.33372pt too wide) in paragraph at lines 42--43
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./images//tt_cut_on_ee.pdf, id=869, 569.12625pt x 694.595pt>
+<./images//tt_cut_on_ee.pdf, id=865, 569.12625pt x 694.595pt>
 File: ./images//tt_cut_on_ee.pdf Graphic file (type pdf)
 <use ./images//tt_cut_on_ee.pdf>
 Package pdftex.def Info: ./images//tt_cut_on_ee.pdf  used on input line 48.
@@ -1560,7 +1562,7 @@ Overfull \hbox (2.33372pt too wide) in paragraph at lines 48--49
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./images//qq_cut_on_ee.pdf, id=870, 569.12625pt x 694.595pt>
+<./images//qq_cut_on_ee.pdf, id=866, 569.12625pt x 694.595pt>
 File: ./images//qq_cut_on_ee.pdf Graphic file (type pdf)
 <use ./images//qq_cut_on_ee.pdf>
 Package pdftex.def Info: ./images//qq_cut_on_ee.pdf  used on input line 54.
@@ -1573,36 +1575,44 @@ Overfull \hbox (2.33372pt too wide) in paragraph at lines 54--55
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [32
+) [31
 
- <./images//part1ee.pdf> <./images//part1mm.pdf>] [33 <./images//part1tt.pdf> <
-./images//part1qq.pdf>] [34 <./images//globalcut_ee.pdf>] [35 <./images//ee_cut
-_on_ee.pdf>] [36 <./images//mm_cut_on_ee.pdf>] [37 <./images//tt_cut_on_ee.pdf>
-] [38 <./images//qq_cut_on_ee.pdf>] (Labreport.lof)
+ <./images//part1ee.pdf> <./images//part1mm.pdf>] [32 <./images//part1tt.pdf> <
+./images//part1qq.pdf>] [33 <./images//globalcut_ee.pdf>] [34 <./images//ee_cut
+_on_ee.pdf>] [35 <./images//mm_cut_on_ee.pdf>] [36 <./images//tt_cut_on_ee.pdf>
+] [37 <./images//qq_cut_on_ee.pdf>] (Labreport.lof)
 \tf@lof=\write6
 \openout6 = `Labreport.lof'.
 
- [39
+ [38
 
 ] (Labreport.lot)
 \tf@lot=\write7
 \openout7 = `Labreport.lot'.
 
 
-[40
+[39
 
 ] (Labreport.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Labreport.out' has not changed.
-(rerunfilecheck)             Checksum: 1167AACD309E34FB8F2A95FFAA41585C;8176.
+(rerunfilecheck)             Checksum: E44CB41F2F9D96525A519797B265CF7A;8175.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Labreport
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Labreport.run.xml'.
 \openout1 = `Labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25065 strings out of 478864
- 472311 string characters out of 2845307
- 1232656 words of memory out of 3000000
- 42437 multiletter control sequences out of 15000+600000
+ 25063 strings out of 478864
+ 472289 string characters out of 2845307
+ 1231655 words of memory out of 3000000
+ 42436 multiletter control sequences out of 15000+600000
  425779 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,21n,81p,1975b,1699s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1650,9 +1660,9 @@ ams/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/Mrunmoy Jena/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C
 :/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/
 sfrm1000.pfb>
-Output written on Labreport.pdf (42 pages, 1538400 bytes).
+Output written on Labreport.pdf (41 pages, 1537417 bytes).
 PDF statistics:
- 1377 PDF objects out of 1440 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
+ 1373 PDF objects out of 1440 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
  439 words of extra memory for PDF output out of 10000 (max. 10000000)
 
