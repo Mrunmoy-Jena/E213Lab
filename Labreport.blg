@@ -1,18 +1,18 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'Labreport.blg'
-[125] biber-MSWIN64:340> INFO - === 
-[161] Biber.pm:415> INFO - Reading 'Labreport.bcf'
-[275] Biber.pm:952> INFO - Found 18 citekeys in bib section 0
-[290] Biber.pm:4340> INFO - Processing section 0
-[303] Biber.pm:4531> INFO - Looking for bibtex format file 'References.bib' for section 0
-[351] bibtex.pm:1689> INFO - LaTeX decoding ...
-[375] bibtex.pm:1494> INFO - Found BibTeX data source 'References.bib'
-[416] Utils.pm:395> WARN - legacy month field 'Dec' in entry 'Janot:2705419' is not an integer - this will probably not sort properly.
-[420] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'Zedometry' is not an integer - this will probably not sort properly.
-[460] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[460] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[460] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[460] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[474] bbl.pm:654> INFO - Writing 'Labreport.bbl' with encoding 'UTF-8'
-[481] bbl.pm:757> INFO - Output to Labreport.bbl
-[481] Biber.pm:128> INFO - WARNINGS: 2
+[110] biber-MSWIN64:340> INFO - === 
+[142] Biber.pm:415> INFO - Reading 'Labreport.bcf'
+[254] Biber.pm:952> INFO - Found 18 citekeys in bib section 0
+[269] Biber.pm:4340> INFO - Processing section 0
+[280] Biber.pm:4531> INFO - Looking for bibtex format file 'References.bib' for section 0
+[334] bibtex.pm:1689> INFO - LaTeX decoding ...
+[359] bibtex.pm:1494> INFO - Found BibTeX data source 'References.bib'
+[398] Utils.pm:395> WARN - legacy month field 'Dec' in entry 'Janot:2705419' is not an integer - this will probably not sort properly.
+[402] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'Zedometry' is not an integer - this will probably not sort properly.
+[442] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[443] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[443] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[443] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[457] bbl.pm:654> INFO - Writing 'Labreport.bbl' with encoding 'UTF-8'
+[464] bbl.pm:757> INFO - Output to Labreport.bbl
+[464] Biber.pm:128> INFO - WARNINGS: 2
