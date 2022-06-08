@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  8 JUN 2022 22:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  8 JUN 2022 23:35
 entering extended mode
 **./ppt.tex
 (ppt.tex
@@ -1419,20 +1419,34 @@ Package pdftex.def Info: ../images//tangulardist.png  used on input line 178.
 
 ] [11
 
-] [12
+]
+<../images//corrections.png, id=210, 651.03226pt x 504.6855pt>
+File: ../images//corrections.png Graphic file (type png)
+<use ../images//corrections.png>
+Package pdftex.def Info: ../images//corrections.png  used on input line 239.
+(pdftex.def)             Requested size: 172.09766pt x 133.40988pt.
+ [12
 
-] [13
+ <../images//corrections.png>] [13
 
-] [14
+]
+<../images//BWdist.png, id=232, 483.0045pt x 380.622pt>
+File: ../images//BWdist.png Graphic file (type png)
+<use ../images//BWdist.png>
+Package pdftex.def Info: ../images//BWdist.png  used on input line 285.
+(pdftex.def)             Requested size: 154.88684pt x 122.05125pt.
+ [14
 
-] [15
+ <../images//BWdist.png>] [15
+
+] [16
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 239.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 297.
 
-[16
+[17
 
  <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beameric
 onarticle.pdf>]
@@ -1453,48 +1467,51 @@ Package logreq Info: Writing requests to 'ppt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30055 strings out of 478864
- 579591 string characters out of 2845307
- 1273711 words of memory out of 3000000
- 47361 multiletter control sequences out of 15000+600000
- 418166 words of font info for 80 fonts, out of 8000000 for 9000
+ 30092 strings out of 478864
+ 580372 string characters out of 2845307
+ 1274773 words of memory out of 3000000
+ 47393 multiletter control sequences out of 15000+600000
+ 418460 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,18n,124p,738b,1748s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmcsc10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Mrunmoy Jena/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Mr
-unmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.p
+s/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/Mrunmoy Jena/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
+s/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi6.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Mrunmoy Jena/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/M
+runmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr5.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Mrunmoy Jena/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Mrunmo
+y Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+<C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmss8.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmss9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Mrunmoy Jena/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/Mrun
+moy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.p
 fb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Mrunmoy Jena/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mrunmo
-y Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr5.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Mrunmoy Jena/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Mrunmoy Je
-na/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/U
-sers/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmss9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmssi10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/Mrunmoy Jena/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/Mrunmoy J
-ena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:
-/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmsy6.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Mrunmoy Jena/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Mrunmoy Jen
-a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/U
-sers/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmtt8.pfb>
-Output written on ppt.pdf (16 pages, 662289 bytes).
+onts/cm/cmssi8.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmssi9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mrunmoy Jena/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Mru
+nmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/Mrunmoy Jena/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ppt.pdf (17 pages, 802629 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 423 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

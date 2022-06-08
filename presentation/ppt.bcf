@@ -2348,6 +2348,8 @@
     <bcf:citekey order="3">pdg-ew</bcf:citekey>
     <bcf:citekey order="4">UB</bcf:citekey>
     <bcf:citekey order="5">thomson_2013</bcf:citekey>
+    <bcf:citekey order="6">Zedometry</bcf:citekey>
+    <bcf:citekey order="7">thomson_2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

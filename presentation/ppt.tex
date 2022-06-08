@@ -220,10 +220,68 @@ $\mathcal{A}_{fb}^{f}\approx 3\left(\dfrac{g_{V}^{f}}{g_{A}^{f}}\right)=1-4\sin^
 \subsubsection{Background Processes: Radiative Corrections}
 \begin{frame}
 \frametitle{Background Processes: Radiative Corrections}
+\begin{minipage}{0.5\textwidth}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{corrections}
+\caption{Some radiative corrections}
+\end{figure}
+\end{minipage}\hspace{1em}
+\begin{minipage}{0.45\textwidth}
+To test out predictions of the Standard Model at high precision, need to account for higher order processes \footnotemark{}:
+\begin{itemize}
+\item \textbf{ISR:} radiation of photons in the initial state $\rightarrow$ decreases $\sqrt{s}$ and affects $Z^{0}$ peak parameters
+\item \textbf{FSR:} radiation of photons or gluons in final state $\rightarrow$ partial widths increase
+\item \textbf{Electroweak corrections:} Virtual processes like loops in $Z^{0}$ propagator and vertex corrections
+\end{itemize}
+\end{minipage}\hfill
+\footcitetext{Zedometry}
 \end{frame}
 \subsubsection{Breit Wigner Distribution}
 \begin{frame}
 \frametitle{Breit Wigner Distribution}
+\begin{itemize}
+\item Contribution of $Z^{0}$ boson exchange propagator to the matrix element:
+\vspace{0.5em}
+
+$\mathcal{M}_{Z^{0}}\propto \dfrac{g_{Z^{0}}^{2}}{q^{2}-m_{Z^{0}}^{2}}=\dfrac{g_{Z^{0}}^{2}}{s-m_{Z^{0}}^{2}}$
+\item Around the $Z^{0}$ resonance ($\sqrt{s}\sim  m_{Z^{0}}$), propagator diverges
+\item Correction $\rightarrow$ modify propagator for a decaying state
+\item For unstable particle having decay rate $\Gamma$, wavefunction modified to:
+\vspace{0.5em}
+
+$\psi\propto e^{-imt}\rightarrow e^{-imt}e^{-\Gamma t/2}$
+\item Equivalent to introducing an additional imaginary term in the mass:
+\vspace{0.5em}
+
+$m\rightarrow m-i\dfrac{\Gamma}{2}$
+\item $Z^{0}$ propagator then changes to:
+\vspace{0.5em}
+
+$\dfrac{1}{s-m_{Z^{0}}^{2}}\rightarrow \dfrac{1}{s-{\left(m_{Z^{0}}-i\Gamma_{Z^{0}}/2\right)}^{2}}$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Breit Wigner Distribution}
+\begin{minipage}{0.5\textwidth}
+\begin{itemize}
+\item Complete form of cross section in process $e^{+}e^{-}\rightarrow Z^{0}\rightarrow f\bar{f}$ is:
+\vspace{0.5em}
+
+$\sigma_f (s) = \frac{12\pi}{M_Z^2} \frac{s \Gamma_e \Gamma_f}{(s-M_Z^2)^2 + \left(\frac{s\Gamma_Z}{M_Z}\right)^2} (\hbar^2 c^2)$
+\item \textbf{Breit-Wigner distribution:} Probability distribution that characterizes this dependence of cross section on centre of mass energy 
+\item Various physical parameters can be extracted by fitting this theoretical distribution to the observed data
+\end{itemize}
+\end{minipage}\hspace{0.5em}
+\begin{minipage}{0.45\textwidth}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{BWdist}
+\caption{Breit Wigner distribution of the cross section for $e^{+}e^{-}\rightarrow q\bar{q}$ process \footnotemark{}}
+\end{figure}
+\end{minipage}
+\footcitetext{thomson_2013}
 \end{frame}
 \subsubsection{LEP Experiment and OPAL Detector}
 \begin{frame}

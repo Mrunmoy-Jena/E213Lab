@@ -19,6 +19,48 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Zedometry}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f3ea9ddcbb3bcf17499cb8e01c0d7980}{%
+           family={Abbiendi\bibnamedelimb et\bibnamedelima al.},
+           familyi={A\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8867f7986983e898058573f20e19d697}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={"{The\bibnamedelimb OPAL}"},
+           giveni={"\bibinitperiod}}}%
+      }
+      \strng{namehash}{2924048be7f7f03ddd398a74d9cad213}
+      \strng{fullhash}{2924048be7f7f03ddd398a74d9cad213}
+      \strng{bibnamehash}{2924048be7f7f03ddd398a74d9cad213}
+      \strng{authorbibnamehash}{2924048be7f7f03ddd398a74d9cad213}
+      \strng{authornamehash}{2924048be7f7f03ddd398a74d9cad213}
+      \strng{authorfullhash}{2924048be7f7f03ddd398a74d9cad213}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C - Particles and Fields}
+      \field{month}{3}
+      \field{number}{4}
+      \field{title}{{P}recise determination of the {Z} resonance parameters at {LEP}: ``{Z}edometry''}
+      \field{volume}{19}
+      \field{year}{2001}
+      \field{pages}{587\bibrangedash 651}
+      \range{pages}{65}
+      \verb{doi}
+      \verb 10.1007/s100520100627
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s100520100627
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s100520100627
+      \endverb
+    \endentry
     \entry{pdg-ew}{misc}{}
       \name{author}{2}{}{%
         {{hash=7a8b71446873a9b49888d86190fda249}{%
