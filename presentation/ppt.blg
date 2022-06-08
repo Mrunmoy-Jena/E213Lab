@@ -1,0 +1,15 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'ppt.blg'
+[121] biber-MSWIN64:340> INFO - === 
+[156] Biber.pm:415> INFO - Reading 'ppt.bcf'
+[272] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
+[287] Biber.pm:4340> INFO - Processing section 0
+[299] Biber.pm:4531> INFO - Looking for bibtex format file '../References.bib' for section 0
+[347] bibtex.pm:1689> INFO - LaTeX decoding ...
+[372] bibtex.pm:1494> INFO - Found BibTeX data source '../References.bib'
+[415] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[415] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[415] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[415] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[423] bbl.pm:654> INFO - Writing 'ppt.bbl' with encoding 'UTF-8'
+[424] bbl.pm:757> INFO - Output to ppt.bbl

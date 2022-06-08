@@ -1,5 +1,0 @@
-[0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'presentation.blg'
-[268] biber-MSWIN64:340> INFO - === 
-[778] Utils.pm:411> ERROR - Cannot find 'presentation.bcf'!
-[778] Biber.pm:132> INFO - ERRORS: 1

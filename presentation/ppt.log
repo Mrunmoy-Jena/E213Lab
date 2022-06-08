@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  8 JUN 2022 05:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  8 JUN 2022 14:35
 entering extended mode
-**./presentation.tex
-(presentation.tex
+**./ppt.tex
+(ppt.tex
 LaTeX2e <2021-06-01>
 L3 programming layer <2021-06-01>
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cl
@@ -800,84 +800,6 @@ erthemedefault.sty
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerout
 erthemedefault.sty)))
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlaye
-r\tikz.sty
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\p
-gf.sty
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pg
-fmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box75
-)
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pg
-fmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibilit
-y\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen292
-\pgf@nodesepend=\dimen293
-)
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibilit
-y\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-))
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pg
-ffor.sty
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\
-pgffor.code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfma
-th.code.tex)
-\pgffor@iter=\dimen294
-\pgffor@skip=\dimen295
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
-))
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendla
-yer/tikz\tikz.code.tex
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\
-pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count330
-\pgfplotmarksize=\dimen296
-)
-\tikz@lastx=\dimen297
-\tikz@lasty=\dimen298
-\tikz@lastxsaved=\dimen299
-\tikz@lastysaved=\dimen300
-\tikz@lastmovetox=\dimen301
-\tikz@lastmovetoy=\dimen302
-\tikzleveldistance=\dimen303
-\tikzsiblingdistance=\dimen304
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
-\tikztreelevel=\count331
-\tikznumberofchildren=\count332
-\tikznumberofcurrentchild=\count333
-\tikz@fig@count=\count334
-
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pg
-fmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count335
-\pgfmatrixcurrentcolumn=\count336
-\pgf@matrix@numberofcolumns=\count337
-)
-\tikz@expandcount=\count338
-
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendla
-yer/tikz/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.
 sty
 Package: physics 
@@ -891,27 +813,263 @@ Package: expl3 2021-06-01 L3 programming layer (loader)
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3back
 end-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count339
-\l__pdf_internal_box=\box80
+\l__color_backend_stack_int=\count330
+\l__pdf_internal_box=\box75
 ))
 Package: xparse 2021-06-01 L3 Experimental document command parser
 ))
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.st
 y
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks47
-\inpenc@posthook=\toks48
+\inpenc@prehook=\toks45
+\inpenc@posthook=\toks46
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthe
-meCopenhagen.sty
-(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerout
-erthemesplit.sty)
+meWarsaw.sty
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinn
 erthemerounded.sty)
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerout
+erthemeshadow.sty
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerout
+erthemesplit.sty))
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercol
-orthemewhale.sty)
+orthemeorchid.sty)
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercol
-orthemeorchid.sty))
+orthemewhale.sty))
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblate
+x.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.st
+y
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count331
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.de
+f
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count332
+\c@listtotal=\count333
+\c@listcount=\count334
+\c@liststart=\count335
+\c@liststop=\count336
+\c@citecount=\count337
+\c@citetotal=\count338
+\c@multicitecount=\count339
+\c@multicitetotal=\count340
+\c@instcount=\count341
+\c@maxnames=\count342
+\c@minnames=\count343
+\c@maxitems=\count344
+\c@minitems=\count345
+\c@citecounter=\count346
+\c@maxcitecounter=\count347
+\c@savedcitecounter=\count348
+\c@uniquelist=\count349
+\c@uniquename=\count350
+\c@refsection=\count351
+\c@refsegment=\count352
+\c@maxextratitle=\count353
+\c@maxextratitleyear=\count354
+\c@maxextraname=\count355
+\c@maxextradate=\count356
+\c@maxextraalpha=\count357
+\c@abbrvpenalty=\count358
+\c@highnamepenalty=\count359
+\c@lownamepenalty=\count360
+\c@maxparens=\count361
+\c@parenlevel=\count362
+\blx@tempcnta=\count363
+\blx@tempcntb=\count364
+\blx@tempcntc=\count365
+\blx@maxsection=\count366
+\blx@maxsegment@0=\count367
+\blx@notetype=\count368
+\blx@parenlevel@text=\count369
+\blx@parenlevel@foot=\count370
+\blx@sectionciteorder@0=\count371
+\blx@entrysetcounter=\count372
+\blx@biblioinstance=\count373
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language79
+\c@mincomprange=\count374
+\c@maxcomprange=\count375
+\c@mincompwidth=\count376
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.
+def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'verbose.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count377
+\c@savedafterword=\count378
+\c@annotator=\count379
+\c@savedannotator=\count380
+\c@author=\count381
+\c@savedauthor=\count382
+\c@bookauthor=\count383
+\c@savedbookauthor=\count384
+\c@commentator=\count385
+\c@savedcommentator=\count386
+\c@editor=\count387
+\c@savededitor=\count388
+\c@editora=\count389
+\c@savededitora=\count390
+\c@editorb=\count391
+\c@savededitorb=\count392
+\c@editorc=\count393
+\c@savededitorc=\count394
+\c@foreword=\count395
+\c@savedforeword=\count396
+\c@holder=\count397
+\c@savedholder=\count398
+\c@introduction=\count399
+\c@savedintroduction=\count400
+\c@namea=\count401
+\c@savednamea=\count402
+\c@nameb=\count403
+\c@savednameb=\count404
+\c@namec=\count405
+\c@savednamec=\count406
+\c@translator=\count407
+\c@savedtranslator=\count408
+\c@shortauthor=\count409
+\c@savedshortauthor=\count410
+\c@shorteditor=\count411
+\c@savedshorteditor=\count412
+\c@labelname=\count413
+\c@savedlabelname=\count414
+\c@institution=\count415
+\c@savedinstitution=\count416
+\c@lista=\count417
+\c@savedlista=\count418
+\c@listb=\count419
+\c@savedlistb=\count420
+\c@listc=\count421
+\c@savedlistc=\count422
+\c@listd=\count423
+\c@savedlistd=\count424
+\c@liste=\count425
+\c@savedliste=\count426
+\c@listf=\count427
+\c@savedlistf=\count428
+\c@location=\count429
+\c@savedlocation=\count430
+\c@organization=\count431
+\c@savedorganization=\count432
+\c@origlocation=\count433
+\c@savedoriglocation=\count434
+\c@origpublisher=\count435
+\c@savedorigpublisher=\count436
+\c@publisher=\count437
+\c@savedpublisher=\count438
+\c@language=\count439
+\c@savedlanguage=\count440
+\c@origlanguage=\count441
+\c@savedoriglanguage=\count442
+\c@pageref=\count443
+\c@savedpageref=\count444
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-com
+pat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblate
+x.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count445
+\c@textcitetotal=\count446
+\c@textcitemaxnames=\count447
+\c@biburlbigbreakpenalty=\count448
+\c@biburlbreakpenalty=\count449
+\c@biburlnumpenalty=\count450
+\c@biburlucpenalty=\count451
+\c@biburllcpenalty=\count452
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count453
+)
+Package biblatex Info: Trying to load bibliography style 'verbose'...
+Package biblatex Info: ... file 'verbose.bbx' found.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\ver
+bose.bbx
+File: verbose.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.bbx' found.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\aut
+hortitle.bbx
+File: authortitle.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\sta
+ndard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count454
+\c@bbx:relatedtotal=\count455
+)))
+Package biblatex Info: Trying to load citation style 'verbose'...
+Package biblatex Info: ... file 'verbose.cbx' found.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\ver
+bose.cbx
+File: verbose.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblate
+x.cfg
+File: biblatex.cfg 
+))
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.
 sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
@@ -919,13 +1077,13 @@ Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3
 .sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen305
-\captionmargin@=\dimen306
-\captionwidth=\dimen307
-\caption@tempdima=\dimen308
-\caption@indent=\dimen309
-\caption@parindent=\dimen310
-\caption@hangindent=\dimen311
+\captionmargin=\dimen292
+\captionmargin@=\dimen293
+\captionwidth=\dimen294
+\caption@tempdima=\dimen295
+\caption@indent=\dimen296
+\caption@parindent=\dimen297
+\caption@hangindent=\dimen298
 Package caption Info: beamer document class detected.
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-
@@ -933,34 +1091,53 @@ beamer.sto
 File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
  beamer document classes (AR)
 ))
-\c@caption@flags=\count340
-\c@continuedfloat=\count341
+\c@caption@flags=\count456
+\c@continuedfloat=\count457
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerout
-erthemeinfolines.sty) (presentation.aux)
-\openout1 = `presentation.aux'.
+erthemeinfolines.sty)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+\@quotelevel=\count458
+\@quotereset=\count459
+(ppt.aux)
+\openout1 = `ppt.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1000,17 +1177,17 @@ LaTeX Font Info:    ... okay on input line 25.
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp
 -pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count342
-\scratchdimen=\dimen312
-\scratchbox=\box81
-\nofMPsegments=\count343
-\nofMParguments=\count344
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count345
-\MPscratchDim=\dimen313
-\MPnumerator=\count346
-\makeMPintoPDFobject=\count347
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count460
+\scratchdimen=\dimen299
+\scratchbox=\box76
+\nofMPsegments=\count461
+\nofMParguments=\count462
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count463
+\MPscratchDim=\dimen300
+\MPnumerator=\count464
+\makeMPintoPDFobject=\count465
+\everyMPtoPDFconversion=\toks48
 )
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\eps
 topdf-base.sty
@@ -1022,7 +1199,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 f-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 31.
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref
 .sty
@@ -1036,67 +1213,67 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 \gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count348
+\c@section@level=\count466
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
- (presentation.out) (presentation.out)
-\@outlinefile=\write5
-\openout5 = `presentation.out'.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
+ (ppt.out) (ppt.out)
+\@outlinefile=\write6
+\openout6 = `ppt.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 25.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 25.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 25.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 25.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 25.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 25.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 25.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 25.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 25.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 25.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 25.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 25.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 25.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 25.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 25.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 25.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 25.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 25.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 25.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
-5.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 2
-5.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 25.
+ut line 31.
 
 (C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/translator\trans
 lator-basic-dictionary-English.dict
@@ -1122,51 +1299,179 @@ Dictionary: translator-numbers-dictionary, Language: English
 lator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\eng
+lish.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-06-01 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-cas
+e-expl3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout5 = `ppt.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'ppt.bbl' found.
+ (ppt.bbl)
+Package biblatex Info: Reference section=0 on input line 31.
+Package biblatex Info: Reference segment=0 on input line 31.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (presentation.nav) [1
+ (ppt.nav)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
-{C:/Users/Mrunmoy Jena/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (present
-ation.toc) [2
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 31.
+
+(C:\Users\Mrunmoy Jena\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\o
+t1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+) [1
+
+{C:/Users/Mrunmoy Jena/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (ppt.toc
+) [2
+
+] [3
 
 ]
-[3
+<../images//Standard_Model_of_Elementary_Particles.png, id=117, 770.88pt x 678.
+28406pt>
+File: ../images//Standard_Model_of_Elementary_Particles.png Graphic file (type 
+png)
+<use ../images//Standard_Model_of_Elementary_Particles.png>
+Package pdftex.def Info: ../images//Standard_Model_of_Elementary_Particles.png 
+ used on input line 76.
+(pdftex.def)             Requested size: 136.90567pt x 120.47046pt.
+
+Overfull \hbox (16.43521pt too wide) in paragraph at lines 76--76
+ [] 
+ []
+
+[4
+
+ <../images//Standard_Model_of_Elementary_Particles.png>]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <5> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 91.
+
+[5
+
+] [6
+
+] [7
 
 ]
-\tf@nav=\write6
-\openout6 = `presentation.nav'.
 
-\tf@toc=\write7
-\openout7 = `presentation.toc'.
-
-\tf@snm=\write8
-\openout8 = `presentation.snm'.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 133.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 133.
 
-Package caption Warning: Unused \captionsetup[figure] on input line 9.
-See the caption package documentation for explanation.
 
-(presentation.aux)
-Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 7056F96AC586A73E6A2B7E070E33E324;175.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 133.
+
+[8
+
+] [9
+
+] [10
+
+] [11
+
+] [12
+
+] [13
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 161.
+
+[14
+
+ <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beameric
+onarticle.pdf>]
+\tf@nav=\write7
+\openout7 = `ppt.nav'.
+
+\tf@toc=\write8
+\openout8 = `ppt.toc'.
+
+\tf@snm=\write9
+\openout9 = `ppt.snm'.
+
+ (ppt.aux)
+Package rerunfilecheck Info: File `ppt.out' has not changed.
+(rerunfilecheck)             Checksum: CF0485838E7839EBD57A2F132DF96A7E;972.
+Package logreq Info: Writing requests to 'ppt.run.xml'.
+\openout1 = `ppt.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 25667 strings out of 478864
- 499833 string characters out of 2845307
- 783531 words of memory out of 3000000
- 43072 multiletter control sequences out of 15000+600000
- 405248 words of font info for 33 fonts, out of 8000000 for 9000
+ 30006 strings out of 478864
+ 578560 string characters out of 2845307
+ 1273664 words of memory out of 3000000
+ 47318 multiletter control sequences out of 15000+600000
+ 418166 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,124p,436b,608s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,18n,124p,738b,1748s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmss10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmss12.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Mrunmoy Jena/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb>
-Output written on presentation.pdf (3 pages, 67872 bytes).
+nts/cm/cmcsc10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Mrunmoy Jena/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Mru
+nmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mrunmoy Jena/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Mrunmoy 
+Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
+Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmss10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmss12.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Mrunmoy Jena/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/Mrunmoy Jen
+a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/
+Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmssi12.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmssi8.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/Mrunmoy Jena/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mrunmoy 
+Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:
+/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on ppt.pdf (14 pages, 595353 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
