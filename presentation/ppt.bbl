@@ -90,6 +90,24 @@
       \verb 10.1017/CBO9781139525367
       \endverb
     \endentry
+    \entry{UB}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=06df9bddc9b0078ef7ec72ef1530928d}{%
+           family={{Universität Bonn}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{fullhash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{bibnamehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{authorbibnamehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{authornamehash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \strng{authorfullhash}{06df9bddc9b0078ef7ec72ef1530928d}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Instructions for {E}213: Analysis of $Z^{0}$ decay}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

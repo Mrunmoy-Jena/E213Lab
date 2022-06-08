@@ -10,12 +10,12 @@
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {2}{3}{Physics Related to the $Z^{0}$ Resonance}{8}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsubsectionintoc {2}{3}{1}{$e^{+}e^{-}$ Interactions}{8}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{1}{Angular Dependence of $\gamma / Z^{0}$ Mediated Processes}{8}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsubsectionintoc {2}{3}{2}{Forward-Backward Asymmetry}{9}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{2}{Forward-Backward Asymmetry}{10}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsubsectionintoc {2}{3}{3}{Background Processes: Radiative Corrections}{10}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{3}{Background Processes: Radiative Corrections}{12}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsubsectionintoc {2}{3}{4}{Breit Wigner Distribution}{11}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{4}{Breit Wigner Distribution}{13}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsubsectionintoc {2}{3}{5}{LEP Experiment and OPAL Detector}{12}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{5}{LEP Experiment and OPAL Detector}{14}{0}{2}
