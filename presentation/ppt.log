@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  9 JUN 2022 06:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.3)  9 JUN 2022 07:11
 entering extended mode
 **./ppt.tex
 (ppt.tex
@@ -1356,7 +1356,7 @@ thkerncmss.
 ] [3
 
 ]
-<../images//Standard_Model_of_Elementary_Particles.png, id=117, 770.88pt x 678.
+<../images//Standard_Model_of_Elementary_Particles.png, id=129, 770.88pt x 678.
 28406pt>
 File: ../images//Standard_Model_of_Elementary_Particles.png Graphic file (type 
 png)
@@ -1395,12 +1395,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 136.
 
-<../images//bhabha-s.png, id=169, 96.36pt x 53.11845pt>
+<../images//bhabha-s.png, id=181, 96.36pt x 53.11845pt>
 File: ../images//bhabha-s.png Graphic file (type png)
 <use ../images//bhabha-s.png>
 Package pdftex.def Info: ../images//bhabha-s.png  used on input line 158.
 (pdftex.def)             Requested size: 120.47046pt x 66.40921pt.
-<../images//bhabha-t.png, id=170, 96.36pt x 57.0933pt>
+<../images//bhabha-t.png, id=182, 96.36pt x 57.0933pt>
 File: ../images//bhabha-t.png Graphic file (type png)
 <use ../images//bhabha-t.png>
 Package pdftex.def Info: ../images//bhabha-t.png  used on input line 158.
@@ -1408,7 +1408,7 @@ Package pdftex.def Info: ../images//bhabha-t.png  used on input line 158.
 [8
 
  <../images//bhabha-s.png> <../images//bhabha-t.png>]
-<../images//tangulardist.png, id=183, 422.7795pt x 274.02374pt>
+<../images//tangulardist.png, id=195, 422.7795pt x 274.02374pt>
 File: ../images//tangulardist.png Graphic file (type png)
 <use ../images//tangulardist.png>
 Package pdftex.def Info: ../images//tangulardist.png  used on input line 180.
@@ -1420,7 +1420,7 @@ Package pdftex.def Info: ../images//tangulardist.png  used on input line 180.
 ] [11
 
 ]
-<../images//corrections.png, id=210, 651.03226pt x 504.6855pt>
+<../images//corrections.png, id=222, 651.03226pt x 504.6855pt>
 File: ../images//corrections.png Graphic file (type png)
 <use ../images//corrections.png>
 Package pdftex.def Info: ../images//corrections.png  used on input line 238.
@@ -1430,7 +1430,7 @@ Package pdftex.def Info: ../images//corrections.png  used on input line 238.
  <../images//corrections.png>] [13
 
 ]
-<../images//BWdist.png, id=232, 483.0045pt x 380.622pt>
+<../images//BWdist.png, id=244, 483.0045pt x 380.622pt>
 File: ../images//BWdist.png Graphic file (type png)
 <use ../images//BWdist.png>
 Package pdftex.def Info: ../images//BWdist.png  used on input line 279.
@@ -1440,7 +1440,7 @@ Package pdftex.def Info: ../images//BWdist.png  used on input line 279.
  <../images//BWdist.png>] [15
 
 ]
-<../images//OPAL1.png, id=253, 563.10374pt x 521.5485pt>
+<../images//OPAL1.png, id=265, 563.10374pt x 521.5485pt>
 File: ../images//OPAL1.png Graphic file (type png)
 <use ../images//OPAL1.png>
 Package pdftex.def Info: ../images//OPAL1.png  used on input line 327.
@@ -1449,28 +1449,72 @@ Package pdftex.def Info: ../images//OPAL1.png  used on input line 327.
 
  <../images//OPAL1.png>]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 348.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 350.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 348.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 350.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 348.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 350.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 348.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 350.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 348.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 350.
 
  [17
 
+] [18
+
+] [19
+
+] [20
+
+] [21
+
 ]
+LaTeX Font Info:    Trying to load font information for OML+cmss on input line 
+424.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 424.
+
+
+LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textgreater' on input line 424.
+
+[22
+
+]
+<../images//CtrkN-pure.png, id=325, 602.25pt x 372.39125pt>
+File: ../images//CtrkN-pure.png Graphic file (type png)
+<use ../images//CtrkN-pure.png>
+Package pdftex.def Info: ../images//CtrkN-pure.png  used on input line 436.
+(pdftex.def)             Requested size: 113.81102pt x 70.36867pt.
+<../images//CtrkP-pure.png, id=326, 756.8275pt x 467.7475pt>
+File: ../images//CtrkP-pure.png Graphic file (type png)
+<use ../images//CtrkP-pure.png>
+Package pdftex.def Info: ../images//CtrkP-pure.png  used on input line 436.
+(pdftex.def)             Requested size: 113.81102pt x 70.33752pt.
+<../images//Ecal-pure.png, id=327, 762.85pt x 471.7625pt>
+File: ../images//Ecal-pure.png Graphic file (type png)
+<use ../images//Ecal-pure.png>
+Package pdftex.def Info: ../images//Ecal-pure.png  used on input line 436.
+(pdftex.def)             Requested size: 113.81102pt x 70.37979pt.
+<../images//Hcal-pure.png, id=328, 602.25pt x 372.39125pt>
+File: ../images//Hcal-pure.png Graphic file (type png)
+<use ../images//Hcal-pure.png>
+Package pdftex.def Info: ../images//Hcal-pure.png  used on input line 436.
+(pdftex.def)             Requested size: 113.81102pt x 70.36867pt.
+ [23
+
+ <../images//CtrkN-pure.png> <../images//CtrkP-pure.png> <../images//Ecal-pure.
+png> <../images//Hcal-pure.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 353.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 442.
 
-[18
+[24
 
  <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beameric
 onarticle.pdf>]
@@ -1484,18 +1528,21 @@ onarticle.pdf>]
 \openout9 = `ppt.snm'.
 
  (ppt.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `ppt.out' has not changed.
-(rerunfilecheck)             Checksum: CF0485838E7839EBD57A2F132DF96A7E;972.
+(rerunfilecheck)             Checksum: 9F228FE0CDEB046B23EF3893544A4295;1252.
 Package logreq Info: Writing requests to 'ppt.run.xml'.
 \openout1 = `ppt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30123 strings out of 478864
- 580902 string characters out of 2845307
- 1275824 words of memory out of 3000000
- 47420 multiletter control sequences out of 15000+600000
- 419636 words of font info for 85 fonts, out of 8000000 for 9000
+ 30214 strings out of 478864
+ 582507 string characters out of 2845307
+ 1276048 words of memory out of 3000000
+ 47488 multiletter control sequences out of 15000+600000
+ 419993 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,18n,124p,738b,1748s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
@@ -1533,9 +1580,9 @@ nts/cm/cmsy9.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Mrunmoy Jena/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/Mrunmoy Jena/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ppt.pdf (18 pages, 857433 bytes).
+Output written on ppt.pdf (24 pages, 922527 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 514 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
