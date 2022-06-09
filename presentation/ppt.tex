@@ -3,6 +3,7 @@
 \usepackage{amsfonts}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{tabularx}
 \graphicspath{{../images/}}
 \usepackage[utf8]{inputenc}
 \usetheme{Warsaw}
@@ -563,6 +564,75 @@ Starting from origin, as $e^{+}e^{-}$ collision products fly outwards, various d
   \item The literature value is $20.804 \pm 0.050$, $20.785 \pm 0.033$ and $20.764 \pm 0.045$ respectively \footnotemark{}.
 \end{itemize}
 \footcitetext{pdg2}
+\end{frame}
+
+\begin{frame}
+\frametitle{Breit-Wigner Fit of Cross Sections}
+\begin{itemize}
+  \item We now extract the all important quantities from our data. We do this by fitting our cross sections to a Breit-Wigner curve.
+  \item The curve is given by,
+  \begin{equation}
+    \sigma_f (s) = \frac{12\pi}{M_Z^2} \frac{s \Gamma_e \Gamma_f}{(s-M_Z^2)^2 + \left(\frac{s\Gamma_Z}{M_Z}\right)^2} (\hbar^2 c^2).
+  \end{equation}
+  \item This has three parameters, $M_Z$, $\Gamma_Z$ and $\Gamma_e\Gamma_f$. The factor $\hbar^2 c^2$ is used to convert the cross section values to SI units from natural units.
+  \item We see that we can extract the physical quantities we are interested in, from the fit parameters.
+  \item We used \textit{scipy.optimize} module for \textit{Python3} to fit our curve against the data. We calculated the follwing parameters for our fits,
+  \begin{table}
+    \centering
+    \begin{tabular}{c|ccc}
+    \hline
+    Channel        & $M_Z$ {[}GeV{]}    & $\Gamma_Z$ {[}GeV{]} & $\Gamma_e\Gamma_f$ {[}GeV$^2${]}                    \\ \hline
+    $e^-e^+$       & 90.973 $\pm$ 0.047 & 2.591 $\pm$ 0.158    & 6.615$\times$10$^{-3}$ $\pm$ 6.29$\times$10$^{-4}$ \\
+    $\mu^-\mu^+$   & 91.117 $\pm$ 0.021 & 2.462 $\pm$ 0.060    & 6.306$\times$10$^{-3}$ $\pm$ 2.46$\times$10$^{-4}$ \\
+    $\tau^-\tau^+$ & 91.159 $\pm$ 0.058 & 2.825 $\pm$ 0.179    & 7.690$\times$10$^{-3}$ $\pm$ 7.85$\times$10$^{-4}$ \\
+    $q\bar{q}$     & 91.187 $\pm$ 0.004 & 2.515 $\pm$ 0.010    & 0.1460 $\pm$ 0.0009                                \\ \hline
+    \end{tabular}
+    \caption{Fit parameters and reduced $\chi^2$ values for the data}
+    \label{table:bwfit}
+  \end{table}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+  \item The reduced $chi^2$ value for our fits are $3.47$, $1.10$, $8.34$ and $0.58$ respectively.
+  \item Note that a reduced $\chi^2$ value of less than $1$ implies we are over-fitting our data or the error variances are overestimated, whereas values greater than $1$ implies the opposite.
+  \item If the reduced $\chi^2$ values is much greater than $1$, it means that we have a bad fit. But we also note that none of our fits have a corresponding $p-value$ less than $0.05$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}[h!]
+    \begin{center}
+        \includegraphics[width = 4 cm]{e213-ee-fit.pdf}
+        \includegraphics[width = 4 cm]{e213-mm-fit.pdf}
+        \includegraphics[width = 4 cm]{e213-tt-fit.pdf}
+        \includegraphics[width = 4 cm]{e213-qq-fit.pdf}
+    \end{center}
+    \caption{Breit-Wigner fit for the four different decay channels}
+    \label{fig:bwfit}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+  \item From the fit parameters, we calculate,
+  \begin{equation}
+    \begin{split}
+        M_Z = 91.123 \pm 0.020 \\
+        \Gamma_Z = 2.598 \pm 0.062.
+    \end{split}
+  \end{equation}
+  \item The literature values are $M_Z = 91.1876 \pm 0.0021$ and $\Gamma_Z = 2.4952 \pm 0.0023$ \footnotemark{}.
+  \item The literature value for $M_Z$ lies within $4\sigma$ of our calculated value, whereas the literature value for $\Gamma_Z$ lies within $2\sigma$ of our calculated value.
+  \item We also note that the literature value for $M_Z$ lies within one standard deviation of the value obtained from the $q\bar{q}$ fit, which had the most counts.
+  \item This hints us that we could improve our accuracy of the results by significantly increasing the number of events analysed.
+\end{itemize}
+\footcitetext{pdg2}
+\end{frame}
+
+\begin{frame}
+\frametitle{Partial Width of Different Channels and Number of Light Neutrino Generations}
 \end{frame}
 
 \section*{References}
