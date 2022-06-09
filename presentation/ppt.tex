@@ -458,6 +458,113 @@ Starting from origin, as $e^{+}e^{-}$ collision products fly outwards, various d
 \end{itemize}
 \end{frame}
 
+\begin{frame}
+\frametitle{Efficiency matrix}
+\begin{itemize}
+  \item We now begin our ultimate analysis. We used \textit{data6.root} in our analysis.
+  \item Our cuts are not perfect. Ideally, the cuts should completely separate out every channel perfectly, but this is not the case.
+  \item To account for this, we use efficiency matrix. Efficiency matrix, as the name suggests, is a measure of how efficient our cuts are.
+  \item It is given by,
+  \begin{equation}
+    \epsilon_{ij} = \frac{N^{i, cut}_j}{N^{j, all}_j}.
+  \end{equation}
+  \item This translates to i-th cut applied to j-th channel divided by the total number of j-th channel events. This then gives the actual counts as,
+  \begin{equation}
+    N_{obs} = \epsilon N_{actual} \implies N_{actual} = \epsilon^{-1} N_{obs}.
+  \end{equation}
+  \item To summarise, we start with the observed counts with our cuts, understand that this is not the true counts and we use the efficiency matrix to calculate the true counts.
+  \item The efficiency matrix can be found in the report. The true counts are used for all our calculations.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Cross Sections}
+\begin{itemize}
+  \item With the actual counts, we can calculate the cross section values.
+  \item This is given by,
+  \begin{equation}
+    \sigma = \frac{N_{actual}}{\int \mathcal{L} dt} + \text{cf(radiation)}.
+  \end{equation}
+  \item The term $\int \mathcal{L} dt$ is the integrated luminosity and cf(radiation) is the radiative correction factor, the values for which are taken from \footnotemark{}.
+  \item We get the following cross section values,
+  \begin{table}[!h]
+    \centering
+    \begin{tabular}{c|cccc}
+    \hline
+    $\sqrt{s}$ {[}GeV{]} & $\sigma_{ee}$ {[}nb{]} & $\sigma_{mm}$ {[}nb{]} & $\sigma_{tt}$ {[}nb{]} & $\sigma_{qq}$ {[}nb{]} \\
+    \hline
+    88.47                & 0.39 $\pm$ 0.03        & 0.30 $\pm$ 0.02        & 0.47 $\pm$ 0.03        & 7.19 $\pm$ 0.10        \\
+    89.46                & 0.82 $\pm$ 0.04        & 0.65 $\pm$ 0.03        & 0.72 $\pm$ 0.03        & 14.20 $\pm$ 0.14       \\
+    90.22                & 1.26 $\pm$ 0.04        & 1.16 $\pm$ 0.03        & 1.12 $\pm$ 0.03        & 25.70 $\pm$ 0.21       \\
+    91.22                & 1.69 $\pm$ 0.02        & 1.82 $\pm$ 0.02        & 1.75 $\pm$ 0.02        & 40.75 $\pm$ 0.22       \\
+    91.97                & 1.12 $\pm$ 0.05        & 1.32 $\pm$ 0.04        & 1.21 $\pm$ 0.04        & 28.96 $\pm$ 0.27       \\
+    92.96                & 0.45 $\pm$ 0.04        & 0.55 $\pm$ 0.03        & 0.66 $\pm$ 0.04        & 13.67 $\pm$ 0.20       \\
+    93.71                & 0.28 $\pm$ 0.03        & 0.34 $\pm$ 0.02        & 0.40 $\pm$ 0.03        & 8.20 $\pm$ 0.13       \\
+    \hline
+    \end{tabular}
+    \caption{Calculated cross section values for different $\sqrt{s}$ values.}
+    \label{table:cross-section}
+  \end{table}
+\end{itemize}
+\footcitetext{UB}
+\end{frame}
+
+\begin{frame}
+\frametitle{Forward Backward Asymmetry and Weak Mixing Angle}
+\begin{itemize}
+  \item As discussed in the theory section, $Z^0$ couples differently to left- and right-handed fermions, which leads to an asymmetry in the angular distribution of the final state particles.
+  \item This asymmetry depends on the weak mixing angle. Therefore, by calculating this simple asymmetry we can calculate the weak mixing angle.
+  \item We perform this calculation for the $\mu^-\mu^+$ channel, since we do not have the issue of t-channel and we also get two clear tracks.
+  \item The forward backward asymmetry is given by,
+  \begin{equation}
+    A_{fb} = \frac{N_+ - N_-}{N_+ + N_-} + \text{cf($A_{fb}$)}.
+  \end{equation}
+  \item cf(A$_{fb}$) are the correction factors corresponding to forward bacward asymmetry, the values for which are taken from \footnotemark{}.
+\end{itemize}
+\footcitetext{UB}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+  \item A$_{fb}$ is then used to calculate the weak mixing angle. We get $sin^2\theta_W = 0.2369 \pm 0.0085$ for the data event at resonance energy and $sin^2\theta_W = 0.2352 \pm 0.0098$ for the MC event.
+  \item The literature value is $sin^2\theta_W = 0.2352 \pm 0.0098$ \footnotemark{}, which is withing one standard deviation of both our results.
+\end{itemize}
+\footcitetext{pdg2}
+\end{frame}
+
+\begin{frame}
+\frametitle{Lepton Universality}
+\begin{itemize}
+  \item Since the masses of leptons are much smaller compared to that of the $Z^0$, the cross sections of all the three leptonic decay modes must be the same at resonance.
+  \item We see that, at resonance, the cross sections are given by,
+  \begin{equation}
+    \begin{split}
+        \sigma_e = 1.69 \pm 0.02 \text{nb} \\
+        \sigma_{\mu} = 1.82 \pm 0.02 \text{nb} \\
+        \sigma_{\tau} = 1.75 \pm 0.02 \text{nb}
+    \end{split}
+  \end{equation}
+  \item The theoretical value is $\sigma_f = 1.99$nb. The values we have calculated are several standard deviations away, unfortunately. But they are roughly the same and match up to the order.
+  \item We postulate that this is because we don't have the best possible cut criteria. We are undercounting the event numbers to some extent and since this is a very sensity quatity, it gets affected significantly.
+  \item We suggest that we increase the number of events significantly, to improve statistical accuracy.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+  \item The ratios of hadronic to the leptonic modes follow a similar discrepancy,
+  \begin{equation}
+    \begin{split}
+        \frac{\sigma_{had}}{\sigma_e} = 24.18 \pm 0.30 \\
+        \frac{\sigma_{had}}{\sigma_{\mu}} = 22.43 \pm 0.24 \\
+        \frac{\sigma_{had}}{\sigma_{\tau}} = 23.28 \pm 0.26
+    \end{split}
+  \end{equation}
+  \item The literature value is $20.804 \pm 0.050$, $20.785 \pm 0.033$ and $20.764 \pm 0.045$ respectively \footnotemark{}.
+\end{itemize}
+\footcitetext{pdg2}
+\end{frame}
+
 \section*{References}
 \begin{frame}
 \frametitle{References}
