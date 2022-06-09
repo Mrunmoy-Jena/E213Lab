@@ -435,6 +435,29 @@ Starting from origin, as $e^{+}e^{-}$ collision products fly outwards, various d
 \end{figure}
 \end{frame}
 
+\subsection{Statistical Analysis of $Z^0$ Decays}
+\begin{frame}
+\frametitle{Statistical Analysis of $Z^0$ Decays}
+\begin{itemize}
+  \item A simple analysis of event displays is not possible when we have a large number of events. We resort to statistical analysis methods. We use the software, \textit{ROOT} for this purpose.
+  \item \textit{ROOT} works with \textit{.root} files, which contain all the information in a tree-like structure, called \textit{ntuple}.
+  \item The \textit{ntuple} contains various parameters - run number, event number, number of charged tracks, total scalar sum of track momenta, total energy in the EM calorimeter, total energy in the hadronic calorimeter, LEP beam energy, polar angle beween beam axis and thrust axis, polar angle between incoming positron and outgoing positive particle.
+  \item We first use Monte Carlo events to refine our cuts. Then we work with the actual data to calculate different physical quantities.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Refining the cuts}
+\begin{itemize}
+  \item For the $e^-e^+$-channel, we would like to exclude t-channel events. This is because t-channel is possible only in this mode and we omit this for the sake of consistency.
+  \item This is achieved by limiting ourselves to smaller angles, since t-channel dominates at large angles. Therefore we take cos$\theta < 0.5$.
+  \item But this means that we are excluding some of the s-channel events in this region. The correction factor to account for this, $1.5829$ in our case, is taken from theory.
+  \item For the $\mu^-\mu^+$-channel, we observed a lot of events with scalar momenta exactly equal to zero. These are not physical and we ignore them by modifying our cuts.
+  \item For the above two channels, we also modified our cuts to ignore angles very close to the beam axis, since the resolution of our detector is far from perfect in that region.
+  \item The other two channels did not require any additional cut, but we did need cos$\theta$ to take only the values between $-1$ and $1$ to exclude unphysical events.
+\end{itemize}
+\end{frame}
+
 \section*{References}
 \begin{frame}
 \frametitle{References}
