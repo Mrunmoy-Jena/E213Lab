@@ -577,7 +577,7 @@ Starting from origin, as $e^{+}e^{-}$ collision products fly outwards, various d
   \item This has three parameters, $M_Z$, $\Gamma_Z$ and $\Gamma_e\Gamma_f$. The factor $\hbar^2 c^2$ is used to convert the cross section values to SI units from natural units.
   \item We see that we can extract the physical quantities we are interested in, from the fit parameters.
   \item We used \textit{scipy.optimize} module for \textit{Python3} to fit our curve against the data. We calculated the follwing parameters for our fits,
-  \begin{table}
+  \begin{table}[h!]
     \centering
     \begin{tabular}{c|ccc}
     \hline
@@ -633,6 +633,38 @@ Starting from origin, as $e^{+}e^{-}$ collision products fly outwards, various d
 
 \begin{frame}
 \frametitle{Partial Width of Different Channels and Number of Light Neutrino Generations}
+\begin{itemize}
+  \item We can calculate the partial width from the third fit parameter. We calculate,
+  \begin{table}[h!]
+    \centering
+    \begin{tabular}{c|cc}
+    \hline
+    Channel        & $\Gamma_f$ {[}MeV{]} & $\Gamma_f$ (lit.) {[}MeV{]} \\ \hline
+    $e^-e^+$       & 81.33 $\pm$ 5.47     & 83.91 $\pm$ 0.12              \\
+    $\mu^-\mu^+$   & 77.53 $\pm$ 6.03     & 83.99 $\pm$ 0.18              \\
+    $\tau^-\tau^+$ & 94.56 $\pm$ 11.55    & 84.08 $\pm$ 0.22              \\
+    $q\bar{q}$     & 1795.52 $\pm$ 121.31 & 1744.4 $\pm$ 2.0              \\ \hline
+    \end{tabular}
+    \caption{Partial decay width of different channels and literature values}
+    \label{table:decaywidth}
+  \end{table}
+  \item The literature values \footnotemark{} lie within one standard deviation of the calculated partial width, which is impressive.
+  \item But we also note that the precision of our results is not as good as the literature value precision.
+  \item How precise the value of $\Gamma_f$ is, ultimately depends on the precision of the cross section values, which can be improved only by observing more events.
+\end{itemize}
+\footcitetext{pdg2}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+  \item We now determine the number of generations of light neutrinos using,
+  \begin{equation}
+    n_{\nu} = \frac{\Gamma_Z - \Gamma_e - \Gamma_{\mu} - \Gamma_{\tau} - \Gamma_q}{\Gamma_{\nu}}.
+  \end{equation}
+  \item This gives the number of neutrino generations as $3.28 \pm 0.45$. We have used the value for $\Gamma_{\nu}$ from \footnotemark{}.
+  \item This tells us that number of neutrino generations are $3$. And within one standard deviation, our result absolutely excludes the possibility of fourth neutrino generation.
+\end{itemize}
+\footcitetext{UB}
 \end{frame}
 
 \section*{References}
