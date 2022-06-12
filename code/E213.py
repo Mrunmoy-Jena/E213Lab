@@ -4,6 +4,11 @@
 @author: smilex
 """
 
+# one code to rule them all
+# whoever finds this code, may this help you with the agony of whole-day experiments and month-long reports
+# this code contains everything that is needed for the analysis section of E213
+# just feed in your data (be careful not to miss anything) and let the code do the work for you
+
 #modules
 import numpy as np
 import matplotlib.pyplot as plt 
@@ -363,7 +368,9 @@ print("tt decay width: ", gtt*10**3, "+-", deltagtt*10**3, "MeV")
 print("qq decay width: ", gqq*10**3, "+-", deltagqq*10**3, "MeV")
 print("*****")
 
+#gamma neutrino - value taken from the manual
 gammaneu = 0.1676
+
 neugen = (gz - gee - gmm - gtt - gqq)/gammaneu
 deltaneugen = neugen*np.sqrt((deltagz**2 + deltagee**2 + deltagmm**2 + deltagtt**2 + deltagqq**2))
 
